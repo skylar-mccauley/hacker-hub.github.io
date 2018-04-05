@@ -1,0 +1,17 @@
+title: 'Cabooshy''s Ramblings'
+default_lang: en
+author:
+  name: 'Cameron Miller'
+  email: cambomiller@googlemail.com
+taxonomies:
+  - category
+  - tag
+metadata:
+  description: 'Welcome to the actual blog bit for my page, this is where i do all my rablings n stuffs'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog
