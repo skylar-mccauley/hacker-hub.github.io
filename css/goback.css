@@ -1,0 +1,117 @@
+#goback {
+
+    position: fixed;
+ 
+    bottom: 0;
+     
+    left: 0;
+     
+    z-index: 100;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 20px;
+     
+    
+ 
+background-color: #ff9000;
+    
+}
+.fa-arrow-left {
+    position: fixed;
+ 
+    bottom: 0;
+     
+    left: 0;
+     
+    z-index: 100;
+    
+}
+
+.icon-bar {
+    width: 100%;
+    height: 5vw;
+    background-color: #000;
+    overflow: auto;
+    position: fixed;
+    bottom: 0;
+    float: bottom;
+    display: block;
+    z-index: 1;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    height: 4.5vw;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 2vw;
+}
+
+
+.icon-bar a:hover {
+    background-color: 	#383838;
+    height: 4.5vw;
+}
+
+.active {
+    background-color: #000 !important;
+}
+@media only screen and (max-width: 1024px) {
+    .icon-bar {
+        display: none;
+    }
+    
+    .icon-bar a {
+        display: none;
+    }
+    
+    
+    .icon-bar a:hover {
+        display: none;
+    }
+    
+    .active {
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .icon-bar {
+        display: none;
+    }
+    
+    .icon-bar a {
+        display: none;
+    }
+    
+    
+    .icon-bar a:hover {
+        display: none;
+    }
+    
+    .active {
+        background-color: #000 !important;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .icon-bar {
+        display: none;
+    }
+    
+    .icon-bar a {
+        display: none;
+    }
+    
+    
+    .icon-bar a:hover {
+        display: none;
+    }
+    
+    .active {
+        display: none;
+    }
+}
+
