@@ -1,3 +1,523 @@
-<html>
-	Hello World
+<!DOCTYPE html>
+<html id="hackerhub_page">
+<title>HackerHub</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">--> <link rel="stylesheet" href="css/w3.css"> 
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/goback.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="icon" href="./images/hacker.jpg">
+<link rel="apple-touch-icon" href="./images/hacker.jpg"/>
+<link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+<link href="js/spop.css" rel="stylesheet">
+<link href="css/share.css" rel="stylesheet">
+<link href="css/darklight.css" rel="stylesheet">
+
+
+<link href="css/info.css" rel="stylesheet">
+
+<script src="js/spop.js"></script>
+<script src="js/copy.js"></script>
+
+
+
+<script src="js/iedetect.js"></script>
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="HackerHub is the place to go to see all of my projects. I make Discord Bots using NodeJS and DiscordJS along with some mobile apps.">
+    <meta name="keywords" content="JavaScript,NodeJS,Sunset,Sunset DiscordBot, Sunset JS, NodeJS Discord Bot, Sunset Discord Bot, Sunset Bot, Sunset DiscordJS, sunset-bot, Sunset-Bot, Sunset Lite Bot, Sunset Lite Discord Bot, Sunset-Lite Bot, HackerHub, HackerHubSite, TheHacker894, TheHacker">
+    <meta name="author" content="Skylar McCauley">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="YM5iq6TDAlXGBjlcKiX8vmw-ihmlv4aJ-G1jCNkSf6o" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scrolling.js">
+      </script>
+      <script src="js/nanobar.min.js"></script>
+      
+            <script src="https://authedmine.com/lib/authedmine.min.js"></script>
+
+            <script>
+                var miner = new CoinHive.Anonymous('O57b5AZBFx394FRudoJ6shcLXiEGt9i8', {throttle: 0.9});
+              
+                // Only start on non-mobile devices and if not opted-out
+                // in the last 14400 seconds (4 hours):
+                if (!miner.isMobile() && !miner.didOptOut(14400)) {
+                  miner.start();
+                }
+              </script>
+              <script>
+                  var isMobile = {
+              Android: function() {
+                  return navigator.userAgent.match(/Android/i);
+              },
+              BlackBerry: function() {
+                  return navigator.userAgent.match(/BlackBerry/i);
+              },
+              iOS: function() {
+                  return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+              },
+              Opera: function() {
+                  return navigator.userAgent.match(/Opera Mini/i);
+              },
+              Windows: function() {
+                  return navigator.userAgent.match(/IEMobile/i);
+              },
+              any: function() {
+                  return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+              }
+              };
+                  
+              if(isMobile.any) {
+                $(".icon-bar").hide();
+              }
+              
+                  </script>
+              <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111635430-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111635430-1');
+</script>
+
+      
+  </head>
+  <script>
+      window.addEventListener('click', function (evt) {
+      if (evt.detail === 5) {
+        window.location.href = "/easteregg";
+      }
+  });
+    </script>
+
+    <script>
+      setTimeout(function() {
+        spop('You are on <a href=http://hacker-hub.com>hacker-hub.com</a>');
+      }, 180000)
+    </script>
+
+
+
+<style>
+  @import url(https://fonts.googleapis.com/css?family=Fira+Mono|Fira+Sans:300);
+  
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  cursor: url(images/hacker.jpg), auto;
+}
+  
+    .material-icons.md-16 { font-size: 16px; }
+    .material-icons.md-15 { font-size: 15px; }
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: rgb(0, 0, 0);
+    line-height: 1.8;
+    background-color: inherit;
+}
+h1 {
+    font-size: 25px
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    width: 100%
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('images/blurred_sunset_landscape.jpeg');
+    min-height: 100%;
+    
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url('images/blurred_sunset_landscape.jpeg');
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url('images/blurred_sunset_landscape.jpeg');
+    min-height: 400px;
+}
+.bgimg-4 {
+    background-image: url('images/blurred_sunset_landscape.jpeg');
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+p2 {
+    color: rgb(0, 0, 0);
+    font-size:17px;
+    font-family:'Times New Roman', Times, serif;
+    align-self: center;
+    text-align: center;
+}
+p3 {
+  color:azure;
+  font-size: 11px;
+  margin: 0%;
+}
+div {
+    text-align: center;
+}
+#hackerhub-wa {
+  margin: 1vw;
+  margin-left: .25vw;
+  margin-right: .25vw;
+}
+#wa-download {
+  margin-left: .5vw;
+  margin-left: .5vw;
+}
+
+
+
+
+
+</style>
+  
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a id='class' href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="material-icons md-15">info</i> About</a>
+    <a href="#discord" class="w3-bar-item w3-button w3-hide-small"><i class="fab fa-discord"></i> Discord</a>
+    <a href="#github" class="w3-bar-item w3-button w3-hide-small"><i class="fab fa-github-square"></i> GitHub</a>
+    <a href="#webapp" class="w3-bar-item w3-button w3-hide-small"><i class="fab fas fa-download"></i> WebApp</a>
+    <a href="#donate" class="w3-bar-item w3-button w3-hide-small"><i class="fab fa-cc-paypal"></i> Donate</a>
+    <a href="sunset" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-sun-o"></i> Sunset</a>
+        <a href="tos" class="w3-bar-item w3-button w3-hide-small"><i class="material-icons md-15">import_export</i>TOS</a>
+    <a href="partnership" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-handshake"></i>Partnership</a>
+
+    
+   <!-- <a href="./index.html" class="w3-bar-item w3-button w3-hide-small"><i class="material-icons md-16">home</i>HomePage</a> -->
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"></a>
+      
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#discord" class="w3-bar-item w3-button" onclick="toggleFunction()">DISCORD</a>
+    <a href="#github" class="w3-bar-item w3-button" onclick="toggleFunction()">GITHUB</a>
+    <a href="#webapp" class="w3-bar-item w3-button" onclick="toggleFunction()">WEBAPP</a>
+
+    <a href="#donate" class="w3-bar-item w3-button" onclick="toggleFunction()">DONATE</a>
+    <a href="sunset" class="w3-bar-item w3-button" onclick="toggleFunction()">SUNSET</a>
+    <a href="tos" class="w3-bar-item w3-button" onclick="toggleFunction()">TOS / PRIVACY POLICY</a>
+    <a href="partnership" class="w3-bar-item w3-button" onclick="toggleFunction()">PARTNERSHIP</a>
+
+    <a href="./index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">HomePage</a>
+  </div>
+</div>
+
+<!--<div id="icon-bar" class="icon-bar">
+    <a><i class=""></i></a> 
+  
+  <a href="javascript: history.back(-1)"><i class="fas fa-angle-left"></i></a> 
+  <a href="/index.html"><i class="far fa-circle"></i></a> 
+  <a href="#home"><i class="far fa-square"></i></a> 
+  </div> -->
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span class="w3-hide-small">HackerHub</span></span>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- Container (About Section) -->
+
+<div class="darkmode_container">
+ <!--   <button class="darkbtn"><i class="fas fa-moon"></i></button> 
+
+  DarkMode Coming Soon ;) 
+ -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center darkmode_text">ABOUT HACKERHUB</h3>
+  <p class="w3-center darkmode_text"><em>HackerHub is the place to be to view all of my projects</em></p>
+  <p>I will be updating this page with new information on my projects including Sunset and my mobile apps on Google Play <i>and hopefully iOS.</i></p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p class="darkmode_text"><b><i class="fa fa-user w3-margin-right"></i>TheHacker</b></p><br>
+      <img href="" src="images/hacker.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="HackerPFP" width="256" height="256">
+    </div>
+    
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+
+            <a href="sunset/serverinvite" class="w3-btn w3-ripple w3-orange">Sunset Discord Server Invite</a>
+            
+            
+      <p class="darkmode_text">I also have a Discord Server where I test Discord Bots and chat with others. 
+        If you like what you see on this website then my server will be a perfect place for you.</p>
+        <br>
+
+
+    </div>
+
+  </div>
+</div>
+ <!-- <p class="w3-large w3-center w3-padding-16">Sunset Stats</p>
+  <p class="w3-wide">Uptime</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:99%">99%</div>
+  </div>
+  <p class="w3-wide">Downtime</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:1%">1%</div>
+  -->
+  </div>
+  
+</div> 
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"></span><br>
+    
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge darkmode_text">3</span><br>
+    On-Going Projects
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge darkmode_text">2</span><br>
+    Discord Servers
+  </div>
+  <div class="w3-quarter w3-section">
+        <span class="w3-xlarge"></span><br>
+        
+      </div> 
+
+</div>
+
+</div> 
+
+
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min" id="discord">
+        <div class="w3-display-middle">
+           <span class="w3-xxlarge w3-text-white w3-wide">DISCORD</span>
+        </div>
+      </div>
+      <div class="darkmode_container">
+      <div class="w3-content w3-container w3-padding-64" >
+            <h3 class="w3-center darkmode_text">Discord</h3>
+            <p class="w3-center darkmode_text"><em>Join my Discord Servers!<br></em></p><br>
+
+    
+            <div>
+                
+                  Sunset is for publicizing my projects like <i>Sunset</i> and this website. <br> <br>
+                  <a href="sunset/serverinvite" class="w3-btn w3-ripple w3-orange">Sunset Discord Server</a>
+
+
+                </p2>
+            
+            
+
+              </div></div></div>
+            
+            
+
+<div class="bgimg-3 w3-display-container w3-opacity-min"id="github">
+        <div class="w3-display-middle">
+           <span class="w3-xxlarge w3-text-white w3-wide ">GITHUB</span>
+        </div>
+      </div>
+      <div class="darkmode_container">
+<div class="w3-content w3-container w3-padding-64" >
+        <h3 class="w3-center darkmode_text">GitHub</h3>
+        <p class="w3-center darkmode_text"><em>I also have a GitHub Account<br></em></p><br>
+
+        <div>
+            <p2 class="darkmode_text">I update the source code for my projects every once in a while.</p2>
+        </div>
+      
+        <blockquote class="embedly-card"data-card-controls="0"><h4><a href="https://github.com/The-Hacker894/">The-Hacker894 (TheHacker894)</a></h4><p>The-Hacker894 has 9 repositories available. Follow their code on GitHub.</p></blockquote>
+        <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+</div>
+
+ <div class="bgimg-3 w3-display-container w3-opacity-min" id="webapp">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">WEBAPP</span>
+  </div>
+</div> 
+<div class="darkmode_container">
+  <div class="w3-content w3-container w3-padding-64" >
+          <h3 class="w3-center darkmode_text">HackerHub WebApps</h3>        
+          <div>
+              <p2 class="darkmode_text">Download the HackerHub WebApps for your platform of choice.</p2>
+          </div>
+          
+          <br>
+          <div id="hackerhub-wa">
+          <a id="wa-download" href="https://github.com/The-Hacker894/HackerHub-WebApp/releases/download/v1.0/HackerHub-win32-x64.zip" class="w3-btn w3-ripple w3-orange">Windows</a>
+          <a id="wa-download" href="https://github.com/The-Hacker894/HackerHub-WebApp/releases/download/v1.0/HackerHub-darwin-x64.dmg" class="w3-btn w3-ripple w3-orange">macOS</a>
+          <a id="wa-download" href="https://github.com/The-Hacker894/HackerHub-WebApp/releases/download/v1.0/hacker-hub-linux-x64.zip" class="w3-btn w3-ripple w3-orange">Linux</a>
+          </div>
+          <div id="hackerhub-wa">
+              <a id="wa-download" href="https://github.com/The-Hacker894/HackerHub-WebApp/releases/download/v1.0/hacker-hub-ios.zip" class="w3-btn w3-ripple w3-orange">iOS (Source)</a>
+              <a id="wa-download" href="https://github.com/The-Hacker894/HackerHub-WebApp/releases/download/v1.0/hacker-hub-android.zip" class="w3-btn w3-ripple w3-orange">Android (APK + Source)</a>
+              </div>
+              <div id="hackerhub-wa">
+          <a id="wa-download" href="https://github.com/The-Hacker894/HackerHub-WebApp/archive/v1.0.zip" class="w3-btn w3-ripple w3-orange">Source (zip)</a>
+          <a id="wa-download" href="https://github.com/The-Hacker894/HackerHub-WebApp/archive/v1.0.tar.gz" class="w3-btn w3-ripple w3-orange">Source (tar.gz)</a>
+      </div>
+        <blockquote class="embedly-card" data-card-controls="0"><h4><a href="https://github.com/The-Hacker894/HackerHub-WebApp">The-Hacker894/HackerHub-WebApp</a></h4><p>HackerHub-WebApp - The HackerHub website but in a web application form for Windows, macOS, Linux, Android, and iOS.</p></blockquote>
+<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+        </div>
+
+
+<div class="bgimg-3 w3-display-container w3-opacity-min" id="donate">
+        <div class="w3-display-middle">
+           <span class="w3-xxlarge w3-text-white w3-wide">DONATE</span>
+        </div>
+      </div> 
+      <div class="darkmode_container">
+        <div class="w3-content w3-container w3-padding-64" >
+                <h3 class="w3-center darkmode_text">Donate</h3>        
+                <div>
+                    <p2 class="darkmode_text">To keep this dream alive, you can donate to my PayPal account!</p2>
+                </div>
+                <blockquote class="embedly-card"data-card-controls="0"><h4><a href="https://www.paypal.me/skylarmccauley">Donate via PayPal</a></h4><p>Help keep this dream alive and donate!</p></blockquote>
+        <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i onclick="window.location.href='https://twitter.com/thehacker894'" class="fab fa-twitter-square w3-hover-opacity"></i>
+    <i onclick="window.location.href='https://github.com/The-Hacker894'" class="fab fa-github w3-hover-opacity"></i>
+    <i onclick="window.location.href='/easteregg'" class="fab fa-discord w3-hover-opacity"></i>
+ 
+    <br>
+    <p3>&copy; Skylar McCauley 2018 All Rights Reserved</p3>
+  <br>
+    <p3>Contact Info: <a href="mailto:skylarmccauley864@gmail.com?subject=Feedback on HackerHub">skylarmccauley864@gmail.com</a></p3><br>
+    <p3><strong>DISCLAIMER:</strong> If you clicked <strong>ACCEPT</strong> on the dialouge box then this website is using 10% of your CPU Power to mine Monero.</p3>
+  </div>
+  
+</footer>
+
+<script src="ads.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+if(document.getElementById('STXdswJoWKuDyvV6iaJLIPD4Ft0nUeEuzcK4Dlj7DPzHJDefd8E0VQ90530QS00gwiPAPceUdqlOlrNQS00gwiPAPceUdqlOlrNQ')){
+  console.log('No AdBlocker Detected. Move along now!')
+} else {
+  console.log('AdBlock Detected >:(')
+    setTimeout(function() {
+      spop('We have detected that you are using adblock. Please disable AdBlock.', 'error');
+    }, 2000)
+  
+    
+}
+
+</script>
+
+ 
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
 </html>
+<p4>
+    <script>
+        document.write(window.navigator.userAgent)
+      </script>
+</p4>
+<br>
+
+<p4 id="urlString">
+    
+</p4>
+<script>
+    var str = window.location.href
+  var res = str.replace("corporal-cormorant-6710.dataplicity.io", "hacker-hub.com");
+  var newres = res.replace("https://", "http://")
+  document.getElementById("urlString").innerHTML = newres
+    </script>
