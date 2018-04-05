@@ -1,0 +1,48 @@
+<html id="frown">
+<head>
+<title>- oops! you tried using a bad browser -</title>
+<link rel="stylesheet" href="404.css" type="text/css" media="all" />
+<link rel="icon" href="frown.png">
+<link rel="apple-touch-icon" href="frown.png"/>
+
+
+<script>
+        var workIsDone = false;
+        
+        window.onbeforeunload = confirmBrowseAway;
+        
+        function confirmBrowseAway()
+        {
+          if (!workIsDone) {
+            return "Are you sure you want to do that? If you leave this page " +
+            "now, your work will NOT be saved!";
+          }
+        }
+        </script>
+        <script src="frown.js" ></script>
+
+</head>
+<body>
+        <span class="neg">ERROR INTERNET EXPLORER DETECTED</span>
+        <p>
+        This website has detected that you are using Internet Explorer version 11 or below.<br />
+        If you would like to access this site it is best for you to use an actual internet<br>
+        browser not this poor excuse of one.
+        </p>
+<p>
+Internet Explorer should never be used by anyone. <br>
+To eradicate the small amount of users using Internet Explorer I have decided <br>
+to block the use of IE on the website.
+</p>
+Below are some competent browsers <blink>_</blink>
+<div class="menu">
+        | 
+<a href="https://www.google.com/chrome/?brand=CHBD&gclid=CjwKCAiAlL_UBRBoEiwAXKgW52MalrpdEEzFtHKs_HtZG7Fd6XUxsJVL26ZGI6JmKB4fjZl6QWNk2xoCpoQQAvD_BwE">Google Chrome</a> | 
+<a href="https://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a> | 
+<a href="https://vivaldi.com/download/?lang=en_US">Vivaldi</a> |
+<a href="www.opera.com/download">Opera</a> |
+</div>
+
+
+</body>
+</html>
