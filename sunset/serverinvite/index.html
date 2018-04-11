@@ -7,7 +7,7 @@
         <meta name="keywords" content="JavaScript,NodeJS,Sunset,Sunset DiscordBot, Sunset JS, NodeJS Discord Bot, Sunset Discord Bot, Sunset Bot, Sunset DiscordJS, sunset-bot, Sunset-Bot, Sunset Lite Bot, Sunset Lite Discord Bot, Sunset-Lite Bot, HackerHub, HackerHubSite, TheHacker894, TheHacker">
         <meta name="author" content="Skylar McCauley">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="../../s/spop.css" rel="stylesheet">
+        <link href="../../js/spop.css" rel="stylesheet">
 <script src="../../js/spop.js"></script>
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
@@ -43,8 +43,15 @@
             window.location.href="https://discord.gg/ASEPsVy"
     }, 2000);
             }
+         function errorCaptcha() {
+                      spop('reCaptcha has encounted an error. Please check your internet connection and hard refresh the page.', 'error');
+            }
+            function expiredCaptcha() {
+                                      spop('Your reCaptcha response has expired. Please re-verify!', 'error');
+
+            }
         </script>
-      <div style="display:flex;justify-content:center;align-items:center;" align="center" class="g-recaptcha" data-sitekey="6LebZVIUAAAAAJjIC509-q-PV2jW8rjrWVs8uLy9" data-callback="captcha" data-theme="dark"></div>
+      <div data-expired-callback="expiredCaptcha" data-error-callback="errorCaptcha" style="display:flex;justify-content:center;align-items:center;" align="center" class="g-recaptcha" data-sitekey="6LebZVIUAAAAAJjIC509-q-PV2jW8rjrWVs8uLy9" data-callback="captcha" data-theme="dark"></div>
       <br/>
     <!--  <input type="submit" value="Submit"> -->
     </form>
