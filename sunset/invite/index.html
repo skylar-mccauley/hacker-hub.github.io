@@ -1,6 +1,7 @@
 <head>
     <link rel="icon" href="../../images/Sunset_pfp.png">
     <link rel="apple-touch-icon" href="../../images/Sunset_pfp.png"/>
+    <link rel="stylesheet" href="../../css/w3.css">
     <meta charset="UTF-8">
         <meta name="application-name" content="HackerHub - Sunset Bot Invite">
 
@@ -8,8 +9,15 @@
         <meta name="keywords" content="JavaScript,NodeJS,Sunset,Sunset DiscordBot, Sunset JS, NodeJS Discord Bot, Sunset Discord Bot, Sunset Bot, Sunset DiscordJS, sunset-bot, Sunset-Bot, Sunset Lite Bot, Sunset Lite Discord Bot, Sunset-Lite Bot, HackerHub, HackerHubSite, TheHacker894, TheHacker">
         <meta name="author" content="Skylar McCauley">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="../../js/spop.min.css" rel="stylesheet">
-    <script src="../../js/spop.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="../js/spop.css" rel="stylesheet">
+<script src="../js/spop.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script>
                      spop('Before you invite Sunset you\'ll need to complete this reCaptcha', 'warning');
@@ -20,45 +28,158 @@
         
 
     <style>
-        div {
+        #inviteContainer {
             text-align: center !important;
                         margin: 7% !important;
 
         }
         
-        body, html {
-            background: url('../../images/discord_background.jpg')
-        }
         #message {
-            color: white;
+            color: black;
             margin-bottom: 50%
         }
-        </style>
-    
+        @media only screen and (max-width: 768px) {
+  p2 {
+    color: rgb(0, 0, 0);
+    font-size:15px;
+    font-family:'Times New Roman', Times, serif;
+    align-self: center;
+    text-align: center;
+  }
+}
 
+@media only screen and (max-width: 320px) {
+  p2 {
+    color: rgb(0, 0, 0);
+    font-size:5px;
+    font-family:'Times New Roman', Times, serif;
+    align-self: center;
+    text-align: center;
+  }
+}
+    .material-icons.md-16 { font-size: 16px; }
+    .material-icons.md-15 { font-size: 15px; }
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: rgb(0, 0, 0);
+    line-height: 1.8;
+}
+h1 {
+    font-size: 25px
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    width: 100%
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('../../images/sunset.jpg');
+    min-height: 100%;
+    
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url('../../images/sunset.jpg');
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url('../../images/sunset.jpg');
+    min-height: 400px;
+}
+.bgimg-4 {
+    background-image: url('../../images/sunset.jpg');
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+p3 {
+  color:azure;
+  font-size: 11px
+}
+div {
+    text-align: center;
+}
+span {
+  content: "\2713";
+}
+        </style>
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+          <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+            <i class="fa fa-bars"></i>
+          </a>
+          <a href="#home" class="w3-bar-item w3-button">Sunset Bot Invite</a>
+          <a href="#invite" class="w3-bar-item w3-button w3-hide-small"><i class="material-icons md-16">email</i> Invite</a>
+          <a href="../../" class="w3-bar-item w3-button w3-hide-small"><i class="material-icons md-16">home</i>HomePage</a>            
+          </a>
+        </div>
+      
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+          <a href="#invite" class="w3-bar-item w3-button" onclick="toggleFunction()">Invite</a>
+
+          <a href="../../" class="w3-bar-item w3-button" onclick="toggleFunction()">HomePage</a>
+          
+        </div>
+      </div>
+       <!-- Stuff users wanna see-->
+      <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+          <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span class="w3-hide-small">SUNSET BOT INVITE</span></span>
+        </div>
+      </div>
+
+      <div class="w3-content w3-container w3-padding-64" id="invite">
+        <h3 class="w3-center">INVITE</h3>
+        <p class="w3-center"><em>Before you invite Sunset you'll need to complete this Google reCaptcha</em></p>
+
+        <div id="inviteContainer">     
+            <form action="?" method="POST">
+                <script>
+                   function captcha() {
+                       setTimeout(function () {
+                   window.location.href="https://discordapp.com/oauth2/authorize?client_id=371097223942897665&scope=bot&permissions=2146958591"
+           }, 100);
+                   }
+                    function errorCaptcha() {
+                             spop('reCaptcha has encounted an error. Please check your internet connection and hard refresh the page.', 'error');
+                   }
+                   function expiredCaptcha() {
+                                             spop('Your reCaptcha response has expired. Please re-verify!', 'error');
+       
+                   }
+               </script>
+             <div data-expired-callback="expiredCaptcha" data-error-callback="errorCaptcha" style="display:flex;justify-content:center;align-items:center;" class="g-recaptcha" data-sitekey="6LebZVIUAAAAAJjIC509-q-PV2jW8rjrWVs8uLy9" data-callback="captcha" data-theme="dark"></div>
+             <br/>
+             <!--<input type="submit" value="Submit">-->
+           </form>
+       
+           </div>
+        </div>
+
+       
 
         <!-- other form fields -->
-   <div>     
-     <form action="?" method="POST">
-         <script>
-            function captcha() {
-                setTimeout(function () {
-            window.location.href="https://discordapp.com/oauth2/authorize?client_id=371097223942897665&scope=bot&permissions=2146958591"
-    }, 100);
-            }
-             function errorCaptcha() {
-                      spop('reCaptcha has encounted an error. Please check your internet connection and hard refresh the page.', 'error');
-            }
-            function expiredCaptcha() {
-                                      spop('Your reCaptcha response has expired. Please re-verify!', 'error');
-
-            }
-        </script>
-      <div data-expired-callback="expiredCaptcha" data-error-callback="errorCaptcha" style="display:flex;justify-content:center;align-items:center;" class="g-recaptcha" data-sitekey="6LebZVIUAAAAAJjIC509-q-PV2jW8rjrWVs8uLy9" data-callback="captcha" data-theme="dark"></div>
-      <br/>
-      <!--<input type="submit" value="Submit">-->
-    </form>
-    </div>
+   
         <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117081817-1"></script>
 <script>
@@ -70,26 +191,19 @@
 </script>
 
 
-      
-        <div>
-        <p2 id="message" >Before you invite Sunset you'll need to complete this captcha.</p2>    
-    </div>
     <script src="../../ads.js" type="text/javascript"></script>
-<!--<script type="text/javascript">
+<script type="text/javascript">
 
 if(document.getElementById('STXdswJoWKuDyvV6iaJLIPD4Ft0nUeEuzcK4Dlj7DPzHJDefd8E0VQ90530QS00gwiPAPceUdqlOlrNQS00gwiPAPceUdqlOlrNQ')){
   console.log('No AdBlocker Detected. Move along now!')
 } else {
   console.log('AdBlock Detected >:(')
     setTimeout(function() {
-      spop('We have detected that you are using adblock. <a href="https://discordapp.com/oauth2/authorize?client_id=371097223942897665&scope=bot&permissions=2146958591">Invite</a>', 'error');
+      spop('We have detected that you are using adblock. Please disable adblock!', 'error');
     }, 2000)
-    setTimeout(function() {
-      spop('Click <a href="../">here</a> to go back.', 'error');
-    }, 4000)
   
     
 }
 
-</script> -->
+</script> 
 </body>
