@@ -1,1 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+body, html {
+  font-family: 'PT Sans Narrow', sans-serif;
+}
