@@ -49,13 +49,7 @@
   </head>
   </head>
 
-  <script>
-      window.addEventListener('click', function (evt) {
-      if (evt.detail === 5) {
-        window.location.href = "../easteregg";
-      }
-  });
-    </script>
+
     <script>
         setTimeout(function() {
           spop('You are on <a href=http://hacker-hub.com/tos>hacker-hub.com/tos</a>');
@@ -279,7 +273,6 @@ div {
   <div class="w3-xlarge w3-section">
       <i onclick="window.location.href='https://twitter.com/thehacker894'" class="fab fa-twitter-square w3-hover-opacity"></i>
       <i onclick="window.location.href='https://github.com/The-Hacker894'" class="fab fa-github w3-hover-opacity"></i>
-      <i onclick="window.location.href='/easteregg'" class="fab fa-discord w3-hover-opacity"></i>
    
       <br>
     <p3>&copy; Skylar McCauley 2018 All Rights Reserved</p3>
@@ -353,7 +346,5 @@ function toggleFunction() {
 </p4>
 <script>
   var str = window.location.href
-var res = str.replace("corporal-cormorant-6710.dataplicity.io", "hacker-hub.com");
-var newres = res.replace("https://", "http://")
-document.getElementById("urlString").innerHTML = newres
+document.getElementById("urlString").innerHTML = str
   </script>
