@@ -55,7 +55,7 @@
     </script>
     <script>
         setTimeout(function() {
-          spop('You are on <a href=http://hacker-hub.com/tos>hacker-hub.com/tos</a>');
+          spop('You are on <a href=http://hacker-hub.github.io/tos>hacker-hub.github.io/tos</a>');
         }, 180000)
       </script>
       <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -351,6 +351,6 @@ function toggleFunction() {
 </p4>
 <script>
   var str = window.location.href
-var res = str.replace("corporal-cormorant-6710.dataplicity.io", "hacker-hub.com");
+var res = str.replace("corporal-cormorant-6710.dataplicity.io", "hacker-hub.github.io");
 document.getElementById("urlString").innerHTML = res
   </script>
