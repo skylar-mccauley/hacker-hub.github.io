@@ -2,3 +2,8 @@
 body, html, p, p1, p2, p3, h1, h2, h3, div {
   font-family: 'Bitter', serif;
 }
+#tos {
+  color: rgb(255, 153, 0);
+  font-size: .9vw;
+  margin: .00001%;
+}
