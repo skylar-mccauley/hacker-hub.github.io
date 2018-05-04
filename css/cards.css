@@ -7,7 +7,7 @@
 */
 
 body {
-    background-color: #fdf1ec;
+    background-color: #ffffff;
   }
   
   .wrapper {
@@ -115,11 +115,11 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.2em;
     color: #ffffff;
-    background-color: #9cebd5;
+    background-color: #ffa500;
     cursor: pointer;
     outline: none;
   }
   
   .product-price-btn button:hover {
-    background-color: #79b0a1;
+    background-color: #ff9400;
   }
