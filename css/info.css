@@ -1,12 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter&subset=latin-ext');
+
 p4 {
     font-family: "Fira Mono", monospace;
     font-weight: 300;
     margin: 0;
-    color: black;
+    color: white;
     font-size: .7rem;
   line-height: 1.5rem;
   text-align:center
   
 
   }
+#debugInfo {
+  text-align: right
+}
   
+#toTop {
+  text-align: left;
+
+}
+
+
