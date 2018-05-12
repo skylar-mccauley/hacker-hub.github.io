@@ -10,13 +10,13 @@ var ua = window.navigator.userAgent;
     if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
     {
         ifIE = true;
-        return true;
+         
     }
     else  // If another browser, return 0
     {
        console.log(':)')
        ifIE = false;
-       return false;
+        
     }
 
   
