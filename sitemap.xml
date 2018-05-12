@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+
+      <loc>http://hacker-hub.com/</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>100</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/#about</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>99</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/#discord</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>98</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/#github</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>monthly</changefreq>
+
+      <priority>97</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/sunset</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>99.9</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/sunset/#about</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>99.8</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/sunset/#features</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>99.7</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/sunset/#lite-commands</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>99.6</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/sunset/#invite</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>85</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/sunset/invite/</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>99.5</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/sunset/serverinvite/</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>99.4</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/sunset/#server</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>84</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/sunset/#github</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>83</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/webapp/#about</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>89</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/webapp/#download</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>88</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/webapp/#changelog</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>87</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/partnership/</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>75</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/partnership/#about</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>74</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/partnership/#apply</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>73</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/s/</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>72</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/s/</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>71</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/s/#about</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>70</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/s/#pages</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>69</priority>
+
+   </url>
+   <url>
+
+      <loc>http://corbsblog.hacker-hub.com</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>60</priority>
+
+   </url>
+   <url>
+
+      <loc>http://hacker-hub.com/webapp</loc>
+
+      <lastmod>5-11-2018</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>90</priority>
+
+   </url>
+
+</urlset>
