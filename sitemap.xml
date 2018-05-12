@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
-  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
-  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:image="https://www.google.com/schemas/sitemap-image/1.1" 
+  xmlns:video="https://www.google.com/schemas/sitemap-video/1.1">
   <url>
 
-      <loc>http://hacker-hub.com/</loc>
+      <loc>https://hacker-hub.com/</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -15,7 +15,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/#about</loc>
+      <loc>https://hacker-hub.com/#about</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -26,7 +26,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/#discord</loc>
+      <loc>https://hacker-hub.com/#discord</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -37,7 +37,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/#github</loc>
+      <loc>https://hacker-hub.com/#github</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -48,7 +48,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/sunset</loc>
+      <loc>https://hacker-hub.com/sunset</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -59,7 +59,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/sunset/#about</loc>
+      <loc>https://hacker-hub.com/sunset/#about</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -70,7 +70,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/sunset/#features</loc>
+      <loc>https://hacker-hub.com/sunset/#features</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -81,7 +81,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/sunset/#lite-commands</loc>
+      <loc>https://hacker-hub.com/sunset/#lite-commands</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -92,7 +92,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/sunset/#invite</loc>
+      <loc>https://hacker-hub.com/sunset/#invite</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -103,7 +103,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/sunset/invite/</loc>
+      <loc>https://hacker-hub.com/sunset/invite/</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -114,7 +114,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/sunset/serverinvite/</loc>
+      <loc>https://hacker-hub.com/sunset/serverinvite/</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -125,7 +125,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/sunset/#server</loc>
+      <loc>https://hacker-hub.com/sunset/#server</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -136,7 +136,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/sunset/#github</loc>
+      <loc>https://hacker-hub.com/sunset/#github</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -147,7 +147,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/webapp/#about</loc>
+      <loc>https://hacker-hub.com/webapp/#about</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -158,7 +158,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/webapp/#download</loc>
+      <loc>https://hacker-hub.com/webapp/#download</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -169,7 +169,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/webapp/#changelog</loc>
+      <loc>https://hacker-hub.com/webapp/#changelog</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -180,7 +180,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/partnership/</loc>
+      <loc>https://hacker-hub.com/partnership/</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -191,7 +191,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/partnership/#about</loc>
+      <loc>https://hacker-hub.com/partnership/#about</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -202,7 +202,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/partnership/#apply</loc>
+      <loc>https://hacker-hub.com/partnership/#apply</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -213,7 +213,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/s/</loc>
+      <loc>https://hacker-hub.com/s/</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -224,7 +224,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/s/</loc>
+      <loc>https://hacker-hub.com/s/</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -235,7 +235,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/s/#about</loc>
+      <loc>https://hacker-hub.com/s/#about</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -246,7 +246,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/s/#pages</loc>
+      <loc>https://hacker-hub.com/s/#pages</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -257,7 +257,7 @@
    </url>
    <url>
 
-      <loc>http://corbsblog.hacker-hub.com</loc>
+      <loc>https://corbsblog.hacker-hub.com</loc>
 
       <lastmod>5-11-2018</lastmod>
 
@@ -268,7 +268,7 @@
    </url>
    <url>
 
-      <loc>http://hacker-hub.com/webapp</loc>
+      <loc>https://hacker-hub.com/webapp</loc>
 
       <lastmod>5-11-2018</lastmod>
 
