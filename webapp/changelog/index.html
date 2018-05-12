@@ -17,6 +17,13 @@
 <link href="../../css/goback.css" rel="stylesheet">
         <link rel="stylesheet" href="../../css/font.css">
         <script src="../../js/deviceDetect.js"></script>
+        <script>
+                if(!window.location.href.startsWith('https://')) {
+                  setTimeout(function() {
+                      spop('We support <a href=https://hacker-hub.com>HTTPS connections!</a>');
+                    }, 180000)
+                }
+              </script>
 
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117081817-1"></script>
@@ -42,7 +49,7 @@
 
 <script>
         function redirect() {
-            window.location.replace='https://hacker-hub.github.io/ie'
+            window.location.replace='https://hacker-hub.com /ie'
         }
         var ifIE = null
         var ua = window.navigator.userAgent;
@@ -196,7 +203,7 @@ hangelogs {
                         <en-US>
                                 Google Play 3.1 Release Notes
                                 <br>
-                                - http://hacker-hub.com/ links now work ( https://hacker-hub.github.io/ still works )
+                                - http://hacker-hub.com/ links now work ( https://hacker-hub.com / still works )
                                 <br>
                                 - ActionBar added
                                 <br>
@@ -210,7 +217,7 @@ hangelogs {
                                 <br>  
                                 GitHub 3.1 Release Notes
                                 <br>
-                                - WebView will now allow https://hacker-hub.github.io/ and http://hacker-hub.com/ URLs
+                                - WebView will now allow https://hacker-hub.com / and http://hacker-hub.com/ URLs
                                 <br>
                                 - WebView now has actionbar which reflects webpage name
                                 <br>
@@ -229,7 +236,7 @@ hangelogs {
                                     <br>
                                 3.0.2 Release Notes
                                 <br>
-                                - All links outside of https://hacker-hub.github.io/ will now open in their respective app or default internet browser
+                                - All links outside of https://hacker-hub.com / will now open in their respective app or default internet browser
                                 <br>
                                 3.0.1 Release Notes
                                 <br>
@@ -262,7 +269,7 @@ hangelogs {
                         <en-US>
                         <a href="https://github.com/The-Hacker894/HackerHub-WebApp/releases/tag/v1.1" >1.1 Release Notes</a>
                         <br>
-                        - Directs users to the new <a href="https://hacker-hub.github.io/">HackerHub URL</a>
+                        - Directs users to the new <a href="https://hacker-hub.com /">HackerHub URL</a>
                         <br>
                         - Decreased the size of the macOS .dmg file
                         <br>

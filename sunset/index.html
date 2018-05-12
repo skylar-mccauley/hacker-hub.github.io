@@ -16,7 +16,13 @@
 
 <script src="../js/spop.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
+<script>
+    if(!window.location.href.startsWith('https://')) {
+      setTimeout(function() {
+          spop('We support <a href=https://hacker-hub.com>HTTPS connections!</a>');
+        }, 180000)
+    }
+  </script>
 
 
 <link href="../css/info.css" rel="stylesheet">
@@ -27,7 +33,7 @@
 
 <script>
     function redirect() {
-        window.location.replace='https://hacker-hub.github.io/ie'
+        window.location.replace='https://hacker-hub.com /ie'
     }
     var ifIE = null
     var ua = window.navigator.userAgent;
@@ -47,7 +53,7 @@
     </script>
 <script>
     setTimeout(function() {
-      spop('You are on <a href=http://hacker-hub.github.io/sunset>hacker-hub.github.io/sunset/</a>');
+      spop('You are on <a href=http://hacker-hub.com /sunset>hacker-hub.com /sunset/</a>');
     }, 180000)
   </script>
   <script>

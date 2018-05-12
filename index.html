@@ -27,12 +27,16 @@
 
 <script src="js/spop.js"></script>
 <script src="js/copy.js"></script>
-
-
-
+<script>
+  if(!window.location.href.startsWith('https://')) {
+    setTimeout(function() {
+        spop('We support <a href=https://hacker-hub.com>HTTPS connections!</a>');
+      }, 180000)
+  }
+</script>
 <script>
 function redirect() {
-    window.location.replace='https://hacker-hub.github.io/ie'
+    window.location.replace='https://hacker-hub.com/ie'
 }
 var ifIE = null
 var ua = window.navigator.userAgent;
@@ -110,7 +114,7 @@ var ua = window.navigator.userAgent;
 
     <script>
       setTimeout(function() {
-        spop('You are on <a href=http://hacker-hub.github.io>hacker-hub.github.io</a>');
+        spop('You are on <a href=http://hacker-hub.com>hacker-hub.com</a>');
       }, 180000)
     </script>
 

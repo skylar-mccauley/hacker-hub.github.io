@@ -17,6 +17,13 @@
 <link href="../css/goback.css" rel="stylesheet">
         <link rel="stylesheet" href="../css/font.css">
         <script src="../js/deviceDetect.js"></script>
+        <script>
+                if(!window.location.href.startsWith('https://')) {
+                  setTimeout(function() {
+                      spop('We support <a href=https://hacker-hub.com>HTTPS connections!</a>');
+                    }, 180000)
+                }
+              </script>
 
 
 
@@ -51,7 +58,7 @@
 
 <script>
         function redirect() {
-            window.location.replace='https://hacker-hub.github.io/ie'
+            window.location.replace='https://hacker-hub.com /ie'
         }
         var ifIE = null
         var ua = window.navigator.userAgent;

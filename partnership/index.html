@@ -13,6 +13,13 @@
 <link rel="icon" href="../images/hacker.jpg">
 <link href="../js/spop.css" rel="stylesheet">
 <script src="../js/spop.js"></script>
+<script>
+    if(!window.location.href.startsWith('https://')) {
+      setTimeout(function() {
+          spop('We support <a href=https://hacker-hub.com>HTTPS connections!</a>');
+        }, 180000)
+    }
+  </script>
 <link href="../css/info.css" rel="stylesheet">
 <link href="../css/goback.css" rel="stylesheet">
         <link rel="stylesheet" href="../css/font.css">
@@ -23,7 +30,7 @@
 
         <script>
             function redirect() {
-                window.location.replace='https://hacker-hub.github.io/ie'
+                window.location.replace='https://hacker-hub.com /ie'
             }
             var ifIE = null
             var ua = window.navigator.userAgent;
@@ -212,7 +219,7 @@ div {
     <!-- Hide this text on small devices -->
     <div class="w3-col m6 w3-hide-small w3-padding-large">
             
-        This form is for anyone willing to join the HackerHub Partnership program. <br>This program will give you access to your own subpage on http://hacker-hub.github.io/. <br>There are a few rules you must abide by.
+        This form is for anyone willing to join the HackerHub Partnership program. <br>This program will give you access to your own subpage on http://hacker-hub.com /. <br>There are a few rules you must abide by.
 <br>1. No NSFW content allowed. Content being shown must be viewable for General Audiences. If you are unsure if the content you want to use is appropriate please contact me.
 
 <br>2. You are allowed to have a maximum of 2 subpages. No more (obviously less if you want)
