@@ -29,8 +29,26 @@
     <script>
                      spop('Before you invite get the invite to the Sunset Discord Server you\'ll need to complete this reCaptcha', 'warning');
     </script>
-    <script src="../../js/iedetect.js"></script>
-        <script src="../../js/scrolling.js"></script>
+<script>
+    function redirect() {
+        window.location.replace='https://hacker-hub.github.io/ie'
+    }
+    var ifIE = null
+    var ua = window.navigator.userAgent;
+        var msie = ua.indexOf("MSIE ");
+    
+        if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
+        {
+            redirect()
+            return true;
+        }
+        else  // If another browser, return 0
+        {
+           console.log(':)')
+    
+           return false;
+        }
+    </script>        <script src="../../js/scrolling.js"></script>
 
 
 </head>
