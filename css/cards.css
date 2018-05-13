@@ -100,7 +100,7 @@ body {
     
   }
   
-  .product-price-btn button {
+  .product-price-btn .button {
     float: right;
     display: inline-block;
     height: 50px;
@@ -120,6 +120,6 @@ body {
     outline: none;
   }
   
-  .product-price-btn button:hover {
+  .product-price-btn .button:hover {
     background-color: #ff9400;
   }
