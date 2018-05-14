@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Bitter&subset=latin-ext');
+@font-face {
+    font-family: Product Sans;
+    src: url("../fonts/regular.ttf");
+}
 body, html, p, p1, p2, p3, h1, h2, h3, div {
-  font-family: 'Bitter', serif;
+  font-family: 'Product Sans';
 }
 #support-links {
   color: rgb(255, 153, 0);
