@@ -213,7 +213,7 @@
    </url>
    <url>
 
-      <loc>https://hacker-hub.com/s/</loc>
+      <loc>https://hacker-hub.com/partnership/subpages</loc>
 
       <lastmod>2018-5-11</lastmod>
 
@@ -222,39 +222,7 @@
       <priority>72</priority>
 
    </url>
-   <url>
 
-      <loc>https://hacker-hub.com/s/</loc>
-
-      <lastmod>2018-5-11</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-      <priority>71</priority>
-
-   </url>
-   <url>
-
-      <loc>https://hacker-hub.com/s/#about</loc>
-
-      <lastmod>2018-5-11</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-      <priority>70</priority>
-
-   </url>
-   <url>
-
-      <loc>https://hacker-hub.com/s/#pages</loc>
-
-      <lastmod>2018-5-11</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-      <priority>69</priority>
-
-   </url>
    <url>
 
       <loc>https://corbsblog.hacker-hub.com</loc>
