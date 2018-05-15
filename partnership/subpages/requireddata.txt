@@ -1,0 +1,14 @@
+The structure of your subpage must be as follow (without the hackerhub.com/subpage/)
+
+hackerhub.com/subpages/ExampleName/index.html
+
+You are allowed to have subpages within your subpage (subpage ception)
+
+
+
+The snippet below must be in your index.html file
+<!-- Info
+SubPage Name: ExampleName
+Unique ID: UIDExample678
+-->
+The snippet above must be in your index.html file
