@@ -239,30 +239,30 @@ div {
       </div>
   <div class="divider"></div>
   <h1 id="datalogging" >I. Data Logging</h1>
-  <p id="datalogging_section1"><strong>i. </strong>HackerHub <i>does</i> log data on its users using Google Analytics. The data that is kept is not identifying
+  <p2 id="datalogging_section1"><strong>i. </strong>HackerHub <i>does</i> log data on its users using Google Analytics. The data that is kept is not identifying
   and therefore can do no harm.</p> 
     <br>
-    <p id="datalogging_section2"><strong>ii. </strong>HackerHub logs the following <br>
+    <p2 id="datalogging_section2"><strong>ii. </strong>HackerHub logs the following <br>
       - Concurrent Users <br>
       - Ip Country of the user</p>
       <br>
-    <p id="datalogging_section3"><strong>iii. </strong>This data is <strong>not</strong> and <strong>will not</strong> be shared with any partners or affiliates.</p>
-    <p><a href="#partnership">See more on Data Logging here</a></p>
+    <p2 id="datalogging_section3"><strong>iii. </strong>This data is <strong>not</strong> and <strong>will not</strong> be shared with any partners or affiliates.</p>
+    <p2><a href="#partnership">See more on Data Logging here</a></p>
  <br>
  
     <br>
     <div class="divider"></div>
     <h1 id="cryptomining" >II. Cryptomining</h1>
-    <p id="cryptomining_section1"><strong>i. </strong>HackerHub uses CoinHive to mine the Monero Cryptocurrency at 10% CpU power. This is <strong>completely</strong> optional.
+    <p2 id="cryptomining_section1"><strong>i. </strong>HackerHub uses CoinHive to mine the Monero Cryptocurrency at 10% CpU power. This is <strong>completely</strong> optional.
     When using the Discord Invites the captcha also mines 256 Hashes worth of Monero. HackerHub will <strong> never </strong>mine cryptocurrencies without your consent.</p> <br>
-    <p id="cryptomining_section2"><strong>ii. </strong>HackerHub does not mine cryptocurrencies if it detects the user is on a mobile device.</p> <br>
+    <p2 id="cryptomining_section2"><strong>ii. </strong>HackerHub does not mine cryptocurrencies if it detects the user is on a mobile device.</p> <br>
     <div class="divider"></div>
     <h1 id="partnership" >III. partnership</h1>
-    <p id="partnership_section1"><strong>i. </strong>The partnership program will require users to give contact info. HackerHub does not share any of this data.</p> <br>
-    <p id="partnership_section2"><strong>ii. </strong>A user's partnership status can be stripped at <strong>any</strong> time with or without reason.</p> <br>
-    <p id="partnership_section3"><strong>iii. </strong>partners cannot share sensitive data with affiliates or other partners unless absolutely necessary.</p> <br>
+    <p2 id="partnership_section1"><strong>i. </strong>The partnership program will require users to give contact info. HackerHub does not share any of this data.</p> <br>
+    <p2 id="partnership_section2"><strong>ii. </strong>A user's partnership status can be stripped at <strong>any</strong> time with or without reason.</p> <br>
+    <p2 id="partnership_section3"><strong>iii. </strong>partners cannot share sensitive data with affiliates or other partners unless absolutely necessary.</p> <br>
     <div class="divider"></div>
-    <p>Last updated: <strong>3/2/2018</strong></p>
+    <p2>Last updated: <strong>3/2/2018</strong></p>
   <div class="w3-row">
     
 
@@ -280,11 +280,11 @@ div {
       <i onclick="window.location.href='/easteregg'" class="fab fa-discord w3-hover-opacity"></i>
    
       <br>
-    <p>&copy; Skylar McCauley 2018 All Rights Reserved</p>
+    <p2>&copy; Skylar McCauley 2018 All Rights Reserved</p>
     <br>
-    <p>Contact Info: <a href="mailto:skylarmccauley864@gmail.com?subject=Feedback on HackerHub">skylarmccauley864@gmail.com</a></p>
+    <p2>Contact Info: <a href="mailto:skylarmccauley864@gmail.com?subject=Feedback on HackerHub">skylarmccauley864@gmail.com</a></p>
     <br>
-    <p><strong>DISCLAIMER:</strong> If you clicked <strong>ACCEpT</strong> on the dialouge box then this website is using 10% of your CpU power to mine Monero.</p> </p>
+    <p2><strong>DISCLAIMER:</strong> If you clicked <strong>ACCEpT</strong> on the dialouge box then this website is using 10% of your CpU power to mine Monero.</p> </p>
   </br>
   </div></div>
 </footer>
@@ -339,14 +339,14 @@ function toggleFunction() {
 
 </body>
 </html>
-<p4>
+<p24>
   <script>
       document.write(window.navigator.userAgent)
     </script>
 </p4>
 <br>
 
-<p4 id="urlString">
+<p24 id="urlString">
   
 </p4>
 <script>
