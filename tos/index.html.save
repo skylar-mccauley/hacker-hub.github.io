@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+<!DOCTYpE html>
 <html>
-<title>TOS / Privacy Policy</title>
+<title>TOS / privacy policy</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> --> 
@@ -17,7 +17,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Privacy Policy">
+    <meta name="description" content="privacy policy">
     <meta name="keywords" content="JavaScript,NodeJS,Sunset,Sunset DiscordBot, Sunset JS, NodeJS Discord Bot, Sunset Discord Bot, Sunset Bot, Sunset DiscordJS, sunset-bot, Sunset-Bot, Sunset Lite Bot, Sunset Lite Discord Bot, Sunset-Lite Bot, HackerHub, HackerHubSite, TheHacker894, TheHacker, AMOLED, AMOLED Calculator, Calculator, OLED, OLED Calculator, RunRunRun, Unity, HackerHubSite, HackerHub App">
     <meta name="author" content="Skylar McCauley">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -88,7 +88,7 @@ p {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-/* Create a Parallax Effect */
+/* Create a parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: fixed;
     background-position: center;
@@ -105,7 +105,7 @@ p {
     
 }
 
-/* Second image (Portfolio) */
+/* Second image (portfolio) */
 .bgimg-2 {
     background-image: url('../images/blurred_sunset.jpg');
     min-height: 400px;
@@ -175,9 +175,9 @@ div {
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#home" class="w3-bar-item w3-button"><i class="material-icons md-15">import_export</i>TOS / Privacy Policy</a>
+    <a href="#home" class="w3-bar-item w3-button"><i class="material-icons md-15">import_export</i>TOS / privacy policy</a>
 	
-    <a href="../index.html" class="w3-bar-item w3-button w3-hide-small"><i class="material-icons md-16">home</i>HomePage</a>
+    <a href="../index.html" class="w3-bar-item w3-button w3-hide-small"><i class="material-icons md-16">home</i>Homepage</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"></a>
       
     </a>
@@ -191,14 +191,14 @@ div {
   </div>
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="../index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">HomePage</a>
+    <a href="../index.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Homepage</a>
   </div>
 </div>
 
-<!-- First Parallax Image with Logo Text -->
+<!-- First parallax Image with Logo Text -->
 <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
   <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span class="w3-hide-small">TOS / Privacy Policy</span></span>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span class="w3-hide-small">TOS / privacy policy</span></span>
   </div>
 </div>
 
@@ -227,7 +227,7 @@ div {
           </div>
         </div> 
         <div class="dropdown">
-            <button class="dropbtn">Partnership
+            <button class="dropbtn">partnership
               <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
@@ -244,7 +244,7 @@ div {
     <br>
     <p id="datalogging_section2"><strong>ii. </strong>HackerHub logs the following <br>
       - Concurrent Users <br>
-      - IP Country of the user</p>
+      - Ip Country of the user</p>
       <br>
     <p id="datalogging_section3"><strong>iii. </strong>This data is <strong>not</strong> and <strong>will not</strong> be shared with any partners or affiliates.</p>
     <p><a href="#partnership">See more on Data Logging here</a></p>
@@ -253,14 +253,14 @@ div {
     <br>
     <div class="divider"></div>
     <h1 id="cryptomining" >II. Cryptomining</h1>
-    <p id="cryptomining_section1"><strong>i. </strong>HackerHub uses CoinHive to mine the Monero Cryptocurrency at 10% CPU Power. This is <strong>completely</strong> optional.
+    <p id="cryptomining_section1"><strong>i. </strong>HackerHub uses CoinHive to mine the Monero Cryptocurrency at 10% CpU power. This is <strong>completely</strong> optional.
     When using the Discord Invites the captcha also mines 256 Hashes worth of Monero. HackerHub will <strong> never </strong>mine cryptocurrencies without your consent.</p> <br>
     <p id="cryptomining_section2"><strong>ii. </strong>HackerHub does not mine cryptocurrencies if it detects the user is on a mobile device.</p> <br>
     <div class="divider"></div>
-    <h1 id="partnership" >III. Partnership</h1>
-    <p id="partnership_section1"><strong>i. </strong>The Partnership program will require users to give contact info. HackerHub does not share any of this data.</p> <br>
-    <p id="partnership_section2"><strong>ii. </strong>A user's Partnership status can be stripped at <strong>any</strong> time with or without reason.</p> <br>
-    <p id="partnership_section3"><strong>iii. </strong>Partners cannot share sensitive data with affiliates or other partners unless absolutely necessary.</p> <br>
+    <h1 id="partnership" >III. partnership</h1>
+    <p id="partnership_section1"><strong>i. </strong>The partnership program will require users to give contact info. HackerHub does not share any of this data.</p> <br>
+    <p id="partnership_section2"><strong>ii. </strong>A user's partnership status can be stripped at <strong>any</strong> time with or without reason.</p> <br>
+    <p id="partnership_section3"><strong>iii. </strong>partners cannot share sensitive data with affiliates or other partners unless absolutely necessary.</p> <br>
     <div class="divider"></div>
     <p>Last updated: <strong>3/2/2018</strong></p>
   <div class="w3-row">
@@ -284,7 +284,7 @@ div {
     <br>
     <p>Contact Info: <a href="mailto:skylarmccauley864@gmail.com?subject=Feedback on HackerHub">skylarmccauley864@gmail.com</a></p>
     <br>
-    <p><strong>DISCLAIMER:</strong> If you clicked <strong>ACCEPT</strong> on the dialouge box then this website is using 10% of your CPU Power to mine Monero.</p> </p>
+    <p><strong>DISCLAIMER:</strong> If you clicked <strong>ACCEpT</strong> on the dialouge box then this website is using 10% of your CpU power to mine Monero.</p> </p>
   </br>
   </div></div>
 </footer>
@@ -297,7 +297,7 @@ function myMap()
   var mapOptions= {
     center:myCenter,
     zoom:12, scrollwheel: false, draggable: false,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
+    mapTypeId:google.maps.MapTypeId.ROADMAp
   };
   var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
 
