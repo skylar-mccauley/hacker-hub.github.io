@@ -85,7 +85,7 @@
 
 <style>
   @media only screen and (max-width: 768px) {
-  p2 {
+  p {
     color: rgb(0, 0, 0);
     font-size:15px;
     font-family:'Times New Roman', Times, serif;
@@ -95,7 +95,7 @@
 }
 
 @media only screen and (max-width: 320px) {
-  p2 {
+  p {
     color: rgb(0, 0, 0);
     font-size:5px;
     font-family:'Times New Roman', Times, serif;
@@ -157,7 +157,7 @@ h1 {
         background-attachment: scroll;
     }
 }
-p3 {
+p {
   color:azure;
   font-size: 11px
 }
@@ -288,20 +288,20 @@ span {
     </center>
   <div>
     <h1 id="commands-information" >Information</h1>
-      <p2 class="w3-center">
+      <p class="w3-center">
       <div><code>help</code> | Get documentation on all available commands for Sunset<span class="badge badge-dark">LiteMode Compatible</span><br></div>
       <code>litemode</code> | Activate Sunset LiteMode><span class="badge badge-dark">LiteMode Compatible</span><br>
         <code>ping</code> | Ping the Discord API and Sunset<span class="badge badge-dark">LiteMode Compatible</span> <br>
-        <code>info</code> | Get info on Sunset<span class="badge badge-dark">LiteMode Compatible</span></p2>
+        <code>info</code> | Get info on Sunset<span class="badge badge-dark">LiteMode Compatible</span></p>
       <h1 id="commands-serverinfo" >Server Info</h1>
-      <p2 class="w3-center"><code>inspect</code> | Inspect many types of URLs<span class="badge badge-dark">LiteMode Compatible</span><br>
+      <p class="w3-center"><code>inspect</code> | Inspect many types of URLs<span class="badge badge-dark">LiteMode Compatible</span><br>
           <code>serversettings</code> | Change how Sunset functions for your server<span class="badge badge-dark">LiteMode Compatible</span><br>
         <code>invite</code> | Get an invite to the server for the provided channel<span class="badge badge-dark">LiteMode Compatible</span><br>
         <code>serverinfo</code> | View the current server/guild's info<span class="badge badge-dark">LiteMode Compatible</span> <br>
         <code>avatar</code> | View the avatar of yourself or of the mentioned member<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>profile</code> | View the profile of yourself or of the mentioned member<span class="badge badge-dark">LiteMode Compatible</span></p2>
+        <code>profile</code> | View the profile of yourself or of the mentioned member<span class="badge badge-dark">LiteMode Compatible</span></p>
       <h1 id="commands-entertainment" >Entertainment</h1>
-      <p2 class="w3-center"><code>translate</code> | Translate the provided messages from English to the provided Language<span class="badge badge-dark">LiteMode Compatible</span><br>
+      <p class="w3-center"><code>translate</code> | Translate the provided messages from English to the provided Language<span class="badge badge-dark">LiteMode Compatible</span><br>
         <code>cleverbot</code> | Chat with CleverBot through the cleverbot.io library<span class="badge badge-dark">LiteMode Compatible</span><br>
         <code>emojify</code> | Emojify the provided message if possible<span class="badge badge-dark">LiteMode Compatible</span><br>
         <code>cowthink</code> | Returns the provided message in a cowthink code block<span class="badge badge-dark">LiteMode Compatible</span><br>
@@ -319,7 +319,7 @@ span {
         <code>coinflip</code> | Flip a coin<span class="badge badge-dark">LiteMode Compatible</span><br>
         <code>roll</code> | Roll a die<span class="badge badge-dark">LiteMode Compatible</span><br>
         <h1 id="commands-economy" >Economy</h1>
-        <p2 class="w3-center"><code>atm</code> | Interact with the Per-Server ATM<br>
+        <p class="w3-center"><code>atm</code> | Interact with the Per-Server ATM<br>
             <code>bal</code> | Check the balance of yourself and other members <br>
             <code>pay</code> | Pay the provided member; <i>You will need to have sufficient funds to complete the payment</i><br>
             <code>freemoney</code> | Earn freemoney, the payout is randomized between $1 and $50; this can be changed with the <strong><code>serversettings</code></strong> command <br>
@@ -327,7 +327,7 @@ span {
             <code>rob</code> | Rob the mentioned user; <i>Chances of successfully robbery are randomized and can be changed with the </i> <strong><code>serversettings</code></strong> <i>command</i><br>
             <code>clearmoney</code> | Go off the grid and clear your entire balance and ATM balance<br>
         <h1 id="commands-contentgeneration">Content Generation</h1>
-        <p2 class="w3-center"><code>binary</code> | Encode and Decode the provided message in binary<span class="badge badge-dark">LiteMode Compatible</span><br>
+        <p class="w3-center"><code>binary</code> | Encode and Decode the provided message in binary<span class="badge badge-dark">LiteMode Compatible</span><br>
             <code>url</code> | Shorten <del>or Expand</del> the provided URL using the <strong><code>tinyurl</code></strong> URL Shortener<span class="badge badge-dark">LiteMode Compatible</span><br>
             <code>base64</code> | Encode and Decode the provided message in Base64<span class="badge badge-dark">LiteMode Compatible</span><br>
             <code>morsecode</code> | Encode and Decode the provided message in Morse Code<span class="badge badge-dark">LiteMode Compatible</span><br>
@@ -336,7 +336,7 @@ span {
             <code>createtxt</code> | Create a text file with the provided message<span class="badge badge-dark">LiteMode Compatible</span><br>
             <code>lasttxt</code> | Recover the most recent Text File generated <i>if there is one</i><span class="badge badge-dark">LiteMode Compatible</span><br>
         <h1>Moderation</h1>
-        <p2 class="w3-center"><code>warn</code> | Warn the mentioned member<br>
+        <p class="w3-center"><code>warn</code> | Warn the mentioned member<br>
             <code>warnings</code> | Check the warnings of the mentioned user <i>if there are any</i><br>
             <code>rules</code> | View the rules of the server; These rules can be set using <strong><code>rules set</code></strong><span class="badge badge-dark">LiteMode Compatible</span><br>
             <code>channelsettings</code> | Modify the metadata of the current channel<span class="badge badge-dark">LiteMode Compatible</span><br>
@@ -351,14 +351,14 @@ span {
             <code>delchannel</code> | Delete the current text channel<span class="badge badge-dark">LiteMode Compatible</span><br>
             <code>setnick</code> | Set the nickname of the mentioned member<span class="badge badge-dark">LiteMode Compatible</span><br>
         <h1 id="commands-other" >Other</h1>
-        <p2 class="w3-center"><code>randomcolor</code> | Get a random color in <strong><code>Hex</code></strong>, <strong><code>RGB</code></strong>, <strong><code>LAB</code></strong>, and <strong><code>CMYK</code></strong><span class="badge badge-dark">LiteMode Compatible</span><br>
+        <p class="w3-center"><code>randomcolor</code> | Get a random color in <strong><code>Hex</code></strong>, <strong><code>RGB</code></strong>, <strong><code>LAB</code></strong>, and <strong><code>CMYK</code></strong><span class="badge badge-dark">LiteMode Compatible</span><br>
         <h1 id="commands-owneronly" >Owner-Only Commands</h1>
-        <p2 class="w3-center"><code>jsexec</code> | Execute NodeJS through eval <i>Locked to Owner for obvious reasons</i><br>
+        <p class="w3-center"><code>jsexec</code> | Execute NodeJS through eval <i>Locked to Owner for obvious reasons</i><br>
             <code>flush</code> | Flush parts of Sunset<span class="badge badge-dark">LiteMode Compatible</span><br>
             <code>settings</code> | Change the settings of Sunset<span class="badge badge-dark">LiteMode Compatible</span><br>
             <code>setmoney</code> | Set the balance of the mentioned member<br>
 
-    </p2>
+    </p>
   </div>
 
  
@@ -393,14 +393,14 @@ span {
             <p class="w3-center"><em>Invite Sunset to your Discord Server to get started.<br></em></p><br>
     
             <div>
-                <p2>This invite can grant Sunset Full Permissions <i>if the user inviting the bot has Full Permissions</i></p2>
+                <p>This invite can grant Sunset Full Permissions <i>if the user inviting the bot has Full Permissions</i></p>
             </div>
             <br>
             <a href="invite" class="w3-btn w3-ripple w3-orange">Invite Sunset</a>
            
             <div>
                 <br>
-              <p2>To activate Sunset LiteMode use the <code>litemode</code> command.</p2>
+              <p>To activate Sunset LiteMode use the <code>litemode</code> command.</p>
             </div>
 
             <!--                                                              -->    
@@ -420,7 +420,7 @@ span {
           <p class="w3-center"><em>The home of the Sunset Discord Bot.<br></em></p><br>
   
           <div>
-              <p2>Sunset, the home of the Sunset Discord Bot, is the place for all types of Discord Users. Whether you just . want to talk to others, play games, design content, or program. This is the place for you.</p2>
+              <p>Sunset, the home of the Sunset Discord Bot, is the place for all types of Discord Users. Whether you just . want to talk to others, play games, design content, or program. This is the place for you.</p>
           </div>
           <br>
           <a href="serverinvite" class="w3-btn w3-ripple w3-orange">Sunset Server Invite</a>
@@ -441,7 +441,7 @@ span {
         <p class="w3-center"><em>Sunset's source code is also available of GitHub!<br></em></p><br>
 
         <div>
-            <p2>The source code gets updated every 2 - 3 weeks.</p2>
+            <p>The source code gets updated every 2 - 3 weeks.</p>
         </div>
       
         <blockquote class="embedly-card"data-card-controls="0"><h4><a href="https://github.com/The-Hacker894/Sunset">The-Hacker894/Sunset</a></h4><p>Sunset is the best Discord Bot you'll ever have</p></blockquote>
