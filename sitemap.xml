@@ -57,6 +57,17 @@
       <priority>0.9</priority>
 
    </url>
+    <url>
+
+      <loc>https://hacker-hub.com/webapp/changelog/</loc>
+
+      <lastmod>2018-05-19</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>0.9</priority>
+
+   </url>
    <url>
 
       <loc>https://hacker-hub.com/partnership/</loc>
