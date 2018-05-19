@@ -1,0 +1,10 @@
+Sitemap: http://hacker-hub.com/sitemap.xml
+User-agent: *
+Disallow: /ie
+Disallow: /css
+Disallow: /donate
+Disallow: /fonts
+Disallow: /images
+Disallow: /important
+Disallow: /js
+Disallow: /audio
