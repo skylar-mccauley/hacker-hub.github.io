@@ -6,7 +6,7 @@
 
       <loc>https://hacker-hub.com/</loc>
 
-      <lastmod>2018-5-11</lastmod>
+      <lastmod>2018-5-19</lastmod>
 
       <changefreq>weekly</changefreq>
 
@@ -15,42 +15,9 @@
    </url>
    <url>
 
-      <loc>https://hacker-hub.com/#about</loc>
-
-      <lastmod>2018-5-11</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>99</priority>
-
-   </url>
-   <url>
-
-      <loc>https://hacker-hub.com/#discord</loc>
-
-      <lastmod>2018-5-11</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>98</priority>
-
-   </url>
-   <url>
-
-      <loc>https://hacker-hub.com/#github</loc>
-
-      <lastmod>2018-5-11</lastmod>
-
-      <changefreq>monthly</changefreq>
-
-      <priority>97</priority>
-
-   </url>
-   <url>
-
       <loc>https://hacker-hub.com/sunset</loc>
 
-      <lastmod>2018-5-11</lastmod>
+      <lastmod>2018-5-19</lastmod>
 
       <changefreq>weekly</changefreq>
 
@@ -59,53 +26,9 @@
    </url>
    <url>
 
-      <loc>https://hacker-hub.com/sunset/#about</loc>
-
-      <lastmod>2018-5-11</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-      <priority>99.8</priority>
-
-   </url>
-   <url>
-
-      <loc>https://hacker-hub.com/sunset/#features</loc>
-
-      <lastmod>2018-5-11</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-      <priority>99.7</priority>
-
-   </url>
-   <url>
-
-      <loc>https://hacker-hub.com/sunset/#lite-commands</loc>
-
-      <lastmod>2018-5-11</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-      <priority>99.6</priority>
-
-   </url>
-   <url>
-
-      <loc>https://hacker-hub.com/sunset/#invite</loc>
-
-      <lastmod>2018-5-11</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-      <priority>85</priority>
-
-   </url>
-   <url>
-
       <loc>https://hacker-hub.com/sunset/invite/</loc>
 
-      <lastmod>2018-5-11</lastmod>
+      <lastmod>2018-5-19</lastmod>
 
       <changefreq>weekly</changefreq>
 
@@ -116,7 +39,7 @@
 
       <loc>https://hacker-hub.com/sunset/serverinvite/</loc>
 
-      <lastmod>2018-5-11</lastmod>
+      <lastmod>2018-5-19</lastmod>
 
       <changefreq>weekly</changefreq>
 
@@ -125,53 +48,9 @@
    </url>
    <url>
 
-      <loc>https://hacker-hub.com/sunset/#server</loc>
+      <loc>https://hacker-hub.com/webapp/</loc>
 
-      <lastmod>2018-5-11</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-      <priority>84</priority>
-
-   </url>
-   <url>
-
-      <loc>https://hacker-hub.com/sunset/#github</loc>
-
-      <lastmod>2018-5-11</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-      <priority>83</priority>
-
-   </url>
-   <url>
-
-      <loc>https://hacker-hub.com/webapp/#about</loc>
-
-      <lastmod>2018-5-11</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-      <priority>89</priority>
-
-   </url>
-   <url>
-
-      <loc>https://hacker-hub.com/webapp/#download</loc>
-
-      <lastmod>2018-5-11</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-      <priority>88</priority>
-
-   </url>
-   <url>
-
-      <loc>https://hacker-hub.com/webapp/#changelog</loc>
-
-      <lastmod>2018-5-11</lastmod>
+      <lastmod>2018-5-19</lastmod>
 
       <changefreq>weekly</changefreq>
 
@@ -182,7 +61,7 @@
 
       <loc>https://hacker-hub.com/partnership/</loc>
 
-      <lastmod>2018-5-11</lastmod>
+      <lastmod>2018-5-19</lastmod>
 
       <changefreq>weekly</changefreq>
 
@@ -191,31 +70,9 @@
    </url>
    <url>
 
-      <loc>https://hacker-hub.com/partnership/#about</loc>
-
-      <lastmod>2018-5-11</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-      <priority>74</priority>
-
-   </url>
-   <url>
-
-      <loc>https://hacker-hub.com/partnership/#apply</loc>
-
-      <lastmod>2018-5-11</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-      <priority>73</priority>
-
-   </url>
-   <url>
-
       <loc>https://hacker-hub.com/partnership/subpages</loc>
 
-      <lastmod>2018-5-11</lastmod>
+      <lastmod>2018-5-19</lastmod>
 
       <changefreq>weekly</changefreq>
 
@@ -227,7 +84,7 @@
 
       <loc>https://corbsblog.hacker-hub.com</loc>
 
-      <lastmod>2018-5-11</lastmod>
+      <lastmod>2018-5-19</lastmod>
 
       <changefreq>weekly</changefreq>
 
@@ -238,7 +95,7 @@
 
       <loc>https://hacker-hub.com/webapp</loc>
 
-      <lastmod>2018-5-11</lastmod>
+      <lastmod>2018-5-19</lastmod>
 
       <changefreq>weekly</changefreq>
 
