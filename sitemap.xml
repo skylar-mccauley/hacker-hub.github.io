@@ -21,7 +21,7 @@
 
       <changefreq>weekly</changefreq>
 
-      <priority>99.9</priority>
+      <priority>95</priority>
 
    </url>
    <url>
@@ -32,7 +32,7 @@
 
       <changefreq>weekly</changefreq>
 
-      <priority>99.5</priority>
+      <priority>94</priority>
 
    </url>
    <url>
@@ -43,7 +43,7 @@
 
       <changefreq>weekly</changefreq>
 
-      <priority>99.4</priority>
+      <priority>93</priority>
 
    </url>
    <url>
@@ -54,7 +54,7 @@
 
       <changefreq>weekly</changefreq>
 
-      <priority>87</priority>
+      <priority>99</priority>
 
    </url>
    <url>
@@ -76,7 +76,7 @@
 
       <changefreq>weekly</changefreq>
 
-      <priority>72</priority>
+      <priority>70</priority>
 
    </url>
 
@@ -89,17 +89,6 @@
       <changefreq>weekly</changefreq>
 
       <priority>60</priority>
-
-   </url>
-   <url>
-
-      <loc>https://hacker-hub.com/webapp</loc>
-
-      <lastmod>2018-05-19</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-      <priority>90</priority>
 
    </url>
 
