@@ -81,6 +81,28 @@
    </url>
    <url>
 
+      <loc>https://hacker-hub.com/sunset/wiki/about</loc>
+
+      <lastmod>2018-06-05</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>0.6</priority>
+
+   </url>
+   <url>
+
+      <loc>https://hacker-hub.com/sunset/wiki/commands</loc>
+
+      <lastmod>2018-06-05</lastmod>
+
+      <changefreq>weekly</changefreq>
+
+      <priority>0.8</priority>
+
+   </url>
+   <url>
+
       <loc>https://hacker-hub.com/sunset/invite/</loc>
 
       <lastmod>2018-05-23</lastmod>
