@@ -65,9 +65,25 @@
                     <li>
                         <a href="#base64">Base64</a>
                     </li>
+                    <li>
+                            <a href="#binary">Binary</a>
+                        </li>
+                        <li>
+                                <a href="#channelsettings">Channel Settings</a>
+                            </li>
+                            <li>
+                                    <a href="#clearmoney">ClearMoney</a>
+                                </li>
+                                <li>
+                                        <a href="#cleverbot">CleverBot</a>
+                                    </li>
+                                    <li>
+                                            <a href="#coinflip">Coinflip</a>
+                                        </li>
+                                
                     
                 <li>
-                        <a href="//hacker-hub.com/">HomePage</a>
+                        <a style="color: lightgray" href="//hacker-hub.com/">HomePage</a>
                     </li>
             </ul>
         </div>
@@ -148,7 +164,7 @@
                     <img style="margin-bottom: 15px;" width="615vw" src="imgs/atm/atm-1.5.png">
 
                     <div id="atm-deposit">
-                        <h4>ATM Deposit</h4>
+                        <h4> <a href="#atm-deposit">ATM Deposit</a></h4>
                     <p>When attempting to deposit money without any arguments, <code>atm deposit</code>, you will receive this.</p> 
                     <img style="margin-bottom: 15px;" width="615vw" src="imgs/atm/atm-2.png">
                     <p>When attempting to deposit money into your ATM Balance, <code>atm deposit &lt;amount&gt;</code>, you will receive this.</p>
@@ -157,7 +173,7 @@
                     If you attempt to deposit more money than what you have, you will receive an error.</p>
                     </div>
                     <div id="atm-withdrawal">
-                            <h4>ATM Withdrawal</h4>
+                            <h4><a href="#atm-withdrawal">ATM Withdrawal</a></h4>
                     <p>When attempting to withdraw miney without any arguments, <code>atm withdrawal</code>, you will receive this.</p>
                     <img style="margin-bottom: 15px;" width="615vw" src="imgs/atm/atm-4.png">
                     <p>When attempting to withdraw money from your ATM Balance, <code>atm withdrawal &lt;amount&gt;</code>, you will receive this.</p>
@@ -206,11 +222,108 @@
                 <h1>Base64</h1>
                 <p><strong>Description: </strong> Enocde and Decode text in Base64 <br>
                 <strong>Arguments: </strong> <code>&lt;encode|decode|recover&gt;</code> <code>&lt;text&lt;</code> <br>
-                <strong>Sections: </strong> <a href="#base64-encode">Encode</a> | <a href="#base64-decode">Decode</a> | <a href="#base64-recover">Recover</a></p>
-                <p>When using the Base64 </p>
+                <strong>Sections: </strong> <a href="#base64-encodedecode">Encode / Decode</a> | <a href="#base64-recover">Recover</a></p>
+                <p>When using the Base64 command without any arguments, <code>base64</code>, Sunset will send you a help embed on the Base64 command. </p>
+                <div id="base64-encodedecode" >
+                        <h4><a href="#base64-encodedecode">Base64 Encode / Decode</a></h4>
+
+                    <p>
+                    For encoding or decoding a Base64 string, <code>base64 &lt;encode|decode&gt;</code>, Sunset will encode or decode your message. The result will be saved and uploaded in a text file.
+                </p>
+                <img style="margin-bottom: 15px;" width="615vw" src="imgs/base64/base64-1.png">
+                <img style="margin-bottom: 15px;" width="615vw" src="imgs/base64/base64-2.png">
+                <p>To recover your last decoded or encoded string see <a href="#base64-recover">Base64 Recover</a>.</p>
+                </div>
+                <div id="base64-recover">
+                    <h4><a href="#base64-recover">Base64 Recover</a></h4>
+                    <p>For recovering your last <a href="#base64-encodedecode">encoded</a> or <a href="#base64-encodedecode">decoded</a> text using <code>base64 recover</code> will return this.</p>
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/base64/base64-3.png">
+                    <p>Your last string will be sent in a text file. This can only be done per-server. <br>
+                        The LiteMode version of this command sends messages without embeds <strong>(excluding file uploads)</strong></p>
+
+                </div>
+            </div>
+            <div id="binary">
+                <h1>Binary</h1>
+                <p><strong>Description: </strong> Encode, Decode, and Recover the provided message in binary <br>
+                <strong>Arguments: </strong> <code>&lt;encode|decode|recover&gt; &lt;text&gt;</code> <br>
+                <strong>Sections: </strong> <a href="#binary-encdedecode">Encode / Decode</a> | <a href="#binary-recover">Recover</a></p>
+                <p>When using the Binary command with any arguments, <code>binary</code>, Sunset will send a help embed on the Binary command.</p>
+                <div id="binary-encodedecode">
+                    <h4><a href="#binary-encodedecode">Binary Encode / Decode</a></h4>
+                    <p>For encoding or decoding a Binary string, <code>base &lt;encode|decode&gt;</code>, Sunset will encode or decode your message. The result will be saved and uploaded in a text file.</p>
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/binary/binary-1.png">
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/binary/binary-2.png">
+                    <p>To recover your last decoded or encoded string see <a href="#base64-recover">Binary Recover</a></p>
+                </div>
+                <div id="binary-recover">
+                    <h4><a href="#binary-recover">Binary Recover</a></h4>
+                    <p>For recovering your last <a href="#base64-encodedecode">encoded</a> or <a href="#base64-encodedecode">decoded</a> text using <code>binary recover</code> will return this</p>
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/binary/binary-3.png">
+                    <p>Your last string will be sent in a text file. This can only be done per-server</p>
+
+
+                </div>
+                <p>The LiteMode version of this command sends messages without embeds <strong>(excluding file uploads)</strong></p>
+            </div>
+            <div id="channelsettings">
+                <h1>Channel Settings</h1>
+                <p><strong>Description: </strong>Modify the metadata of the current channel. <br>
+                <strong>Arguments: </strong> <code>&lt;option&gt; &lt;parameter&gt;</code>
+                <strong>Sections: </strong> <a href="channelsettings-name">Name</a> | <a href="channelsettings-topic">Topic</a> | <a href="channelsettings-position">Position</a> | <a href="channelsettings-parent">Category / Parent</a> | <a href="channelsettings-webhooks">Webhooks</a></p>
+                <p>Using the Channel Settings command without any arguments, <code>channelsettings</code>, will return an embed with the current channel metadata. <br>
+                <strong>Note: </strong>At this time Sunset cannot edit the <code>nsfw</code> metadata on a channel. <br>
+                <strong>Note: </strong>At this time Sunset cannot edit the <code>type</code> metadata on a channel.</p>
+                <img style="margin-bottom: 15px;" width="615vw" src="imgs/channelsettings/channelsettings-1.png">
+                <div id="channelsettings-name">
+                    <h4> <a href="#channelsettings-name">Channel Settings Name</a></h4>
+                    <p>Using the Channel Settings command with the <code>name</code> argument, <code>channelsettings name &lt;parameter&gt;</code>, will change the current channel's name.<br>
+                        Sunset will return an error if <code>&lt;parameter&gt;</code> requirements are not met.</p>
+                </div>
+                <div id="channelsettings-topic">
+                    <h4><a href="#channelsettings-topic">Channel Settings Topic</a></h4>
+                    <p>Using the Channel Settings command with the <code>topic</code> argument, <code>channelettings topic &lt;parameter&gt;</code>, will change the current channel's topic.<br>
+                        Sunset will return an error if <code>&lt;parameter&gt;</code> requirements are not met.</p>
+                </div>
+                <div id="channelsettings-position">
+                    <h4><a href="#channelsettings-position">Position</a></h4>
+                    <p>Using the Channel Settings command with the <code>position</code> argument, <code>channelsettings position &lt;parameter&gt;</code>, will change the current channel's position. <br>
+                        Sunset will return an error if <code>&lt;parameter&gt;</code> requirements are not met.</p>
+                </div>
+                <div id="channelsettings-type"> 
+                    <h4><a href="#channelsettings-type">Type</a></h4>
+                    <p>Using the Channel Settings command with the <code>type</code> argument, <code>channelsettings type &lt;parameter&gt;</code>, will change the current channel's type. <br>
+                        Sunset will return an error if <code>&lt;parameter&gt;</code> requirements are not met.</p>
+                </div>
+                <div id="channelsettings-webhooks">
+                    <h4><a href="#channelsettings-webhooks">WebHooks</a></h4>
+                    <p>Using the Channel Settings command with the <code>webhook</code> argument (without any extra parameters), <code>channelsettings webhook</code>, will return a help embed on the <code>webhook</code> section of the Channel Settings command.</p>
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/channelsettings/channelsettings-2.png">
+                    <p><code>channelsettings webhook delete</code> will delete <strong>all</strong> webhooks on the server. <br> 
+                        Sunset will return an error if <code>&lt;parameter&gt;</code> requirements are not met.</p>
+                </div>
+                <p>The LiteMode version of this command will not send send message with embeds.</p>
+            </div>
+            <div id="clearmoney">
+                <h1>ClearMoney</h1>
+                <p><strong>Description: </strong> Go off the grid and clear your entire balance and ATM balance <br>
+                <strong>Not LiteMode Compatible</strong></p>
+                <p>Using the <code>clearmoney</code> command will wipe all funds from your Balance and ATM. <strong>This process is irreversible.</strong></p>
+                <img style="margin-bottom: 15px;" width="615vw" src="imgs/clearmoney/clearmoney-1.png">
+            </div>
+            <div id="cleverbot">
+                <h1>CleverBot</h1>
+                <p><strong>Description: </strong> Chat with CleverBot through the cleverbot.io library
+                <strong>Arguments: </strong><code>&lt;message&gt;</code></p>
+                <p>This command interacts with a free version of cleverbot which is an AI chat bot. I encourage you to use this command and have fun and interesting conversations with it.</p> <br>
+                <p>Using this command without an argument will return an error.</p>
+            </div>
+            <div id="coinflip">
+                <h1>Coinflip</h1>
+                <p><strong>Description: </strong> Flip a coin</p> <br>
+                <img style="margin-bottom: 15px;" width="615vw" src="imgs/cleverbot/cleverbot-1.png">
 
             </div>
-                
             </div>
         </div>
         <!-- /#page-content-wrapper -->
