@@ -42,6 +42,9 @@
                     <a href="./">Commands</a>
                     </li>
                     <li>
+                        <a id="pages" href="#page1">Page 1</a>
+                    </li>
+                    <li>
                             <a href="#2ball">2Ball</a>
                     </li>
                     <li>
@@ -69,6 +72,9 @@
                             <a href="#binary">Binary</a>
                         </li>
                         <li>
+                            <a href="#changelog">Changelog</a>
+                        </li>
+                        <li>
                                 <a href="#channelsettings">Channel Settings</a>
                             </li>
                             <li>
@@ -80,6 +86,21 @@
                                     <li>
                                             <a href="#coinflip">Coinflip</a>
                                         </li>
+                                        <li>
+                                            <a id="pages" href="#page2">Page 2</a>
+                                        </li>
+                                        <li>
+                                                <a href="#copycat">Copycat</a>
+                                            </li>
+                                            <li>
+                                                    <a href="#cowsay">Cowsay</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#cowthink">Cowthink</a>
+                                                    </li>
+                                                    <li>
+                                                            <a href="#createtxt">CreateTXT</a>
+                                                        </li>
                                 
                     
                 <li>
@@ -97,9 +118,12 @@
             <div class="container-fluid">
 
                 <h1>Sunset Wiki Commands</h1>
-                <p>As of Sunset v6.1 the bot has <strong>68</strong> commands.</p>
-                <strong>Please</strong>
-
+                <p>As of Sunset v6.1.1 the bot has <strong>69</strong> commands.</p>
+                <strong>Note: </strong> This wiki is <i>not</i> finished.
+                <div id="page1">
+                    <h1>Page 1</h1>
+                    <br>
+                    <br>
                 <div id="2ball">
                     <h1>2Ball</h1>
                     <p><strong>Description:</strong> Have the mystical 2Ball answer your most burning questions.
@@ -264,6 +288,11 @@
 
 
                 </div>
+                <div id="changelog">
+                    <h1>Changelog</h1>
+                    <p><strong>Description: </strong>View the changes in the new version of Sunset</p>
+                    <p>This command is very simple and has no arguments. When using <code>changelog</code> Sunset will send the current changelog.</p>
+                </div>
                 <p>The LiteMode version of this command sends messages without embeds <strong>(excluding file uploads)</strong></p>
             </div>
             <div id="channelsettings">
@@ -324,6 +353,58 @@
                 <img style="margin-bottom: 15px;" width="615vw" src="imgs/cleverbot/cleverbot-1.png">
 
             </div>
+        </div>
+        <div id="page2">
+            <h1>Page 2</h1>
+            <br>
+            <br>
+            <div id="copycat">
+                <h1>Copycat</h1>
+                <p><strong>Description: </strong> Make a copycat of yourself <br> 
+                <strong>Arguments: </strong> <code>&lt;message&gt;</code> <br>
+                <strong>Permissions: </strong> <code>MANAGE_WEBHOOKS</code> <br>
+                <strong>Note: </strong> Due to a limit of 10 WebHooks per Guild, all copycats will self-destruct in 3 minutes. You can also use <a href="#channelsettings-webhooks"><code>channelsettings webhooks delete</code></a> to delete all webhooks on the server.</p>
+                <p>Using the copycat command with a message, <code>copycat &lt;message&gt;</code>, Sunset will create a webhook with your username and avatar.</p>
+                <img style="margin-bottom: 15px;" width="615vw" src="imgs/copycat/copycat-1.png">
+                <p>After 3 minutes, Sunset will delete the copycat webhook to save space on webhooks.</p>
+                <img style="margin-bottom: 15px;" width="615vw" src="imgs/copycat/copycat-2.png">
+                <p>Using this command without any arguments will send a help embed. <br>
+                    To delete all webhooks on the server see <a href="#channelsettings-webhooks">Channel Settings Webhooks</a> <br>
+                    For Sunset LiteMode users, messages will not be sent in embeds.</p>
+            </div>
+            <div id="cowsay"> 
+                <h1>Cowsay</h1>
+                <p><strong>Description: </strong> Cowsay Linux command in Discord <br>
+                <strong>Arugments: </strong><code>&lt;message&gt;</code> <br>
+                <strong>Sections: </strong> <a href="#cowsay">Cowsay</a> | <a href="#cowthink">Cowthink</a></p>
+                <p>Using the cowsay command, <code>cowsay &lt;message&gt;</code> will return your message in a speech bubble like this.</p>
+                <img style="margin-bottom: 15px;" width="615vw" src="imgs/cow/say-1.png">
+                <p>Using this command without any arguments will send a help embed <br>
+                    Sunset will not send messages in embeds whether or not Susnet LiteMode is enabled <strong>(except for the help embed which isn't an embed if Sunset LiteMode is enabled.)</strong></p>
+            </div>
+            <div id="cowthink">
+                    <h1>Cowthink</h1>
+                    <p><strong>Description: </strong> Cowthink Linux command in Discord <br> 
+                    <strong>Arguments: </strong> <code>&lt;message&gt;</code> <br>
+                    <strong>Sections: </strong> <a href="#cowsay">Cowsay</a> | <a href="#cowthink">Cowthink</a></p>
+                    <p>Using the cowthink command, <code>cowthink &lt;message&gt;</code>, will return your message in a think cloud like this.</p>
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/cow/think-1.png">
+                    <p>Using this command without any arguments will send a help embed <br>
+                        Sunset will not send messages in embeds whether or not Susnet LiteMode is enabled <strong>(except for the help embed which isn't an embed if Sunset LiteMode is enabled.)</strong></p>
+            </div>
+            <div id="createtxt">
+                <h1>CreateTXT</h1>
+                <p><strong>Description: </strong> Create a text file through Sunset <br>
+                <strong>Arguments: </strong> <code>&lt;text&gt;</code> <br>
+                <strong>Sections: </strong> <a href="#createtxt">CreateTXT</a> | <a href="#lasttxt">LastTXT</a></p>
+                <p>Using the createtxt command with data provided, <code>createtxt &lt;text&gt;</code>, will save and upload your text file.</p>
+                <img style="margin-bottom: 15px;" width="615vw" src="imgs/createtxt/createtxt-1.png">
+                <p>For information on recovering your last text file see <a href="#lasttxt">LastTXT</a> <br>
+                    Using the command without an argument will return a help embed.</p>
+
+            </div>
+        </div>
+
             </div>
         </div>
         <!-- /#page-content-wrapper -->

@@ -30,7 +30,9 @@ code {
     width: 40%;
   }
 }
-
+#pages {
+  color: white;
+}
 
 
 #wrapper {
