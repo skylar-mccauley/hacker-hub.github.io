@@ -23,6 +23,16 @@
     
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="icon" href="../../../images/Sunset_pfp.png">
+    
+
+    <script>
+        function toggleDisplay(id)
+            {
+                var el = document.getElementById(id);
+                if(el.style.display == "none") el.style.display = "block";
+                else el.style.display = "none";
+            }
+    </script>
 
 </head>
 
@@ -101,11 +111,17 @@
                                                     <li>
                                                             <a href="#createtxt">CreateTXT</a>
                                                         </li>
-                                
+                                                        <li>
+                                                            <a href="#dbl">DBL</a>
+                                                        </li>
+                                                        <li>
+                                                                <a href="#delchannel">DelChannel</a>
+                                                            </li>
                     
                 <li>
-                        <a style="color: lightgray" href="//hacker-hub.com/">HomePage</a>
+                        <a style="color: lightgray;margin-bottom: 25px" href="//hacker-hub.com/">HomePage</a>
                     </li>
+
             </ul>
         </div>
         <!-- /#sidebar-wrapper -->
@@ -130,32 +146,48 @@
                     <br>
                     <strong>Arguments: </strong> <code>&lt;question&gt;</code></p>
                     <br>
-                    <p>When using the command without any arguments, <code>2ball</code>, with Sunset LiteMode disabled, and without any funds in your balance you will recieve this.</p>
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/2Ball/2ball-1.png">
-                    <p>When using the command without any arguments, <code>2ball</code>, (and with enough funds) you will receive this.</p>
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/2Ball/2ball-2.png">
-                    <p>When using the command <strong>with</strong> a question provided, <code>2ball &lt;question&gt; </code>, you will receive this.</p>
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/2Ball/2ball-3.png">
+                    <p>When using the command without any arguments, <code>2ball</code>, with Sunset LiteMode disabled, and without any funds in your balance, <a href="javascript:toggleDisplay('2ball-noarg-nofunds-1')">Sunset will return an error.</a></p>
+                    <div id="2ball-noarg-nofunds-1" style="display: none">
+                            <img style="margin-bottom: 15px;" width="615vw" src="imgs/2Ball/2ball-1.png">
+                    </div>
+                    <p>When using the command without any arguments, <code>2ball</code>, (and with enough funds) <a href="javascript:toggleDisplay('2ball-noarg-withfunds-1')">Sunet will return a help embed.</a></p>
+                    <div id="2ball-noarg-withfunds-1" style="display: none">
+                            <img style="margin-bottom: 15px;" width="615vw" src="imgs/2Ball/2ball-2.png">
+                    </div>
+                    <p>When using the command <strong>with</strong> a question provided, <code>2ball &lt;question&gt; </code>, <a href="javascript:toggleDisplay('2ball-question-withfunds-1')">the <i>mystical</i> will answer your question.</a></p>
+                    <div id="2ball-question-withfunds-1" style="display: none">
+                            <img style="margin-bottom: 15px;" width="615vw" src="imgs/2Ball/2ball-3.png">
+                    </div>
                     <p>If you get <code>No</code> as an answer you will lose $10. If you get <strong>Yes</strong> as an answer you will gain $20 <i>($10 in profit)</i></p>
                     <br>
-                    <p>Sunset LiteMode users do not have access to <a href="economy">Sunset Economy</a> features and will receive this.</p>
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/2Ball/2ball-4.png">
+                    <p>Sunset LiteMode users do not have access to <a href="economy">Sunset Economy</a> features and <a href="javascript:toggleDisplay('2ball-litemode-1')">will not receive payment inquiries.</a></p>
+                    <div id="2ball-litemode-1" style="display: none">
+                            <img style="margin-bottom: 15px;" width="615vw" src="imgs/2Ball/2ball-4.png">
+                    </div>
                 </div>
                 <div id="8ball">
                     <h1>8Ball</h1>
                     <p><strong>Description:</strong> Have the mystical 8Ball answer your most burning questions. <br>
                     <strong>Arguments: </strong> <code>&lt;question&gt;</code></p>
                     <br>
-                    <p>When using the command without any arguments,<code>8ball</code>, with Sunset LiteMode disabled, and without any funds in your balance you will receive this.</p>
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/8Ball/8ball-1.png">
-                    <p>When using the command without any arguments, <code>8ball</code>, (and with enough funds) you will receive this.</p>
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/8Ball/8ball-2.png">
-                    <p>When use the command with a question, <code>8ball &lt;question&gt; </code>, with LiteMode disabled you will receive this.</p>
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/8Ball/8ball-3.png">
+                    <p>When using the command without any arguments,<code>8ball</code>, with Sunset LiteMode disabled, and without any funds in your balance <a href="javascript:toggleDisplay('8ball-noarg-nofunds')">Sunset will return an error.</a></p>
+                    <div id="8ball-noarg-nofunds" style="display: none">
+                            <img style="margin-bottom: 15px;" width="615vw" src="imgs/8Ball/8ball-1.png">
+                    </div>
+                    <p>When using the command without any arguments, <code>8ball</code>, (and with enough funds) Sunset <a href="javascript:toggleDisplay('8ball-noarg-withfunds-1')">will send a help embed.</a></p>
+                    <div id="8ball-noarg-withfunds-1" style="display: none">
+                            <img style="margin-bottom: 15px;" width="615vw" src="imgs/8Ball/8ball-2.png">
+                    </div>
+                    <p>When use the command with a question, <code>8ball &lt;question&gt; </code>, with LiteMode disabled you <a href="javascript:toggleDisplay('8ball-question-1')">the <i>mystical</i> 8Ball will answer your question.</a></p>
+                    <div id="8ball-question-1" style="display: none">
+                            <img style="margin-bottom: 15px;" width="615vw" src="imgs/8Ball/8ball-3.png">
+                    </div>
                     <p>Depeding on the 8Ball's answer you will lose $20 or gain $20 in profit.</p>
                     <br>
-                    <p>Sunset LiteMode users do not have access to <a href="economy">Sunset Economy</a> features and will receive this.</p>
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/8Ball/8ball-4.png">
+                    <p>Sunset LiteMode users do not have access to <a href="economy">Sunset Economy</a> features and <a href="javascript:toggleDisplay('8ball-litemode-1')">will not receive a payment inquiry.</a></p>
+                    <div id="8ball-litemode-1" style="display: none">
+                            <img style="margin-bottom: 15px;" width="615vw" src="imgs/8Ball/8ball-4.png">
+                    </div>
                      </div>
                 <div id="announce">
                     <h1>Announce</h1>
@@ -163,15 +195,19 @@
                         <strong>Required Permissions:</strong> <code>MANAGE_CHANNELS</code> <code>KICK_MEMBERS</code><br>
                     <strong>Arguments: </strong> <code>&lt;#channel&gt;</code> <code>&lt;announcement&gt;</code></p>
                     <br>
-                    <p>When using the command without any arguments, <code>announce</code>, you will receive this.</p>
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/announce/announce-1.png">
+                    <p>When using the command without any arguments, <code>announce</code>, you <a href="javascript:toggleDisplay('announce-arg-error-1')">will receive an argument error.</a></p>
+                    <div id="announce-arg-error-1" style="display: none">
+                            <img style="margin-bottom: 15px;" width="615vw" src="imgs/announce/announce-1.png">
+                    </div>
                     <p>When providing a channel, but without an announcement, <code>announce &lt;#channel&gt;</code>, Sunset will attempt to send a blank announcement to the provided channel.
                         However, the DiscordAPI does not allow this and the announcement wont send.
-                        If a message is provided, <code>announce &lt;#channel&gt; &lt;announcement&gt;</code>, Sunset will send the announcement to the provided channel.</p> 
-                        
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/announce/announce-2.png">
-                    <br>
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/announce/announce-3.png">
+                        If a message is provided, <code>announce &lt;#channel&gt; &lt;announcement&gt;</code>, Sunset <a href="javascript:toggleDisplay('announce-success-1')">will send the announcement to the provided channel.</a></p> 
+                        <div id="announce-success-1" style="display: none">
+                                <img style="margin-bottom: 15px;" width="615vw" src="imgs/announce/announce-2.png">
+                                <br>
+                                <img style="margin-bottom: 15px;" width="615vw" src="imgs/announce/announce-3.png">
+                        </div>
+
                     </div>
                 <div id="atm">
                     <h1>ATM</h1>
@@ -182,26 +218,39 @@
                 
                     <strong>Not LiteMode Compatible</strong></p>
                     <br>
-                    <p>When using the command without any arguments, <code>atm</code>, Sunset will show your Main <a href="#bal">Balance</a>, your ATM Balance, and your Net Worth.</p>
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/atm/atm-1.png">
-                    <p>When mentioning a member on the server, <code>atm &lt;@user&gt;</code>, Sunset will show the mentioned member's Main <a href="bal">Balance</a>, your ATM Balance, and your Net Worth.</p>
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/atm/atm-1.5.png">
+                    <p>When using the command without any arguments, <code>atm</code>, Sunset <a href="javascript:toggleDisplay('atm-help-1')">will show your Main Balance, your ATM Balance, and your Net Worth.</a></p>
+                    <div id="atm-help-1" style="display: none">
+                            <img style="margin-bottom: 15px;" width="615vw" src="imgs/atm/atm-1.png">
+                    </div>
+                    <p>When mentioning a member on the server, <code>atm &lt;@user&gt;</code>, Sunset <a href="javascript:toggleDisplay('atm-member-help-1')">will show the mentioned member's Main Balance, your ATM Balance, and your Net Worth.</a></p>
+                    <div id="atm-member-help-1" style="display: none">
+                            <img style="margin-bottom: 15px;" width="615vw" src="imgs/atm/atm-1.5.png">
+                    </div>
+                    <p>See <a href="#bal">Bal</a> for more information</p>
 
                     <div id="atm-deposit">
                         <h4> <a href="#atm-deposit">ATM Deposit</a></h4>
-                    <p>When attempting to deposit money without any arguments, <code>atm deposit</code>, you will receive this.</p> 
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/atm/atm-2.png">
-                    <p>When attempting to deposit money into your ATM Balance, <code>atm deposit &lt;amount&gt;</code>, you will receive this.</p>
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/atm/atm-3.png"> <br>
+                    <p>When attempting to deposit money without any arguments, <code>atm deposit</code>, you <a href="javascript:toggleDisplay('atm-deposit-error')">will receive an argument error.</a></p> 
+                    <div id="atm-deposit-error" style="display: none">
+                            <img style="margin-bottom: 15px;" width="615vw" src="imgs/atm/atm-2.png">
+                    </div>
+                    <p>When attempting to deposit money into your ATM Balance, <code>atm deposit &lt;amount&gt;</code>, Sunset <a href="javascript:toggleDisplay('atm-deposit-1')">will deposit funds from your regular Balance to your ATM Balance.</a></p>
+                    <div id="atm-deposit-1" style="display: none">
+                            <img style="margin-bottom: 15px;" width="615vw" src="imgs/atm/atm-3.png"> <br>
+                    </div>
                     <p>At this point the money has been deposited into your ATM Balance. You can use <code>atm</code> once more to check. <br>
                     If you attempt to deposit more money than what you have, you will receive an error.</p>
                     </div>
                     <div id="atm-withdrawal">
                             <h4><a href="#atm-withdrawal">ATM Withdrawal</a></h4>
-                    <p>When attempting to withdraw miney without any arguments, <code>atm withdrawal</code>, you will receive this.</p>
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/atm/atm-4.png">
-                    <p>When attempting to withdraw money from your ATM Balance, <code>atm withdrawal &lt;amount&gt;</code>, you will receive this.</p>
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/atm/atm-5.png">
+                    <p>When attempting to withdraw miney without any arguments, <code>atm withdrawal</code>, Sunset <a href="javascript:toggleDisplay('atm-with-help-1')">will send a help embed.</a></p>
+                    <div id="atm-with-help-1" style="display: none">
+                            <img style="margin-bottom: 15px;" width="615vw" src="imgs/atm/atm-4.png">
+                    </div>
+                    <p>When attempting to withdraw money from your ATM Balance, <code>atm withdrawal &lt;amount&gt;</code>, your funds <a href="javascript:toggleDisplay('atm-with-1')">will be withdrawan from your ATM Balance onto your regular Balance.</a></p>
+                    <div id="atm-with-1" style="display: none">
+                            <img style="margin-bottom: 15px;" width="615vw" src="imgs/atm/atm-5.png">
+                    </div>
                     <p>At this point the money has been withdrawn from your ATM Balance. You can use <code>atm</code> once more to check. <br>
                     If you attempt to withdraw more money than what you have, you will receive an error.</p>
                     </div>
@@ -211,19 +260,27 @@
                     <p><strong>Description: </strong>View the avatar of yourself or the mentioned member. <br>
                     <strong>Arguments: </strong> <code>&lt;@user&gt;</code></p>
                     <br>
-                    <p>When using the command without any arguments, <code>avatar</code>, you will receive this.</p>
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/avatar/avatar-1.png">
-                    <p>When using the command with a mentioned member, <code>avatar</code>, Sunset will send you the avatar of the mentioned member in an embed.</p>
+                    <p>When using the command without any arguments, <code>avatar</code>, Sunset <a href="javascript:toggleDisplay('avatar-help-1')">will return a help embed.</a></p>
+                    <div id="avatar-help-1" style="display: none">
+                            <img style="margin-bottom: 15px;" width="615vw" src="imgs/avatar/avatar-1.png">
+                    </div>
+                    <p>When using the command with a mentioned member, <code>avatar</code>, Sunset <a href="javascript:toggleDisplay('avatar-member-1')">will send you the avatar of the mentioned member in an embed.</a></p>
+                    <div id="avatar-member-1" style="display: none">
                     <img style="margin-bottom: 15px;" width="615vw" src="imgs/avatar/avatar-2.png">
+                </div>
                 </div>
                 <div id="bal">
                     <h1>Bal(ance)</h1>
                     <p><strong>Description: </strong> Check your balance or the balance of the mentioned member. <br>
                     <strong>Not LiteMode Compatible</strong></p>
-                    <p>When using the command without any arguments, <code>bal</code>, you will receive this.</p>
+                    <p>When using the command without any arguments, <code>bal</code>, Sunset <a href="javascript:toggleDisplay('bal-help-1')">will return a help embed.</a></p>
+                    <div id="bal-help-1" style="display: none">
                     <img style="margin-bottom: 15px;" width="615vw" src="imgs/bal/bal-1.png">
-                    <p>When mentioning a member, <code>bal &lt;@user&gt;</code>, Sunset will send you the balance information of the mentioned member.</p>
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/bal/bal-2.png">
+                </div>
+                    <p>When mentioning a member, <code>bal &lt;@user&gt;</code>, Sunset <a href="javascript:toggleDisplay('bal-member-1')">will send you the balance information of the mentioned member.</a></p>
+                    <div id="bal-member-1" style="display: none">
+                            <img style="margin-bottom: 15px;" width="615vw" src="imgs/bal/bal-2.png">
+                    </div>
                 </div>
                 <div id="ban">
                     <h1>Ban</h1>
@@ -232,11 +289,15 @@
                     <strong>Arguments: </strong> <code>&lt;@user&gt;</code> <code>&lt;reason&gt;</code> 
                     </p>
                 
-                <p>When using the command without any arguments, <code>ban</code>, you will receive this.</p>
+                <p>When using the command without any arguments, <code>ban</code>, Sunset <a href="javascript:toggleDisplay('ban-help-1')">will return a help embed.</a></p>
+                <div id="ban-help-1" style="display: none">
                 <img style="margin-bottom: 15px;" width="615vw" src="imgs/ban/ban-1.png">
+            </div>
                 <p>When attempting to ban a user without reason, <code>ban &lt;@user&gt;</code>, you will be met with an error. <br>
-                When attempting to ban a user <i>with</i> reason, <code>ban &lt;@user&gt; &lt;reason&gt;</code>, Sunset will ban that user and your message will be deleted.</p>
+                When attempting to ban a user <i>with</i> reason, <code>ban &lt;@user&gt; &lt;reason&gt;</code>, Sunset <a href="javascript:toggleDisplay('ban-success-1')">will ban that user and your message will be deleted.</a></p>
+                <div id="ban-success-1" style="display: none">
                 <img style="margin-bottom: 15px;" width="615vw" src="imgs/ban/ban-2.png">
+            </div>
                 <p><strong>Note: </strong>If Sunset's role is lower than the member to be banned, Sunset will return an error. <br>
                 If the member is not bannable, Sunset will return an error. <br>
                 If the member to banned is yourself, Sunset will return an error. <br>
@@ -252,16 +313,20 @@
                         <h4><a href="#base64-encodedecode">Base64 Encode / Decode</a></h4>
 
                     <p>
-                    For encoding or decoding a Base64 string, <code>base64 &lt;encode|decode&gt;</code>, Sunset will encode or decode your message. The result will be saved and uploaded in a text file.
+                    For encoding or decoding a Base64 string, <code>base64 &lt;encode|decode&gt;</code>, Sunset will encode or decode your message. The result <a href="javascript:toggleDisplay('base64-ed-upload-1')">will be saved and uploaded in a text file.</a>
                 </p>
+                <div id="base64-ed-upload-1" style="display: none">
                 <img style="margin-bottom: 15px;" width="615vw" src="imgs/base64/base64-1.png">
                 <img style="margin-bottom: 15px;" width="615vw" src="imgs/base64/base64-2.png">
+            </div>
                 <p>To recover your last decoded or encoded string see <a href="#base64-recover">Base64 Recover</a>.</p>
                 </div>
                 <div id="base64-recover">
                     <h4><a href="#base64-recover">Base64 Recover</a></h4>
-                    <p>For recovering your last <a href="#base64-encodedecode">encoded</a> or <a href="#base64-encodedecode">decoded</a> text using <code>base64 recover</code> will return this.</p>
+                    <p>For recovering your last <a href="#base64-encodedecode">encoded</a> or <a href="#base64-encodedecode">decoded</a> text using <code>base64 recover</code> <a href="javascript:toggleDisplay('base64-recover-upload-1')">will upload your last encoded or decoded text file.</a></p>
+                    <div id="base64-recover-upload-1" style="display: none">
                     <img style="margin-bottom: 15px;" width="615vw" src="imgs/base64/base64-3.png">
+                </div>
                     <p>Your last string will be sent in a text file. This can only be done per-server. <br>
                         The LiteMode version of this command sends messages without embeds <strong>(excluding file uploads)</strong></p>
 
@@ -275,15 +340,19 @@
                 <p>When using the Binary command with any arguments, <code>binary</code>, Sunset will send a help embed on the Binary command.</p>
                 <div id="binary-encodedecode">
                     <h4><a href="#binary-encodedecode">Binary Encode / Decode</a></h4>
-                    <p>For encoding or decoding a Binary string, <code>base &lt;encode|decode&gt;</code>, Sunset will encode or decode your message. The result will be saved and uploaded in a text file.</p>
+                    <p>For encoding or decoding a Binary string, <code>base &lt;encode|decode&gt;</code>, Sunset will encode or decode your message. The result <a href="javascript:toggleDisplay('binary-ed-upload-1')">will be saved and uploaded in a text file.</a></p>
+                    <div id="binary-ed-upload-1" style="display: none">
                     <img style="margin-bottom: 15px;" width="615vw" src="imgs/binary/binary-1.png">
                     <img style="margin-bottom: 15px;" width="615vw" src="imgs/binary/binary-2.png">
+                </div>
                     <p>To recover your last decoded or encoded string see <a href="#base64-recover">Binary Recover</a></p>
                 </div>
                 <div id="binary-recover">
                     <h4><a href="#binary-recover">Binary Recover</a></h4>
-                    <p>For recovering your last <a href="#base64-encodedecode">encoded</a> or <a href="#base64-encodedecode">decoded</a> text using <code>binary recover</code> will return this</p>
+                    <p>For recovering your last <a href="#base64-encodedecode">encoded</a> or <a href="#base64-encodedecode">decoded</a> text using <code>binary recover</code> <a href="javascript:toggleDisplay('binary-recover-upload-1')">will upload your last encoded or decoded text file.</a></p>
+                    <div id="binary-recover-upload-1" style="display: none">
                     <img style="margin-bottom: 15px;" width="615vw" src="imgs/binary/binary-3.png">
+                </div>
                     <p>Your last string will be sent in a text file. This can only be done per-server</p>
 
 
@@ -300,10 +369,12 @@
                 <p><strong>Description: </strong>Modify the metadata of the current channel. <br>
                 <strong>Arguments: </strong> <code>&lt;option&gt; &lt;parameter&gt;</code>
                 <strong>Sections: </strong> <a href="channelsettings-name">Name</a> | <a href="channelsettings-topic">Topic</a> | <a href="channelsettings-position">Position</a> | <a href="channelsettings-parent">Category / Parent</a> | <a href="channelsettings-webhooks">Webhooks</a></p>
-                <p>Using the Channel Settings command without any arguments, <code>channelsettings</code>, will return an embed with the current channel metadata. <br>
+                <p>Using the Channel Settings command without any arguments, <code>channelsettings</code>, <a href="javascript:toggleDisplay('channelsettings-help-1')">will return an embed with the current channel metadata.</a><br>
                 <strong>Note: </strong>At this time Sunset cannot edit the <code>nsfw</code> metadata on a channel. <br>
                 <strong>Note: </strong>At this time Sunset cannot edit the <code>type</code> metadata on a channel.</p>
+                <div id="channelsettings-help-1" style="display: none">
                 <img style="margin-bottom: 15px;" width="615vw" src="imgs/channelsettings/channelsettings-1.png">
+            </div>
                 <div id="channelsettings-name">
                     <h4> <a href="#channelsettings-name">Channel Settings Name</a></h4>
                     <p>Using the Channel Settings command with the <code>name</code> argument, <code>channelsettings name &lt;parameter&gt;</code>, will change the current channel's name.<br>
@@ -326,8 +397,10 @@
                 </div>
                 <div id="channelsettings-webhooks">
                     <h4><a href="#channelsettings-webhooks">WebHooks</a></h4>
-                    <p>Using the Channel Settings command with the <code>webhook</code> argument (without any extra parameters), <code>channelsettings webhook</code>, will return a help embed on the <code>webhook</code> section of the Channel Settings command.</p>
+                    <p>Using the Channel Settings command with the <code>webhook</code> argument (without any extra parameters), <code>channelsettings webhook</code>, <a href="javascript:toggleDisplay('channelsettings-webhooks-delete-1')">will return a help embed on the <code>webhook</code> section</a> of the Channel Settings command.</p>
+                    <div id="channelsettings-webhooks-delete-1" style="display: none">
                     <img style="margin-bottom: 15px;" width="615vw" src="imgs/channelsettings/channelsettings-2.png">
+                </div>
                     <p><code>channelsettings webhook delete</code> will delete <strong>all</strong> webhooks on the server. <br> 
                         Sunset will return an error if <code>&lt;parameter&gt;</code> requirements are not met.</p>
                 </div>
@@ -337,20 +410,25 @@
                 <h1>ClearMoney</h1>
                 <p><strong>Description: </strong> Go off the grid and clear your entire balance and ATM balance <br>
                 <strong>Not LiteMode Compatible</strong></p>
-                <p>Using the <code>clearmoney</code> command will wipe all funds from your Balance and ATM. <strong>This process is irreversible.</strong></p>
-                <img style="margin-bottom: 15px;" width="615vw" src="imgs/clearmoney/clearmoney-1.png">
+                <p>Using the <code>clearmoney</code> command <a href="javascript:toggleDisplay('clearmoney-clear-1')">will wipe all funds from your Balance and ATM.</a> <strong>This process is irreversible.</strong></p>
+                <div id="clearmoney-clear-1" style="display: none">
+                        <img style="margin-bottom: 15px;" width="615vw" src="imgs/clearmoney/clearmoney-1.png">
+                </div>
             </div>
             <div id="cleverbot">
                 <h1>CleverBot</h1>
                 <p><strong>Description: </strong> Chat with CleverBot through the cleverbot.io library
                 <strong>Arguments: </strong><code>&lt;message&gt;</code></p>
-                <p>This command interacts with a free version of cleverbot which is an AI chat bot. I encourage you to use this command and have fun and interesting conversations with it.</p> <br>
-                <p>Using this command without an argument will return an error.</p>
+                <p>This command interacts with a free version of cleverbot which is an AI chat bot. I encourage you to use this command and have fun and interesting conversations with it. <br>
+                    Using this command without an argument will return an error.</p>
             </div>
             <div id="coinflip">
                 <h1>Coinflip</h1>
-                <p><strong>Description: </strong> Flip a coin</p> <br>
-                <img style="margin-bottom: 15px;" width="615vw" src="imgs/cleverbot/cleverbot-1.png">
+                <p style="margin-bottom: 5px;"><strong>Description: </strong> Flip a coin </p>
+                <p>When <code>coinflip</code> is used, you will have a <a href="javascript:toggleDisplay('coinflip-1')">50/50 chance of getting heads or tails.</a></p>
+                <div id="coinflip-1" style="display: none">
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/coinflip/coinflip-1.png">
+                </div>
 
             </div>
         </div>
@@ -364,10 +442,14 @@
                 <strong>Arguments: </strong> <code>&lt;message&gt;</code> <br>
                 <strong>Permissions: </strong> <code>MANAGE_WEBHOOKS</code> <br>
                 <strong>Note: </strong> Due to a limit of 10 WebHooks per Guild, all copycats will self-destruct in 3 minutes. You can also use <a href="#channelsettings-webhooks"><code>channelsettings webhooks delete</code></a> to delete all webhooks on the server.</p>
-                <p>Using the copycat command with a message, <code>copycat &lt;message&gt;</code>, Sunset will create a webhook with your username and avatar.</p>
-                <img style="margin-bottom: 15px;" width="615vw" src="imgs/copycat/copycat-1.png">
-                <p>After 3 minutes, Sunset will delete the copycat webhook to save space on webhooks.</p>
+                <p>Using the copycat command with a message, <code>copycat &lt;message&gt;</code>, Sunset <a href="javascript:toggleDisplay('webhook-create-1')">will create a webhook with your username and avatar.</a></p>
+                <div id="webhook-create-1" style="display:none">
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/copycat/copycat-1.png">
+                </div>
+                <p>After 3 minutes, Sunset <a href="javascript:toggleDisplay('webhook-delete-1')">will delete the copycat webhook to save space on webhooks.</a> </p>
+                <div id="webhook-delete-1" style="display: none">
                 <img style="margin-bottom: 15px;" width="615vw" src="imgs/copycat/copycat-2.png">
+            </div>
                 <p>Using this command without any arguments will send a help embed. <br>
                     To delete all webhooks on the server see <a href="#channelsettings-webhooks">Channel Settings Webhooks</a> <br>
                     For Sunset LiteMode users, messages will not be sent in embeds.</p>
@@ -377,8 +459,10 @@
                 <p><strong>Description: </strong> Cowsay Linux command in Discord <br>
                 <strong>Arugments: </strong><code>&lt;message&gt;</code> <br>
                 <strong>Sections: </strong> <a href="#cowsay">Cowsay</a> | <a href="#cowthink">Cowthink</a></p>
-                <p>Using the cowsay command, <code>cowsay &lt;message&gt;</code> will return your message in a speech bubble like this.</p>
+                <p>Using the cowsay command, <code>cowsay &lt;message&gt;</code>, <a href="javascript:toggleDisplay('cowsay-speechbubble-1')">will return your message in a speech bubble like this.</a></p>
+                <div id="cowsay-speechbubble-1" style="display: none">
                 <img style="margin-bottom: 15px;" width="615vw" src="imgs/cow/say-1.png">
+            </div>
                 <p>Using this command without any arguments will send a help embed <br>
                     Sunset will not send messages in embeds whether or not Susnet LiteMode is enabled <strong>(except for the help embed which isn't an embed if Sunset LiteMode is enabled.)</strong></p>
             </div>
@@ -387,8 +471,10 @@
                     <p><strong>Description: </strong> Cowthink Linux command in Discord <br> 
                     <strong>Arguments: </strong> <code>&lt;message&gt;</code> <br>
                     <strong>Sections: </strong> <a href="#cowsay">Cowsay</a> | <a href="#cowthink">Cowthink</a></p>
-                    <p>Using the cowthink command, <code>cowthink &lt;message&gt;</code>, will return your message in a think cloud like this.</p>
+                    <p>Using the cowthink command, <code>cowthink &lt;message&gt;</code>, <a href="javascript:toggleDisplay('cowthink-thinkcloud-1')">will return your message in a think cloud like this.</a></p>
+                    <div id="cowthink-thinkcloud-1" style="display: none">
                     <img style="margin-bottom: 15px;" width="615vw" src="imgs/cow/think-1.png">
+                    </div>
                     <p>Using this command without any arguments will send a help embed <br>
                         Sunset will not send messages in embeds whether or not Susnet LiteMode is enabled <strong>(except for the help embed which isn't an embed if Sunset LiteMode is enabled.)</strong></p>
             </div>
@@ -397,10 +483,49 @@
                 <p><strong>Description: </strong> Create a text file through Sunset <br>
                 <strong>Arguments: </strong> <code>&lt;text&gt;</code> <br>
                 <strong>Sections: </strong> <a href="#createtxt">CreateTXT</a> | <a href="#lasttxt">LastTXT</a></p>
-                <p>Using the createtxt command with data provided, <code>createtxt &lt;text&gt;</code>, will save and upload your text file.</p>
+                <p>Using the createtxt command with data provided, <code>createtxt &lt;text&gt;</code>, <a href="javascript:toggleDisplay('createtxt-upload-1')">will save and upload your text file.</a></p>
+                <div id="createtxt-upload-1" style="display: none">
                 <img style="margin-bottom: 15px;" width="615vw" src="imgs/createtxt/createtxt-1.png">
+            </div>
                 <p>For information on recovering your last text file see <a href="#lasttxt">LastTXT</a> <br>
                     Using the command without an argument will return a help embed.</p>
+
+            </div>
+            <div id="dbl">
+                <h1>DBL</h1>
+                <p><strong>Description: </strong>Interact with the Discord Bot List API <br>
+                    <strong>Arguments: </strong> <code>&lt;bot|user&gt; &gt;id&lt;</code> <br>
+                    <strong>Sections: </strong> <a href="#dbl-bot">Bot</a> | <a href="#dbl-user">User</a> <br>
+                <strong>NOTE: </strong>This command is a WIP.</p>
+                    <div id="dbl-bot">
+                <h4><a href="#dbl-bot">DBL Bot</a></h4>
+                <p>The <code>dbl bot &lt;id&gt;</code> command will allow you to view information of Discord Bot List users.</p>
+                <p>Attempting to use <code>dbl bot</code> without providing an ID, you will recieve <a href="javascript:toggleDisplay('dbl-bot-error-1')">an error</a></p>
+                <div id="dbl-bot-error-1" style="display: none">
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/dbl/dbl-1.png">
+                </div>
+
+
+            </div>
+            <div id="delchannel">
+                <h1>DelChannel</h1>
+                <p><strong>Description: </strong> Delete the current text channel <br>
+                <strong>Arguments: </strong> <code>&lt;reason&gt;</code> <br>
+                <strong>Permissions: </strong> <code>MANAGE_CHANNELS</code> <br>
+                <strong>Sections: </strong> <a href="#delchannel">DelChannel</a> | <a href="#mkchannel">MkChannel</a> | <a href="#channelsettings">ChannelSettings</a></p>
+                <p>When using the DelChannel command without arguments, <code>delchannel</code>, Sunset <a href="javascript:toggleDisplay('delchannel-help-1')">will return a help embed.</a></p>
+                <div id="delchannel-help-1" style="display: none">
+                        <img style="margin-bottom: 15px;" width="615vw" src="imgs/delchannel/delchannel-1.png">
+                    </div>
+                <p>If a reason is provided for the channel deletion, <code>delchannel &lt;reason&gt;</code>, Sunset <a href="javascript:toggleDisplay('delchannel-delsuccess-1')">will delete the current channel</a> (provided it has the <code>MANAGE_CHANNELS</code> permission.)</p>
+                <div id="delchannel-delsuccess-1" style="display: none">
+                        <img style="margin-bottom: 15px;" width="615vw" src="imgs/delchannel/delchannel-2.png">
+                        <img style="margin-bottom: 15px;" width="615vw" src="imgs/delchannel/delchannel-3.png">
+                    </div>
+                    <p>If Sunset does not have the <code>MANAGE_CHANNELS</code> permission, the channel will <strong>not</strong> be delete and Sunset will return an error.</p>
+                
+
+            </div>
 
             </div>
         </div>
