@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Product Sans;
+    src: url("../fonts/regular.ttf");
+}
 .footer-distributed{
 	background-color: #292c2f;
 	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -27,7 +31,7 @@
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Cookie', cursive;
+	font: normal 36px 'Product Sans';
 	margin: 0;
 }
 
