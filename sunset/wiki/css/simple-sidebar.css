@@ -33,6 +33,13 @@ code {
 #pages {
   color: white;
 }
+.img-link {
+  color: orange;
+}
+.img-link:hover {
+  color: #f28500 
+}
+
 
 
 #wrapper {
@@ -60,9 +67,7 @@ code {
   margin-left: 10px;
   margin-top: 3px;
 }
-.fa-bars {
-  font-size: 40px;
-}
+
 
 #sidebar-wrapper {
   z-index: 1000;
@@ -142,8 +147,22 @@ code {
   color: #fff;
   background: none;
 }
+.displayNotSupported {
+  display: none;
+}
 
-@media(min-width:768px) {
+
+@media screen and (min-width:300px) {
+  .fa-bars {
+    font-size: 40px;
+    display: initial
+  }
+  .toggleDesktop {
+    display: block
+  }
+  .toggleMobile {
+    display: none;
+  }
   #wrapper {
     padding-left: 0;
   }
@@ -166,5 +185,19 @@ code {
   #wrapper.toggled #page-content-wrapper {
     position: relative;
     margin-right: 0;
+  }
+}
+@media screen and (max-width: 300px) {
+  .displayNotSupported {
+    background-color: white;
+    width: 95%;
+    height: 95%;
+    display: block;
+    z-index: 9999999;
+    z-index: initial;
+    
+  }
+  #wrapper {
+    display: none;
   }
 }
