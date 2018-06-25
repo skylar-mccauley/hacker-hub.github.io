@@ -123,15 +123,6 @@
                                         <li>
                                                 <a href="#copycat">Copycat</a>
                                             </li>
-                                            <li>
-                                                    <a href="#cowsay">Cowsay</a>
-                                                </li>
-                                                <li>
-                                                        <a href="#cowthink">Cowthink</a>
-                                                    </li>
-                                                    <li>
-                                                            <a href="#createtxt">CreateTXT</a>
-                                                        </li>
                                                         <li>
                                                             <a href="#dbl">DBL</a>
                                                         </li>
@@ -155,7 +146,7 @@
             <div class="container-fluid">
 
                 <h1>Sunset Wiki Commands</h1>
-                <p>As of Sunset <strong>v6.1.1</strong> the bot has <strong>69</strong> commands.
+                <p>As of Sunset <strong>v6.2</strong> the bot has <strong>65</strong> commands.
                 <strong>To view images click on the <a class="img-link" href="javascript:toggleDisplay('testImage1')">orange hyperlinks</a></strong> 
                 <div id="testImage1" style="display: none">
                     <img style="margin-bottom: 15px;" width="615vw" src="imgs/testImage.png">
@@ -175,11 +166,11 @@
                     <div id="2ball-noarg-nofunds-1" style="display: none">
                             <img style="margin-bottom: 15px;" width="615vw" src="imgs/2Ball/2ball-1.png">
                     </div>
-                    <p>When using the command without any arguments, <code>2ball</code>, (and with enough funds) <a class="img-link" href="javascript:toggleDisplay('2ball-noarg-withfunds-1')">Sunet will return a help embed.</a></p>
+                    <p>When using the command without any arguments, <code>2ball</code>, (and with enough funds) <a class="img-link" href="javascript:toggleDisplay('2ball-noarg-withfunds-1')">Sunset will return a help embed.</a></p>
                     <div id="2ball-noarg-withfunds-1" style="display: none">
                             <img style="margin-bottom: 15px;" width="615vw" src="imgs/2Ball/2ball-2.png">
                     </div>
-                    <p>When using the command <strong>with</strong> a question provided, <code>2ball &lt;question&gt; </code>, <a class="img-link" href="javascript:toggleDisplay('2ball-question-withfunds-1')">the <i>mystical</i> will answer your question.</a></p>
+                    <p>When using the command <strong>with</strong> a question provided, <code>2ball &lt;question&gt; </code>, <a class="img-link" href="javascript:toggleDisplay('2ball-question-withfunds-1')">the <i>mystical</i> 2Ball will answer your question.</a></p>
                     <div id="2ball-question-withfunds-1" style="display: none">
                             <img style="margin-bottom: 15px;" width="615vw" src="imgs/2Ball/2ball-3.png">
                     </div>
@@ -207,7 +198,7 @@
                     <div id="8ball-question-1" style="display: none">
                             <img style="margin-bottom: 15px;" width="615vw" src="imgs/8Ball/8ball-3.png">
                     </div>
-                    <p>Depeding on the 8Ball's answer you will lose $20 or gain $20 in profit.</p>
+                    <p>Depending on the 8Ball's answer you will lose $20 or gain $20 in profit.</p>
                     <br>
                     <p>Sunset LiteMode users do not have access to <a href="economy">Sunset Economy</a> features and <a class="img-link" href="javascript:toggleDisplay('8ball-litemode-1')">will not receive a payment inquiry.</a></p>
                     <div id="8ball-litemode-1" style="display: none">
@@ -225,7 +216,7 @@
                             <img style="margin-bottom: 15px;" width="615vw" src="imgs/announce/announce-1.png">
                     </div>
                     <p>When providing a channel, but without an announcement, <code>announce &lt;#channel&gt;</code>, Sunset will attempt to send a blank announcement to the provided channel.
-                        However, the DiscordAPI does not allow this and the announcement wont send.
+                        However, the DiscordAPI does not allow this and the announcement will not send.
                         If a message is provided, <code>announce &lt;#channel&gt; &lt;announcement&gt;</code>, Sunset <a class="img-link" href="javascript:toggleDisplay('announce-success-1')">will send the announcement to the provided channel.</a></p> 
                         <div id="announce-success-1" style="display: none">
                                 <img style="margin-bottom: 15px;" width="615vw" src="imgs/announce/announce-2.png">
@@ -268,11 +259,11 @@
                     </div>
                     <div id="atm-withdrawal">
                             <h4><a href="#atm-withdrawal">ATM Withdrawal</a></h4>
-                    <p>When attempting to withdraw miney without any arguments, <code>atm withdrawal</code>, Sunset <a class="img-link" href="javascript:toggleDisplay('atm-with-help-1')">will send a help embed.</a></p>
+                    <p>When attempting to withdraw money without any arguments, <code>atm withdrawal</code>, Sunset <a class="img-link" href="javascript:toggleDisplay('atm-with-help-1')">will send a help embed.</a></p>
                     <div id="atm-with-help-1" style="display: none">
                             <img style="margin-bottom: 15px;" width="615vw" src="imgs/atm/atm-4.png">
                     </div>
-                    <p>When attempting to withdraw money from your ATM Balance, <code>atm withdrawal &lt;amount&gt;</code>, your funds <a class="img-link" href="javascript:toggleDisplay('atm-with-1')">will be withdrawan from your ATM Balance onto your regular Balance.</a></p>
+                    <p>When attempting to withdraw money from your ATM Balance, <code>atm withdrawal &lt;amount&gt;</code>, your funds <a class="img-link" href="javascript:toggleDisplay('atm-with-1')">will be withdrawn from your ATM Balance into your regular Balance.</a></p>
                     <div id="atm-with-1" style="display: none">
                             <img style="margin-bottom: 15px;" width="615vw" src="imgs/atm/atm-5.png">
                     </div>
@@ -296,7 +287,7 @@
                 </div>
                 <div id="bal">
                     <h1>Bal(ance)</h1>
-                    <p><strong>Description: </strong> Check your balance or the balance of the mentioned member. <br>
+                    <p><strong>Description: </strong> Check your or the metioned member's balance. <br>
                     <strong>Not LiteMode Compatible</strong></p>
                     <p>When using the command without any arguments, <code>bal</code>, Sunset <a class="img-link" href="javascript:toggleDisplay('bal-help-1')">will return a help embed.</a></p>
                     <div id="bal-help-1" style="display: none">
@@ -326,7 +317,7 @@
                 <p><strong>Note: </strong>If Sunset's role is lower than the member to be banned, Sunset will return an error. <br>
                 If the member is not bannable, Sunset will return an error. <br>
                 If the member to banned is yourself, Sunset will return an error. <br>
-                If the member to banend is Sunset, Sunset will return an erorr.</p>
+                If the member to banned is Sunset, Sunset will return an error.</p>
             </div>
             <div id="base64">
                 <h1>Base64</h1>
@@ -454,7 +445,75 @@
                 <div id="coinflip-1" style="display: none">
                     <img style="margin-bottom: 15px;" width="615vw" src="imgs/coinflip/coinflip-1.png">
                 </div>
+            </div>
 
+            </div id="console">
+                <h1>Console</h1>
+                <p><strong>Description: </strong> Interact with a Linux-like Terminal through Discord <br>
+                <strong>Arguments: </strong> <i>Arguments with this command vary per section.</i> <br>
+                <strong>Sections: </strong> <a href="#console-help">Console Help</a> | <a href="#console-sys">Console Sys(tem)</a> | <a href="#console-ping">Console Ping</a> | <a href="#console-cmd">Console CMD</a> | <a href="#console-cowsay">Cowsay Cowsay</a> | <a href="#console-cowthink">Console Cowthink</a> | <a href="#console-figlet">Console Figlet</a></p> <br>
+                <p>Using <code>console</code> without any arguments <a class="img-link" href="javascript:toggleDisplay('console-1')">Sunset will return an error</a></p>
+                <div id="console-1" style="display: none;">
+                <img style="margin-bottom: 15px;" width="615vw" src="imgs/console/console-1.png">
+            </div>
+            <div id="console-help">
+                <h4><a href="#console-help">Console Help</a></h4>
+                <p>Using <code>console help</code> <a class="img-link" href="javascript:toggleDisplay('console-help-1')">shows all available console commands</a>.</p>
+                <div id="console-help-1" style="display: none">
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/console/console-2.png">
+
+                </div>
+            </div>
+            <div id="console-sys">
+                <h4><a href="#console-sys">Console Sys(tem)</a></h4>
+                <p>Using <code>console sys</code> <a class="img-link" href="javascript:toggleDisplay('console-sys-1')">shows system information</a>.</p>
+                <div id="console-sys-1" style="display: none;">
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/console/console-3.png">
+                </div>
+            </div>
+            <div id="console-ping">
+                <h4><a href="#console-ping">Console Ping</a></h4>
+                <p><strong>Arguments: </strong> <code>&lt;address&gt;</code></p>
+                <p>Using <code>console ping</code> without an argument <a class="img-link" href="javascript:toggleDisplay('console-ping-1')">will return an error.</a></p>
+                <div id="console-ping-1" style="display: none;">
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/console/console-4.png">
+                </div>
+                <p>Using <code>console ping</code> with a correct address <a class="img-link" href="javascript:toggleDisplay('console-ping-2')"> will ping the provided address.</a></p>
+                <div id="console-ping-2" style="display: none;">
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/console/console-5.png">
+                </div>
+                <p>Pinging subdirectories will <strong>not</strong> work.</p>
+            </div>
+            <div id="console-cmd">
+                <h4><a href="#console-cmd">Console CMD</a></h4>
+                <p><strong>Arguments: </strong> &lt;command&gt; <br>
+                    <strong>Requirements: </strong> <code>&lt;BOT_OWNER&gt;</code></p>
+                <strong>This command is locked to the Bot Owner, <code>TheHacker#9367</code>, and cannot be used by any other user.</strong>
+                <p><code>console cmd</code> executes commands in the Linux Terminal and returns results. It cannot be used to run CLI games or anything of that nature, only single-action commands.</p>
+            </div>
+            <div id="console-cowsay">
+                <h4><a href="#console-cowsay">Console Cowsay</a></h4>
+                <p><strong>Arguments: </strong> &lt;message&gt;</p>
+                <p>Using <code>console cowsay</code> without an argument <a class="img-link" href="javascript:toggleDisplay('console-cowsay-1')">will return an error.</a></p>
+                <div id="console-cowsay-1" style="display: none;">
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/console/console-7.png">
+                </div>
+                <p>Using <code>console cowsay &lt;message&gt;</code> <a class="img-link" href="javascript:toggleDisplay('console-cowsay-2')"> will give you your Cowsay speech bubble.</a></p>
+                <div id="console-cowsay-2" style="display: none;">
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/console/console-8.png">
+                </div>
+            </div>
+            <div id="console-cowthink">
+                <h4><a href="#console-cowthink">Console Cowthink</a></h4>
+                <p><strong>Arguments: </strong> &lt;message&gt;</p>
+                <p>Using <code>console cowthink</code> without an argument <a class="img-link" href="javascript:toggleDisplay('console-cowthink-1')">will return an error.</a></p>
+                <div id="console-cowthink-1" style="display: none;">
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/console/console-9.png">
+                </div>
+                <p>Using <code>console cowthink &lt;message&gt;</code> <a class="img-link" href="javascript:toggleDisplay('console-cowthink-2')"> will give you your Cowsay speech bubble.</a></p>
+                <div id="console-cowthink-2" style="display: none;">
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/console/console-10.png">
+                </div>
             </div>
         </div>
         <div id="page2">
@@ -481,40 +540,19 @@
             </div>
             <div id="cowsay"> 
                 <h1>Cowsay</h1>
-                <p><strong>Description: </strong> Cowsay Linux command in Discord <br>
-                <strong>Arugments: </strong><code>&lt;message&gt;</code> <br>
-                <strong>Sections: </strong> <a href="#cowsay">Cowsay</a> | <a href="#cowthink">Cowthink</a></p>
-                <p>Using the cowsay command, <code>cowsay &lt;message&gt;</code>, <a class="img-link" href="javascript:toggleDisplay('cowsay-speechbubble-1')">will return your message in a speech bubble like this.</a></p>
-                <div id="cowsay-speechbubble-1" style="display: none">
-                <img style="margin-bottom: 15px;" width="615vw" src="imgs/cow/say-1.png">
+                <p>This command has been deprecated and moved to <a href="#console-cowsay">Console CowSay</a>.</p>
             </div>
                 <p>Using this command without any arguments will send a help embed <br>
-                    Sunset will not send messages in embeds whether or not Susnet LiteMode is enabled <strong>(except for the help embed which isn't an embed if Sunset LiteMode is enabled.)</strong></p>
+                    Sunset will not send messages in embeds whether or not Sunset LiteMode is enabled <strong>(except for the help embed which isn't an embed if Sunset LiteMode is enabled.)</strong></p>
             </div>
             <div id="cowthink">
                     <h1>Cowthink</h1>
-                    <p><strong>Description: </strong> Cowthink Linux command in Discord <br> 
-                    <strong>Arguments: </strong> <code>&lt;message&gt;</code> <br>
-                    <strong>Sections: </strong> <a href="#cowsay">Cowsay</a> | <a href="#cowthink">Cowthink</a></p>
-                    <p>Using the cowthink command, <code>cowthink &lt;message&gt;</code>, <a class="img-link" href="javascript:toggleDisplay('cowthink-thinkcloud-1')">will return your message in a think cloud like this.</a></p>
-                    <div id="cowthink-thinkcloud-1" style="display: none">
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/cow/think-1.png">
-                    </div>
-                    <p>Using this command without any arguments will send a help embed <br>
-                        Sunset will not send messages in embeds whether or not Susnet LiteMode is enabled <strong>(except for the help embed which isn't an embed if Sunset LiteMode is enabled.)</strong></p>
+                    <p>This command has been deprecated and moved to <a href="#console-cowthink">Console CowThink</a>.</p>
+
             </div>
             <div id="createtxt">
                 <h1>CreateTXT</h1>
-                <p><strong>Description: </strong> Create a text file through Sunset <br>
-                <strong>Arguments: </strong> <code>&lt;text&gt;</code> <br>
-                <strong>Sections: </strong> <a href="#createtxt">CreateTXT</a> | <a href="#lasttxt">LastTXT</a></p>
-                <p>Using the createtxt command with data provided, <code>createtxt &lt;text&gt;</code>, <a class="img-link" href="javascript:toggleDisplay('createtxt-upload-1')">will save and upload your text file.</a></p>
-                <div id="createtxt-upload-1" style="display: none">
-                <img style="margin-bottom: 15px;" width="615vw" src="imgs/createtxt/createtxt-1.png">
-            </div>
-                <p>For information on recovering your last text file see <a href="#lasttxt">LastTXT</a> <br>
-                    Using the command without an argument will return a help embed.</p>
-
+                <p>This command has been deprecated and moved to <a href="#txt">TXT</a>.</p>
             </div>
             <div id="dbl">
                 <h1>DBL</h1>

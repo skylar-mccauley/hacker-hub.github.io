@@ -139,6 +139,12 @@ div {
 span {
   content: "\2713";
 }
+code {
+  color: darkgrey;
+}
+#warning {
+  color: red;
+}
 </style>
 <body>
 
@@ -241,7 +247,7 @@ span {
     Commands
   </div>
   <div  class="w3-quarter w3-section">
-    <span id="text-fix" class="w3-xlarge">6.1.1</span><br>
+    <span id="text-fix" class="w3-xlarge">6.2.1</span><br>
     Current Version
   </div>
   <div  class="w3-quarter w3-section">
@@ -249,7 +255,7 @@ span {
     InDev Version
   </div>
   <div  class="w3-quarter w3-section">
-        <span id="text-fix" class="w3-xlarge">6.2</span><br>
+        <span id="text-fix" class="w3-xlarge">7.0</span><br>
         BETA Version
       </div>
 
@@ -267,86 +273,91 @@ span {
   <h3 class="w3-center">Commands</h3>
   <p class="w3-center"><em>Below are all of the commands Sunset has to offer.<br></em></p><br>
 <center>
-<a href="#invite" class="badge badge-danger">Commands documented here are for the latest version of Sunset <strong>not the latest source code</strong>.</a>
+<a id="warning" href="#invite" >Commands documented here are for the latest version of Sunset <strong>not the latest source code</strong>.</a>
     </center>
   <div>
-    <h1 id="commands-information" >Information</h1>
+    <h1 id="commands-1" >Commands Page 1</h1>
       <p class="w3-center">
-      <div><code>help</code> | Get documentation on all available commands for Sunset<span class="badge badge-dark">LiteMode Compatible</span><br></div>
-      <code>litemode</code> | Activate Sunset LiteMode<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>ping</code> | Ping the Discord API and Sunset <span class="badge badge-dark">LiteMode Compatible</span> <br>
-        <code>info</code> | Get info on Sunset <span class="badge badge-dark">LiteMode Compatible</span></br>
-        <code>dbl</code> | Interact with the DBL API <span class="badge badge-dark">LiteMode Compatible</span> <br>
-        <code>inspect</code> | Inspect many types of URLs <span class="badge badge-dark">LiteMode Compatible</span> <br>
-        <code>changelog</code> | View the changes in the new version of Sunset <span class="badge badge-dark">LiteMode Compatible</span></p>
+      <div><code>2ball</code> | Have your questions answered by the mystical 2ball<span class="badge badge-dark">LiteMode Compatible</span><br></div>
+      <code>8ball</code> | Have your questions answered by the mystical 8ball<span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>announce</code> | Make announcements in a seperate channel <span class="badge badge-dark">LiteMode Compatible</span> <br>
+        <code>atm</code> | Interact with the Per-Server ATM</br>
+        <code>bal</code> | Check the balance of yourself and other members<br>
+        <code>ban</code> | Ban the mentioned member<span class="badge badge-dark">LiteMode Compatible</span> <br>
+        <code>base64</code> | Encode and Decode the provided message in Base64<span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>binary</code> | Encode and Decode the provided message in Binary<span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>changelog</code> | View the changes in this new version of Sunset<span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>channelsettings</code> | Modify the metadata of the current channel<span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>clearmoney</code> | Go off the grid and clear your entire balance and ATM<br>
+        <code>cleverbot</code> | Chat with CleverBot through the cleverbot.io library<span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>coinflip</code> | Flip a coin<span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>console</code> | Interact with the Sunset CLI. For more info please see the <a href="wiki/#console">Sunset Wiki</a> <span class="badge badge-dark">LiteMode Compatible</span></p>
 
-      <h1 id="commands-serverinfo" >Server Info</h1>
-      <p class="w3-center"><code>inspect</code> | Inspect many types of URLs <span class="badge badge-dark">LiteMode Compatible</span><br>
-          <code>serversettings</code> | Change how Sunset functions for your server <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>invite</code> | Get an invite to the server for the provided channel <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>serverinfo</code> | View the current server/guild's info <span class="badge badge-dark">LiteMode Compatible</span> <br>
-        <code>avatar</code> | View the avatar of yourself or of the mentioned member <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>profile</code> | View the profile of yourself or of the mentioned member <span class="badge badge-dark">LiteMode Compatible</span></p>
-      <h1 id="commands-entertainment" >Entertainment</h1>
-      <p class="w3-center"><code>translate</code> | Translate the provided messages from English to the provided Language <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>cleverbot</code> | Chat with CleverBot through the cleverbot.io library <span class="badge badge-dark">LiteMode Compatible</span><br>
+
+      <h1 id="commands-2" >Commands Page 2</h1>
+      <p class="w3-center"><code>copycat</code> | Make a copycat of yourself<br>
+        <code>dbl</code> | Interact with the Discord Bot List API<span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>delchannel</code> | Delete the current text channel<span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>economysettings</code> | Change how the Sunset Economy works.<br>
         <code>emojify</code> | Emojify the provided message if possible <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>cowthink</code> | Returns the provided message in a cowthink code block <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>cowsay</code> | Returns the provided message in a cowsay code block <span class="badge badge-dark">LiteMode Compatible</span><br>
         <code>fliptext</code> | Flips the provided message <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>figlet</code> | <i>Figletizes</i> the provided message <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>say</code> | Returns the message provided in an embed <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>2ball</code> | Have your questions answered by the mystical 2ball <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>8ball</code> | Have your questions answered by the mystical 8ball <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>copycat</code> | Make a copycat of yourself<br>
-        <code>timer</code> | Set a timer for a maximum of 12 hours <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>urban</code> | Search the Urban Dictionary for the provided word <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>dictionary</code> | Search the OxFord Dictionary for the provided word <span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>freemoney</code> | Earn freemoney, the payout is randomized between $1 and $50; this can be changed with the <strong><code>economysettings</code></strong> command <br>
         <code>google</code> | Search Google with the provided search term <strong><i>Note:</i></strong> some search terms may only work in a channel marked as NSFW <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>coinflip</code> | Flip a coin <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>roll</code> | Roll a die <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <h1 id="commands-economy" >Economy</h1>
-        <p class="w3-center"><code>atm</code> | Interact with the Per-Server ATM<br>
-            <code>bal</code> | Check the balance of yourself and other members <br>
-            <code>pay</code> | Pay the provided member; <i>You will need to have sufficient funds to complete the payment</i><br>
-            <code>freemoney</code> | Earn freemoney, the payout is randomized between $1 and $50; this can be changed with the <strong><code>economysettings</code></strong> command <br>
-            <code>lottery</code> | Buy a lottery ticket <i>Ticket Prices and Payouts are randomized. This can be changed with the</i> <strong><code>economysettings</code></strong> <i>command</i><br>
-            <code>rob</code> | Rob the mentioned user; <i>Chances of successfully robbery are randomized and can be changed with the </i> <strong><code>economysettings</code></strong> <i>command</i><br>
-            <code>clearmoney</code> | Go off the grid and clear your entire balance and ATM balance<br>
-            <code>economysettings</code> | Change how the Sunset Economy works.<br>
-        <h1 id="commands-contentgeneration">Content Generation</h1>
-        <p class="w3-center"><code>binary</code> | Encode and Decode the provided message in binary <span class="badge badge-dark">LiteMode Compatible</span><br>
-            <code>url</code> | Shorten <del>or Expand</del> the provided URL using the <strong><code>tinyurl</code></strong> URL Shortener <span class="badge badge-dark">LiteMode Compatible</span><br>
-            <code>base64</code> | Encode and Decode the provided message in Base64 <span class="badge badge-dark">LiteMode Compatible</span><br>
-            <code>morsecode</code> | Encode and Decode the provided message in Morse Code <span class="badge badge-dark">LiteMode Compatible</span><br>
-            <code>qrcode</code> | Encode the provided message in a QR Code <span class="badge badge-dark">LiteMode Compatible</span><br>
-            <code>lastqr</code> | Recover the most recent QR Code generated <i>if there is one</i> <span class="badge badge-dark">LiteMode Compatible</span><br>
-            <code>createtxt</code> | Create a text file with the provided message <span class="badge badge-dark">LiteMode Compatible</span><br>
-            <code>lasttxt</code> | Recover the most recent Text File generated <i>if there is one</i> <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <h1>Moderation</h1>
-        <p class="w3-center"><code>warn</code> | Warn the mentioned member<br>
-            <code>warnings</code> | Check the warnings of the mentioned user <i>if there are any</i><br>
-            <code>rules</code> | View the rules of the server; These rules can be set using <strong><code>rules set</code></strong> <span class="badge badge-dark">LiteMode Compatible</span><br>
-            <code>channelsettings</code> | Modify the metadata of the current channel <span class="badge badge-dark">LiteMode Compatible</span><br>
-            <code>mute</code> | Mute the mentioned member<br>
-            <code>unmute</code> | Unmute the mentioned member <i>if they are muted</i><br>
-            <code>softban</code> | SoftBan the mentioned member <i>Just bans then unbans the mentioned member</i> <span class="badge badge-dark">LiteMode Compatible</span><br>
-            <code>ban</code> | Ban the mentioned member <span class="badge badge-dark">LiteMode Compatible</span><br>
-            <code>unban</code> | Unban the mentioned member <span class="badge badge-dark">LiteMode Compatible</span><br>
-            <code>kick</code> | Kick the mentioned member <span class="badge badge-dark">LiteMode Compatible</span><br>
-            <code>purge</code> | Bulk Delete up to 200 messages in the current channel <span class="badge badge-dark">LiteMode Compatible</span><br>
-            <code>mkchannel</code> | Make a <strong><code>text</code></strong>, <strong><code>voice</code></strong>, or <strong><code>category</code></strong> channel <span class="badge badge-dark">LiteMode Compatible</span><br>
-            <code>delchannel</code> | Delete the current text channel <span class="badge badge-dark">LiteMode Compatible</span><br>
-            <code>setnick</code> | Set the nickname of the mentioned member <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <h1 id="commands-other" >Other</h1>
-        <p class="w3-center"><code>randomcolor</code> | Get a random color in <strong><code>Hex</code></strong>, <strong><code>RGB</code></strong>, <strong><code>LAB</code></strong>, and <strong><code>CMYK</code></strong> <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <h1 id="commands-owneronly" >Owner-Only Commands</h1>
-        <p class="w3-center"><code>jsexec</code> | Execute NodeJS through eval <i>Locked to Owner for obvious reasons</i><br>
+        <code>help</code> | Get documentation on Sunset Commands<span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>info</code> | Get info on Sunset<span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>inspect</code> | Inspect many types of URLs <span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>invite</code> | Get an invite to the server for the provided channel <span class="badge badge-dark">LiteMode Compatible</span><br></p>
+        <!--
+          <code>serversettings</code> | Change how Sunset functions for your server <span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>serverinfo</code> | View the current server/guild's info <span class="badge badge-dark">LiteMode Compatible</span> <br>
+        <code>profile</code> | View the profile of yourself or of the mentioned member <span class="badge badge-dark">LiteMode Compatible</span></p>
+        -->
+      <h1 id="commands-3" >Commands Page 3</h1>
+      <p class="w3-center"><code>kick</code> | Kick the mentioned member <span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>litemode</code> | Toggle Sunset LiteMode<span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>lottery</code> | Buy a lottery ticket <i>Ticket Prices and Payouts are randomized. This can be changed with the</i> <strong><code>economysettings</code></strong> <i>command</i><br>
+        <code>mkchannel</code> | Make a <strong><code>text</code></strong>, <strong><code>voice</code></strong>, or <strong><code>category</code></strong> channel <span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>morsecode</code> | Encode and Decode the provided message in Morse Code <span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>mute</code> | Mute the mentioned member<br>
+        <code>pay</code> | Pay the provided member; <i>You will need to have sufficient funds to complete the payment</i><br>
+        <code>ping</code> | Ping Sunset<span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>profile</code> | View the profile of yourself or of the mentioned member<span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>purge</code> | Bulk Delete up to 200 messages in the current channel<span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>qrcode</code> | Encode and Recover QR Codes<span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>randomcolor</code> | Get a random color in Hex, RGB, LAB, and CMYK<span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>reverse</code> | Reverse Text<span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>rob</code> | Rob members of their money<span class="badge badge-dark">LiteMode Compatible</span><br>
+        <code>roll</code> | Roll a die<span class="badge badge-dark">LiteMode Compatible</span></p>
+<!--
+        <code>urban</code> | Search the Urban Dictionary for the provided word <span class="badge badge-dark">LiteMode Compatible</span><br>
+        
+-->
+        <h1 id="commands-4" >Commands Page 4</h1>
+        <p class="w3-center"><code>rps</code> | Play Rock, Paper, Scissors with Sunset<span class="badge badge-dark">LiteMode Compatible</span><br>
+          <code>rules</code> | View the rules of the server; These rules can be set using <strong><code>rules set</code></strong> <span class="badge badge-dark">LiteMode Compatible</span><br>
+          <code>say</code> | Send a message through Sunset<span class="badge badge-dark">LiteMode Compatible</span><br>
+          <code>serverinfo</code> | View the current server/guild's info<span class="badge badge-dark">LiteMode Compatible</span><br>
+          <code>serversettings</code> | Change how Sunset functions for your server<span class="badge badge-dark">LiteMode Compatible</span><br>
+          <code>setnick</code> | Set the nickname of the mentioned member <span class="badge badge-dark">LiteMode Compatible</span><br>
+          <code>softban</code> | SoftBan the mentioned member <i>Just bans then unbans the mentioned member</i> <span class="badge badge-dark">LiteMode Compatible</span><br>
+          <code>support</code> | Give some support to the creator of Sunset <span class="badge badge-dark">LiteMode Compatible</span><br>
+          <code>timer</code> | Set a timer for a maximum of 12 hours <span class="badge badge-dark">LiteMode Compatible</span><br>
+          <code>translate</code> | Translate the provided messages from English to the provided Language <span class="badge badge-dark">LiteMode Compatible</span><br>
+          <code>txt</code> | Write and Recover text files<span class="badge badge-dark">LiteMode Compatible</span><br>
+          <code>unban</code> | Unban the mentioned member <span class="badge badge-dark">LiteMode Compatible</span><br>
+          <code>unmute</code> | Unmute the mentioned member <i>if they are muted</i><br>
+          <code>url</code> | Shorten <del>or Expand</del> the provided URL using the <strong><code>tinyurl</code></strong> URL Shortener <span class="badge badge-dark">LiteMode Compatible</span><br>
+          <code>warn</code> | Warn the mentioned member<br>
+          <code>warnings</code> | Check the warnings of the mentioned user <i>if there are any</i></p>
+        
+        <h1 id="commands-5">Commands Page 5</h1>
+              <p class="w3-center"><code>jsexec</code> | Execute NodeJS through eval <i>Locked to Owner for obvious reasons</i><br>
             <code>flush</code> | Flush parts of Sunset <span class="badge badge-dark">LiteMode Compatible</span><br>
             <code>settings</code> | Change the settings of Sunset <span class="badge badge-dark">LiteMode Compatible</span><br>
             <code>setmoney</code> | Set the balance of the mentioned member<br>
 
     </p>
+      <h5>For a more detailed documentation visit <a href="wiki">the Sunset Wiki</a>.</h5>
   </div>
 
  
