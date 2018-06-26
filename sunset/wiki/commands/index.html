@@ -114,9 +114,9 @@
                                     <li>
                                             <a href="#coinflip">Coinflip</a>
                                         </li>
-                                   <!-- <li>
+                                    <li>
                                         <a href="#console">Console</a>
-                                    </li> -->
+                                    </li> 
                                         <li>
                                             <a id="pages" href="#page2">Page 2</a>
                                         </li>
@@ -448,7 +448,7 @@
                 </div>
             </div>
 
-            </div id="console">
+            <div id="console">
                 <h1>Console</h1>
                 <p><strong>Description: </strong> Interact with a Linux-like Terminal through Discord <br>
                 <strong>Arguments: </strong> <i>Arguments with this command vary per section.</i> <br>
@@ -516,6 +516,20 @@
                     <img style="margin-bottom: 15px;" width="615vw" src="imgs/console/console-10.png">
                 </div>
             </div>
+            <div id="console-figlet">
+                <h4><a href="#console-figlet">Console Figlet</a></h4>
+                <p><strong>Arguments: </strong> <code>&lt;encoding&gt;</code> <code>&lt;text&gt;</code> 
+                <strong>SubSections: </strong> <a href="#console-figlet-help">Console Figlet Help</a> <a href="#console-figlet-color">Console Figlet Color</a></p>
+                <p>Using <code>console figlet</code> without any arguemtns <a class="img-link" href="javascript:toggleDisplay('console-figlet-1')">will return an error.</a></p>
+                <div id="console-figlet-1" style="display: none;">
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/console/console-11.png">
+                </div>
+                <p>The <code>console figlet help</code> command <a class="img-link" href="javascript:toggleDisplay('console-figlet-2')">will return a help embed.</a></p>
+                <div id="console-figlet-2" style="display: none;">
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/console/console-12.png">
+                </div>
+                <p><strong>There is a known issue that longer figlets return an error. I am working on a way to fix this.</strong></p>
+            </div>
         </div>
         <div id="page2">
             <h1>Page 2</h1>
@@ -563,10 +577,20 @@
                 <strong>NOTE: </strong>This command is a WIP.</p>
                     <div id="dbl-bot">
                 <h4><a href="#dbl-bot">DBL Bot</a></h4>
-                <p>The <code>dbl bot &lt;id&gt;</code> command will allow you to view information of Discord Bot List users.</p>
+                <p>The <code>dbl bot &lt;id&gt;</code> command will allow you to view information of Discord Bot List bots.</p>
                 <p>Attempting to use <code>dbl bot</code> without providing an ID, you will recieve <a class="img-link" href="javascript:toggleDisplay('dbl-bot-error-1')">an error</a></p>
                 <div id="dbl-bot-error-1" style="display: none">
                     <img style="margin-bottom: 15px;" width="615vw" src="imgs/dbl/dbl-1.png">
+                </div>
+                </div>
+                <div id="dbl-user">
+                    <h4><a href="#dbl-user">DBL User</a></h4>
+                    <p>The <code>dbl user &lt;id&gt;</code> command will allow you to view information of Discord Bot List users.</p>
+                    <p>Attempting to use <code>dbl bot</code> without providing an ID, you will recieve <a class="img-link" href="javascript:toggleDisplay('dbl-user-error-1')">an error</a></p>
+                    <div id="dbl-user-error-1" style="display: none;">
+                        <img style="margin-bottom: 15px;" width="615vw" src="imgs/dbl/dbl-2.png">
+
+                    </div>
                 </div>
 
 
@@ -589,6 +613,17 @@
                     <p>If Sunset does not have the <code>MANAGE_CHANNELS</code> permission, the channel will <strong>not</strong> be delete and Sunset will return an error.</p>
                 
 
+            </div>
+            <div id="economysettings">
+                <h1>Economy Settings</h1>
+                <p><strong>Description: </strong> Change how the Sunset economy works <br>
+                <strong>Arguments: </strong> <code>&lt;option&gt; &lt;value&gt;</code> <br>
+                <strong>Permissions: </strong> <code>SERVER_OWNER</code></p>
+                <p>When using <code>economysettings</code> without an argument, Sunset <a class="img-link" href="javascript:toggleDisplay('economysettings-1')">will return Economy information for your server</a></p>
+                <div id="economysettings-1" style="display: none;">
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/economysettings/economysettings.png">
+
+                </div>
             </div>
 
             </div>
