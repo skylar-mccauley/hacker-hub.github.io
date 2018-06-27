@@ -48,6 +48,7 @@ code {
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
+  z-index: 500;
 }
 
 #wrapper.toggled {
@@ -149,6 +150,9 @@ code {
 }
 .displayNotSupported {
   display: none;
+}
+.loading {
+  display:block;
 }
 
 

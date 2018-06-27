@@ -56,6 +56,9 @@
                 <p>The Sunset Wiki does not support your screen size. Please use a device with a horizontal resolution greater than 300 pixels.</p>
                 <a href="javascript:goBack()">Click here to go back.</a></center>
                 </div>
+    <!--    <div class="loading">
+            <h1>This is the loading class</h1>
+        </div> -->
     <div id="wrapper">
 
         <!-- Sidebar -->
@@ -128,6 +131,15 @@
                                                         </li>
                                                         <li>
                                                                 <a href="#delchannel">DelChannel</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#economysettings">Ecnonomy Settings</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#emojify">Emojify</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#freemoney">FreeMoney</a>
                                                             </li>
                     
                 <li>
@@ -621,10 +633,37 @@
                 <strong>Permissions: </strong> <code>SERVER_OWNER</code></p>
                 <p>When using <code>economysettings</code> without an argument, Sunset <a class="img-link" href="javascript:toggleDisplay('economysettings-1')">will return Economy information for your server</a></p>
                 <div id="economysettings-1" style="display: none;">
-                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/economysettings/economysettings.png">
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/economysettings/economysettings-1.png">
 
                 </div>
+                <p>To edit Economy Settings for your server use <code>economysettings &lt;setting&gt;</code>. If used successfully, Sunset <a class="img-link" href="javascript:toggleDisplay('economysettings-2')">will return the relevant information and give the confirmation on the setting change.</a></p>
+                <div id="economysettings-2" style="display: none;">
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/economysettings/economysettings-2.png">
+                </div>
             </div>
+            <div id="emojify">
+                <h1>Emojify</h1>
+                <p><strong>Description: </strong> Emojify the provided message if possible <br>
+                <strong>Arguments: </strong> <code>&lt;message&gt;</code></p>
+                <p>When using <code>emojify</code> without an argument, Sunset <a class="img-link" href="javascript:toggleDisplay('emojify-1')">will return an error.</a></p>
+                <div id="emojify-1" style="display: none;">
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/emojify/emojify-1.png">
+                </div>
+                <p>If the message provided can be emojifed, your message <a class="img-link" href="javascript:toggleDisplay('emojify-2')">will be returned in its emojified form.</a></p>
+                <div id="emojify-2" style="display: none;">
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/emojify/emojify-2.png">
+                </div>
+            </div>
+            <div id="freemoney">
+                <h1>FreeMoney</h1>
+                <p><strong>Description: </strong> Earn freemoney, the payout is randomized between $1 and $50 <br>
+                <strong>Not LiteMode Compatible</strong></p>
+                <p>Using the <code>freemoney</code> command <a class="img-link" href="javascript:toggleDisplay('freemoney-1')">will reward you between $1 and $50</a>.</p>
+                <div id="freemoney-1" style="display: none;">
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/freemoney/freemoney-1.png">
+                </div>
+            </div>
+            
 
             </div>
         </div>
