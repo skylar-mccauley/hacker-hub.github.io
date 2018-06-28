@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <title>HackerHub - Debug</title>
+    <link rel="stylesheet" href="css/font.css">
+    <head>
+        <meta name="site-name" content="HackerHub">
+        <meta name="description" content="Returns debug info on the device that is viewing the page.">
+        <meta name="author" content="Skylar McCauley">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google-site-verification" content="3dwCSYbjoIt7Qap6ccDz6aZ32zQ8uHdKa3eL-G8p_DU" />
+
+        <script type="text/javascript">
+            var userip;
+          </script>
+          <script type="text/javascript">
+          var myip;
+          </script>
+        <script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+        <script type="text/javascript" src="https://www.l2.io/ip.js?var=myip"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    </head>
+    <body>
+        <div id="user-agent">
+                <h1>User Agent</h1>
+                <p><script>document.write(window.navigator.userAgent)</script></p>
+        </div>
+        <div id="window-location">
+            <h1>Window Location</h1>
+            <p><script>document.write(window.location)</script></p>
+        </div>
+        <div id="window-location-href">
+                <h1>Window Location HREF</h1>
+                <p><script>document.write(window.location.href)</script></p>
+        </div>
+        <div id="screen-available-width">
+            <h1>Screen Available Width</h1>
+            <p><script>document.write(window.screen.availWidth)</script>px / <script>
+                    var width = parseFloat(window.screen.availWidth)
+                    document.write(width / (1 / 0.75))
+                </script>pt</p>
+        </div>
+        <div id="screen-avail-height">
+            <h1>Screen Available Height</h1>
+            <p><script>document.write(window.screen.availHeight)</script>px / <script>
+                    var height = parseFloat(window.screen.availHeight)
+                    document.write(height / (1 / 0.75))
+                </script>pt</p>
+        </div>
+        <div id="screen-width">
+            <h1>Screen (Absolute) Width</h1>
+            <p><script>document.write(window.screen.width)</script>px / <script>
+                    var width = parseFloat(window.screen.width)
+                    document.write(width / (1 / 0.75))
+                </script>pt</p>
+        </div>
+        <div id="screen-height">
+                <h1>Screen (Absolute) Height</h1>
+                <p><script>document.write(window.screen.height)</script>px / <script>
+                    var height = parseFloat(window.screen.height)
+                    document.write(height / (1 / 0.75))
+                </script>pt</p>
+            </div>
+        <div id="window-width">
+            <h1>Window Width</h1>
+            <p><script>document.write($(window).width())</script>px / <script>
+                    var width = parseFloat($(window).width()) 
+                    document.write(width / (1 / 0.75))
+                </script>pt</p>
+        </div>
+        <div id="window-height">
+                <h1>Window Height</h1>
+                <p><script>document.write($(window).height())</script>px / <script>
+                        var height = parseFloat($(window).height()) 
+                        document.write(height / (1 / 0.75))
+                    </script>pt</p>
+        </div>
+        <div id="document-width">
+            <h1>Document Width</h1>
+            <p><script>document.write($(document).width())</script>px / <script>
+                    var width = parseFloat($(document).width()) 
+                    document.write(width / (1 / 0.75))
+                </script>pt</p>
+        </div>
+        <div id="document-height">
+            <h1>Document Height</h1>
+            <p><script>document.write($(document).height())</script>px / <script>
+                var height = parseFloat($(document).height()) 
+                document.write(height / (1 / 0.75))
+            </script>pt</p>
+        </div>
+        <div id="ip">
+                <div id="ipv6">
+                        <h1>IPv6</h1>
+                        <p><script>document.write(userip)</script></p>
+                </div>
+                <div id="ipv4">
+                    <h1>IPv4</h1>
+                    <p><script>document.write(myip)</script></p>
+                </div>
+                
+        </div>
+        
+        
+    </body>
+</html>
