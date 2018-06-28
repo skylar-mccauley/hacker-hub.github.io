@@ -164,6 +164,15 @@
                                                                 <li>
                                                                         <a href="#inspect">Inspect</a>
                                                                     </li>
+                                                                    <li>
+                                                                        <a href="#invite">Invite</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a id="pages" href="#page3">Page 3</a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#kick">Kick</a>
+                                                                    </li>
                     
                 <li>
                         <a style="color: lightgray;margin-bottom: 25px" href="//hacker-hub.com/">HomePage</a>
@@ -757,9 +766,45 @@
                         <img style="margin-bottom: 15px;" width="615vw" src="imgs/inspect/inspect-2.png">
                 </div>
             </div>
+            <div id="invite">
+                <h2>Invite</h2>
+                <p><strong>Description: </strong> Generate an invite to the server for the provided channel <br>
+                <strong>Arguments: </strong> <code>&lt;channel&gt;</code><br>
+                <strong>Permissions: </strong> <code>&lt;CREATE_INSTANT_INVITE&gt;</code></p>
+                <p>Using <code>invite &lt;channel&gt;</code> with a valid <a class="img-link" href="javascript:toggleDisplay('invite-1')">Channel Mention</a> <!-- or <a class="img-link" href="javascript:toggleDisplay('invite-2')">Channel ID</a> --> will return <a class="img-link" href="javascript:toggleDisplay('invite-3')">an invite</a> for that channel.</p>
+                <div id="invite-1" style="display: none">
+                    <h6><strong>Channel Mention</strong></h6>
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/invite/invite-1.png">
+
+                </div>
+          <!--      <div id="invite-2" style="display: none">
+                    <h6>Channel ID</h6>
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/invite/invite-2.png">
+
+                </div> -->
+                <div id="invite-3" style="display: none">
+                    <h6><strong>Channel Invite</strong></h6>
+                    <img style="margin-bottom: 15px;" width="615vw" src="imgs/invite/invite-3.png">
+
+                </div>
+                <p>Using the <code>invite</code> command without a valid channel will return an error.</p> 
+                <p><strong>Please note that these invites will expire after half an hour.</strong></p>
+            </div>
             
 
 
+            </div>
+            <div id="page3">
+                <h1>Page 3</h1>
+                <br>
+                <br>
+                <div id="kick">
+                    <h2>Kick</h2>
+                    <p><strong>Description: </strong> Kick the mentioned member <br>
+                    <strong>Arguments: </strong> <code>&lt;@member&gt; &lt;reason&gt;</code> <br>
+                    <strong>Permissions: </strong> <code>KICK_MEMBERS</code></p>
+                    <p>I know you're probably looking for help on this command, but I wanted to take a break. It's really time consuming to maintain this Wiki. I hope you understand :)</p>
+                </div>
             </div>
             
 
