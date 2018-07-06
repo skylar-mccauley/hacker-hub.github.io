@@ -23,14 +23,12 @@
 
   gtag('config', 'UA-117081817-1');
 </script>
-<!--<script>
-    var iOS = !!navigator.platform && /iPad|iPhone|iPod/.test(navigator.platform);
-
-    if(!iOS) {
-        // If device is not iOS
-        history.back(1)
+<script>
+    function refreshPage() {
+        location.reload()
     }
-</script> -->
+</script> 
+
 
 <head>
     <meta charset="UTF-8">
@@ -90,7 +88,7 @@ div {
     display: inline-flex;
 }
 p{
-    font-size: 9px;
+    font-size: 12px;
 }
 .lnk-button {
     margin-left: 5%;
@@ -358,6 +356,12 @@ img {
     <p class="desc update-desc">Update the iOS HackerHub WebApp</p>
     <a href="https://www.hacker-hub.com/ios/" class="lnk-button w3-button w3-orange">Update</a>
 
+</div>
+
+<div id="refresh" class="refresh">
+    <img src="refresh.svg" width="37%">
+    <p class="desc update-desc">Refresh the WebApp</p>
+    <a href="javascript:refreshPage()" class="lnk-button w3-button w3-orange">Refresh WebApp</a>
 </div>
 
 
