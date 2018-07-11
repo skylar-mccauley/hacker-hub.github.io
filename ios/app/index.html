@@ -101,7 +101,7 @@ div {
     text-align: left;
 }
 /* iPhone 5/iPhone 5S/ iPhone SE */
-@media only screen and (max-device-width: 320px) {
+@media only screen and (max-device-width: 320px) and (min-device-width: 320px){
     .titleBar-title {
     height: 4%;
     text-align: left;
@@ -218,6 +218,35 @@ p{
     margin-top: 10px;
 }
 }
+/* iPhone 5/iPhone 5S/ iPhone SE Landscape */
+@media only screen and (max-device-width: 568px) and (min-device-width: 568px) and (max-device-height: 320px) and (min-device-height: 320px){
+    .titleBar-title {
+    height: 4%;
+    text-align: left;
+    margin-left: 1%;
+    font-size: 95%;
+}
+.titleBar {
+    height:7%;
+    width: 100%;
+    background-color: orange;
+    z-index: 100;
+    box-shadow: 5px;
+    display: inline-flex;
+}
+p{
+    font-size: 14px;
+}
+.lnk-button {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+}
 /* iPod Touch 5G & iPod Touch 6G */
 @media only screen and (max-device-width: 640px) and (min-device-width: 640px){
     .titleBar-title {
@@ -247,8 +276,66 @@ p{
     margin-top: 10px;
 }
 }
-
-/* 9.7-inch iPad */
+/* iPhone Regular Models Landscape */
+@media only screen and (max-device-width: 667px) and (min-device-width: 667px){
+    .titleBar-title {
+    height: 4%;
+    text-align: left;
+    margin-left: 1%;
+    font-size: 135%;
+}
+.titleBar {
+    height:7%;
+    width: 100%;
+    background-color: orange;
+    z-index: 100;
+    box-shadow: 5px;
+    display: inline-flex;
+}
+p{
+    font-size: 16px;
+}
+.lnk-button {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+}
+/* iPhone Plus Model Landscape*/
+@media only screen and (max-device-width: 736px) and (min-device-width: 736px){
+    .titleBar-title {
+    height: 2%;
+    text-align: left;
+    margin-left: 1%;
+    font-size: 190%;
+}
+.titleBar {
+    height:3%;
+    width: 100%;
+    background-color: orange;
+    z-index: 100;
+    box-shadow: 5px;
+    display: inline-flex;
+    
+}
+p{
+    font-size: 18px;
+}
+.lnk-button {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+}
+/* 9.7-inch iPad Portrait*/
 @media only screen and (max-device-width: 768px) and (min-device-width: 768px){
     .titleBar-title {
     height: 4%;
@@ -278,7 +365,37 @@ p{
     margin-top: 10px;
 }
 }
-/* 12.9-inch iPad Pro */
+/* 9.7-inch iPad Portrait*/
+@media only screen and (max-device-width: 812px) and (min-device-width: 812px){
+    .titleBar-title {
+    height: 2%;
+    text-align: left;
+    margin-left: 1%;
+    font-size: 190%;
+}
+.titleBar {
+    height:3%;
+    width: 100%;
+    background-color: orange;
+    z-index: 100;
+    box-shadow: 5px;
+    display: inline-flex;
+    
+}
+p{
+    font-size: 18px;
+}
+.lnk-button {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+}
+/* 12.9-inch iPad Pro Portrait*/
 @media only screen and (max-device-width: 1024px) and (min-device-width: 1024px){
     .titleBar-title {
     height: 4%;
@@ -336,6 +453,67 @@ img {
     background-color: black;
     height: fit-content;
 }
+/* 12.9-inch iPad Pro Landscape*/
+@media only screen and (max-device-width: 1366px) and (min-device-width: 1366px){
+    .titleBar-title {
+    height: 4%;
+    text-align: left;
+    margin-left: 1%;
+    font-size: 270%;
+}
+.titleBar {
+    height:5%;
+    width: 100%;
+    background-color: orange;
+    z-index: 100;
+    box-shadow: 5px;
+    display: inline-flex;
+    
+}
+p{
+    font-size: 30px;
+}
+.lnk-button {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 33px;
+    margin-top: 10px;
+}
+.credits {
+    font-size: 23px;
+}
+}
+.warning {
+    display: none;
+}
+
+.credits {
+    color:white;
+    clear:both;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+.desc {
+    color: white;
+    margin-left: 50%;
+}
+img {
+    float: left;
+    margin-left: 5%;
+}
+
+.hackerhub-website {
+    margin-top: 15px;
+}
+.wrapper {
+    background-color: black;
+    height: fit-content;
+}
 
 </style>
 <script>
@@ -343,8 +521,11 @@ img {
         window.location.replace(link)
     }
 </script>
-<div class="wrapper">
 
+<div class="wrapper">
+<div class="warning">
+    <h1>ATTENTION</h1>
+</div>
 
 <div class="titleBar">
     <h3 style="align-items:center;" class="titleBar-title">HackerHub iOS</h3>
@@ -408,7 +589,7 @@ img {
 
 <div style="display:flex;justify-content:center;align-items:flex-end;" class="credits">
         <div>Some icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> and <a href="https://www.flaticon.com/authors/google" title="Google">Google</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
-        <small>v1.0</small>
+        <small>v1.1</small>
 </div>
 <!--#credits-->
 </div>
