@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <title>HackerHub iOS Home</title>
+    <meta charset="UTF-8">
+<meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="../../css/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<link rel="stylesheet" href="../../css/footer-distributed-with-address-and-phones.css">
+<link rel="icon" href="../../images/hacker.jpg">
+<link href="../../js/spop.css" rel="stylesheet">
+<script src="../../js/spop.js"></script>
+<link href="../../css/info.css" rel="stylesheet">
+<link href="../../css/goback.css" rel="stylesheet">
+<link rel="stylesheet" href="../../css/font.css">
+<link rel="stylesheet" href="app.css">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117081817-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117081817-1');
+</script>
+<script>
+    function refreshPage() {
+        location.reload()
+    }
+</script> 
+
+
+<head>
+    <meta charset="UTF-8">
+     <meta name="site-name" content="HackerHub">
+       <meta name="application-name" content="HackerHub iOS Home">
+        <meta name="site-name" content="HackerHub">
+
+    <meta name="description" content="HackerHub for iOS Homepage">
+    <meta name="keywords" content="HackerHub Webapp, Webapp, HackerHub, HackerHub Webapp, HackerHub Linux Webapp, Nativefier,Free HTML CSS JS Website,Website,Free Website,JavaScript,NodeJS,Sunset,Sunset DiscordBot, Sunset JS, NodeJS Discord Bot, Sunset Discord Bot, Sunset Bot, Sunset DiscordJS, sunset-bot, Sunset-Bot, Sunset Lite Bot, Sunset Lite Discord Bot, Sunset-Lite Bot, HackerHub, HackerHubSite, TheHacker894, TheHacker">
+    <meta name="author" content="Skylar McCauley">
+    <meta name="google-site-verification" content="YM5iq6TDAlXGBjlcKiX8vmw-ihmlv4aJ-G1jCNkSf6o" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../../js/scrolling.js">
+
+      </script>
+              <script src="fix.js"></script>
+              <script type="text/javascript">
+                (function(document,navigator,standalone) {
+                    // prevents links from apps from oppening in mobile safari
+                    // this javascript must be the first script in your <head>
+                    if ((standalone in navigator) && navigator[standalone]) {
+                        var curnode, location=document.location, stop=/^(a|html)$/i;
+                        document.addEventListener('click', function(e) {
+                            curnode=e.target;
+                            while (!(stop).test(curnode.nodeName)) {
+                                curnode=curnode.parentNode;
+                            }
+                            // Condidions to do this only on links to your own app
+                            // if you want all links, use if('href' in curnode) instead.
+                            if(
+                                'href' in curnode && // is a link
+                                (chref=curnode.href).replace(location.href,'').indexOf('#') && // is not an anchor
+                                (	!(/^[a-z\+\.\-]+:/i).test(chref) ||                       // either does not have a proper scheme (relative links)
+                                    chref.indexOf(location.protocol+'//'+location.host)===0 ) // or is in the same protocol and domain
+                            ) {
+                                e.preventDefault();
+                                location.href = curnode.href;
+                            }
+                        },false);
+                    }
+                })(document,window.navigator,'standalone');
+            </script>
+
+
+</head>
+
+<script>
+    function redirect(link) {
+        window.location.replace(link)
+    }
+</script>
+
+<div class="wrapper">
+<div class="warning">
+    <h1>ATTENTION</h1>
+</div>
+
+<div class="titleBar">
+    <h3 style="align-items:center;" class="titleBar-title">HackerHub iOS</h3>
+
+</div>
+<!--#titleBar-->
+
+<div class="app-content">
+    
+    <div id="hackerhub-website" class="hackerhub-website">
+            <img class="hackerhub-website-img" src="hacker.jpg" width="43%">
+            <p class="desc hackerhub-website-desc">The HackerHub website is where you can view all of my on-going projects such as Sunset &amp; CleverBot</p>
+
+            <a href="javascript:void(0)" onclick="redirect('http://www.hacker-hub.com/')" class="lnk-button w3-button w3-orange">HackerHub Website</a>
+
+    </div>
+    <div class="divider"></div>
+
+<div id="about-me" class="about-me">
+    <img class="about-me-img" src="suitcase.svg" width="43%">
+    <p class="desc about-me-desc">Learn more about me, the developer. This small landing page shows all of my projects big and small. You can also find my contact information here if you ever want to get in touch.</p>
+
+    <a  href="javascript:void(0)" onclick="redirect('https://skylarmccauley.hacker-hub.com/')" class="lnk-button w3-button w3-orange">About Me</a>
+
+</div>
+<div class="divider"></div>
+
+<div id="projects" class="projects">
+        <img class="projects-img" src="smartphone.svg" width="43%">
+        <p class="desc projects-desc" >Check out all of my projects through my portfolio</p>
+
+        <a  href="javascript:void(0)" onclick="redirect('https://skylarmccauley.hacker-hub.com/#projects')" class="lnk-button w3-button w3-orange">Projects</a>
+
+</div>
+<div id="social" class="discord">
+        <img class="discord-img" src="social.svg" width="43%">
+        <p class="desc discord-desc">Check out the HackerHub Social Accounts</p>
+        <a href="javascript:void(0)" onclick="redirect('https://www.hacker-hub.com/social')" class="lnk-button w3-button w3-orange">HackerHub Social</a>
+
+</div>
+<div id="debug" class="debug">
+    <img src="settings.svg" width="37%">
+    <p class="desc debug-desc">Open the HackerHub Debugger</p>
+    <a href="javascript:void(0)" onclick="redirect('https://www.hacker-hub.com/debug.html')" class="lnk-button w3-button w3-orange">Debug</a>
+
+</div>
+<div id="update" class="update">
+    <img src="download-button.svg" width="37%">
+    <p class="desc update-desc">Update the iOS HackerHub WebApp</p>
+    <a  href="javascript:void(0)" onclick="redirect('https://www.hacker-hub.com/ios/')" class="lnk-button w3-button w3-orange">Update</a>
+
+</div>
+
+<div id="refresh" class="refresh">
+    <img src="refresh.svg" width="37%">
+    <p class="desc update-desc">Refresh the WebApp</p>
+    <a href="javascript:refreshPage()" class="lnk-button w3-button w3-orange">Refresh WebApp</a>
+</div>
+
+
+
+<div style="display:flex;justify-content:center;align-items:flex-end;" class="credits">
+        <div>Some icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> and <a href="https://www.flaticon.com/authors/google" title="Google">Google</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+        <small>v1.1.1</small>
+</div>
+<!--#credits-->
+</div>
+<!--#app-content-->
+
+</div>
+<!--#wrapper-->
+</html>

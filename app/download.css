@@ -1,0 +1,20 @@
+@import url(https://www.hacker-hub.com/css/font.css);
+
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Product Sans';}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+    background-color: black;
+}
+.lnk-button {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.platform-text {
+    margin-left: 5%;
+}

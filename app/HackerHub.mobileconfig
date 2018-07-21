@@ -2466,17 +2466,17 @@
 			<key>PayloadDisplayName</key>
 			<string>Web Clip</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.webClip.managed.614B3948-C059-4E97-8EB4-C02A7A6A7345</string>
+			<string>com.apple.webClip.managed.D2F1DED2-7195-4F9C-865A-BAE1239BC5F2</string>
 			<key>PayloadType</key>
 			<string>com.apple.webClip.managed</string>
 			<key>PayloadUUID</key>
-			<string>614B3948-C059-4E97-8EB4-C02A7A6A7345</string>
+			<string>D2F1DED2-7195-4F9C-865A-BAE1239BC5F2</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Precomposed</key>
 			<false/>
 			<key>URL</key>
-			<string>https://www.hacker-hub.com/ios/app</string>
+			<string>https://www.hacker-hub.com/app/ios</string>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
@@ -2492,7 +2492,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>172FAA32-114A-4681-B23A-8E698C3BCAAD</string>
+	<string>E646555E-46FC-4F86-82D0-A36224F62001</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
