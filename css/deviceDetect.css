@@ -1,0 +1,26 @@
+
+@media screen and (max-width: 695px) and (min-width: 600px) {
+  #displayNotSupported {
+    background-color: grey;
+    display: block ;
+    z-index: 9999999;
+
+  }
+  .w3-top {
+    display: none;
+  }
+
+
+}
+@media screen and (min-width: 696px) {
+  #displayNotSupported {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  #displayNotSupported {
+    display: none !important;
+  }
+}
+  
+ 

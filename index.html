@@ -41,35 +41,8 @@
     
     <script src="js/scrolling.js"></script>
       <script src="js/nanobar.min.js"></script>
-      <script src="js/deviceDetect.js"></script>
+ 
 
-              <script>
-                  var isMobile = {
-              Android: function() {
-                  return navigator.userAgent.match(/Android/i);
-              },
-              BlackBerry: function() {
-                  return navigator.userAgent.match(/BlackBerry/i);
-              },
-              iOS: function() {
-                  return navigator.userAgent.match(/iphone|ipad|ipod/i);
-              },
-              Opera: function() {
-                  return navigator.userAgent.match(/Opera Mini/i);
-              },
-              Windows: function() {
-                  return navigator.userAgent.match(/IEMobile/i);
-              },
-              any: function() {
-                  return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-              }
-              };
-                  
-              if(isMobile.any) {
-                $(".icon-bar").hide();
-              }
-              
-                  </script>
 
 <script src="ios/app/fix.js"></script>
 <script type="text/javascript">
@@ -173,6 +146,7 @@ h1 {
         background-attachment: scroll;
     }
 }
+
 p {
     font-size:17px;
     font-family:'Product Sans';
@@ -197,8 +171,8 @@ div {
 
 
 </style>
-  
 
+        
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
@@ -228,6 +202,7 @@ div {
     <a href="./" class="w3-bar-item w3-button" onclick="toggleFunction()">Homepage</a>
   </div>
 </div>
+
 
 
 
@@ -267,8 +242,7 @@ div {
         <p class="darkmode_text">I also have a Discord Server where I test Discord Bots and chat with others. 
         If you like what you see on this website then my server will be a perfect place for you.</p>
         <br>
-
-            <a href="sunset/serverinvite" class="w3-btn w3-ripple w3-orange">Sunset Discord Server Invite</a>
+        <button onclick="window.location.href='sunset/serverinvite'" href="javascript:void(0)" class="btn orange" type="button"><span>Sunset Discord Server Invite</span></button>
         <br>
         
        
@@ -357,24 +331,12 @@ function googleTranslateElementInit() {
                     <p class="footer-company-name">Skylar McCauley &copy; 2018</p>
                     <br>
                     <p>
-                        <script>
-                          if(!isMobile.any) {
-                            document.write(window.navigator.userAgent)
-                          }
-                          </script>
                       </p4>
                       <br>
                       
                       <p id="urlString">
                         
                       </p4>
-                      <script>
-                                                  if(!isMobile.any) {
-
-                        var str = window.location.href
-                      document.getElementById("urlString").innerHTML = str
-                                                  }
-                        </script>
                   </div>
             
                   <div class="footer-center">
