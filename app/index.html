@@ -23,7 +23,6 @@
 
   gtag('config', 'UA-117081817-1');
 </script>
-
 <script>
     function redirect(link) {
         window.location.replace(link)
@@ -32,6 +31,39 @@
 <script>
     function goBack() {
         window.history.back();
+    }
+</script>
+<script src="device.js"></script>
+<script>
+    var md = new MobileDetect(window.navigator.userAgent);
+
+// more typically we would instantiate with 'window.navigator.userAgent'
+// as user-agent; this string literal is only for better understanding
+
+console.log( md.mobile() );          // 'Sony'
+console.log( md.phone() );           // 'Sony'
+console.log( md.tablet() );          // null
+console.log( md.userAgent() );       // 'Safari'
+console.log( md.os() );              // 'AndroidOS'
+console.log( md.is('iPhone') );      // false
+console.log( md.is('bot') );         // false
+console.log( md.version('Webkit') );         // 534.3
+console.log( md.versionStr('Build') );       // '4.1.A.0.562'
+console.log( md.match('playstation|xbox') ); 
+</script>
+
+<script>
+        var md = new MobileDetect(window.navigator.userAgent);
+    function dialog() {
+        if(window.confirm("Non-Mobile Device Detected.\nThis page is intended for iOS and Android devices only.\nIf you would like to continue press 'Ok'. If you would like to go back press 'Cancel'.")) {
+            console.log("Pressed Ok")
+        } else {
+            window.location.replace("https://www.hacker-hub.com/")
+        }
+        
+    }
+    if(md.mobile() == null) {
+        dialog()
     }
 </script>
 
@@ -62,5 +94,4 @@
 <div style="margin-bottom: 4%;" class="lnk-button w3-button w3-grey" >Coming Soon</div>
 
 <button class="lnk-button w3-button w3-orange" href="javascript:void(0);" onlick="goBack()">Go Back</button>
-    
 </html>
