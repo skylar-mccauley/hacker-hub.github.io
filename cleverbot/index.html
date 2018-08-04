@@ -97,7 +97,7 @@
 
 @media only screen and (max-width: 320px) {
   p {
-    font-size:5px;
+    font-size:12px;
     font-family:'Product Sans';
     align-self: center;
     text-align: center;
@@ -281,7 +281,11 @@ code {
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" >
   <h3 class="w3-center">Getting Started</h3>
-
+<div class="135-warning" id="warning">
+  <div class="alert alert-danger">
+    <strong>Warning!</strong> There is an issue with CleverBot that has been overlooked. <strong>Do not</strong> give CleverBot a nickname, as it will not respond to mentions. This will be addressed in a future update.
+  </div>
+</div>
   <p>There are some settings you'll need to configure before you start chatting with CleverBot. <br>
     <strong>Permissions: </strong> <code>MANAGE_CHANNELS</code> <i>This permission is only required to bind CleverBot to a channel.</i> <br>
     <strong>Prefix: </strong> A mention</p> <br>
@@ -392,14 +396,14 @@ document.getElementById("urlString").innerHTML = str
 
       <div>
         <i class="fab fa-github"></i>
-        <p><a href="https://github.com/The-Hacker894"><span>The-Hacker894</span></a> GitHub</p>
+        <p><a onclick="window.location.href='https://github.com/The-Hacker894'" href="javascript:void(0)"><span>The-Hacker894</span></a> GitHub</p>
       </div>
 
 
 
       <div>
-        <i class="fa fa-envelope"></i>
-        <p><span>Contact me at</span><a href="mailto:skylarmccauley864@gmail.com">skylarmccauley864@gmail.com</a></p>
+        <i class="far fa-user"></i>
+        <p><span><a onclick="window.location.href='https://skylarmccauley.hacker-hub.com/'" href="javascript:void(0)">Contact Info</a></span></p>
       </div>
 
     </div>
