@@ -21,7 +21,7 @@ p4 {
 }
 /*Buttons*/
 
-.btn {
+.custom-button {
   position: relative;
 
   display: block;
@@ -41,20 +41,20 @@ p4 {
   transition: background-color .3s;
 }
 
-.btn:hover, .btn:focus {
+.custom-button:hover, .custom-button:focus {
   background-color: #27ae60;
 }
 
-.btn > * {
+.custom-button > * {
   position: relative;
 }
 
-.btn span{
+.custom-button span{
   display: block;
   padding: 12px 24px;
 }
 
-.btn:before {
+.custom-button:before {
   content: "";
   
   position: absolute;
@@ -76,7 +76,7 @@ p4 {
   transform: translate(-50%, -50%);
 }
 
-.btn:active:before {
+.custom-button:active:before {
   width: 120%;
   padding-top: 120%;
   
@@ -93,19 +93,19 @@ p4 {
  
 
 
-.btn.orange {
+.custom-button.orange {
   background-color: #e67e22;
 }
 
-.btn.orange:hover, .btn.orange:focus {
+.custom-button.orange:hover, .custom-button.orange:focus {
   background-color: #d35400;
 }
 
-.btn.red {
+.custom-button.red {
   background-color: #e74c3c;
 }
 
-.btn.red:hover, .btn.red:focus {
+.custom-button.red:hover, .custom-button.red:focus {
   background-color: #c0392b;
 }
 

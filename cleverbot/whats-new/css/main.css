@@ -1,0 +1,21 @@
+.new-features {
+    margin-top: 2.5%;
+}
+.changes {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 1.5%;
+}
+h6 {
+    margin: 0;
+    margin-bottom: 1.5% !important;
+}
+.divider-line {
+    height: 1.7px;
+    width: 100%;
+    background-color: black;
+    color: black;
+    margin-top: 1%;
+
+}
