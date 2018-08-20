@@ -84,37 +84,23 @@
                      function onSubmit(token) {
                        document.getElementById("demo-form").submit();
                      }
+                     function captcha() {
+                         console.log("success")
+                     }
+                     function expiredCaptcha() {
+                         console.log("expired")
+                     }
+                     function errorCaptcha() {
+                         console.log("error")
+                     }
                    </script>
+
             
             <form id='demo-form' action="?" method="POST">
-                    <button class="g-recaptcha" data-sitekey="6Lcmk1gUAAAAAHCHhRGnkfo23NnVs_bE7_dZ1fBT" data-callback='onSubmit'>Submit</button>
+                    <button data-callback="captcha" class="g-recaptcha" data-expired-callback="expiredCaptcha" data-error-callback="errorCaptcha" data-sitekey="6Lcmk1gUAAAAAHCHhRGnkfo23NnVs_bE7_dZ1fBT" data-callback='onSubmit'>Submit</button>
                     <br/>
                   </form>
-    
-                        
-            <div id="inviteContainer">     
-                <form action="?" method="pOST">
-                    <script>
-                       function captcha() {
-                           setTimeout(function () {
-                       window.location.href="https://discordapp.com/oauth2/authorize?client_id=458664297732636672&scope=bot&permissions=201850048"
-               }, 100);
-                       }
-                        function errorCaptcha() {
-                                 spop('reCaptcha has encounted an error. please check your internet connection and hard refresh the page.', 'error');
-                       }
-                       function expiredCaptcha() {
-                                                 spop('Your reCaptcha response has expired. please re-verify!', 'error');
-           
-                       }
-                   </script>
-                 <div data-expired-callback="expiredCaptcha" data-error-callback="errorCaptcha" style="display:flex;justify-content:center;align-items:center;" class="g-recaptcha" data-sitekey="" data-callback="captcha" data-theme="dark"></div>
-                 <br/>
-                 <!--<input type="submit" value="Submit">-->
-               </form>
-           
-               </div>
-            </div>
+
     
             <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117081817-1"></script>
