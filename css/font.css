@@ -73,10 +73,27 @@ ul {
   font-size: 28px;
   font-weight: bold;
   width: 7px;
+  margin-top: 5px;
+  padding-top: 0;
 }
-
 .close:hover,
 .close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.serverClose {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  width: 7px;
+  margin-top: 5px;
+  padding-top: 0;
+
+}
+.serverClose:hover,
+.serverClose:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
