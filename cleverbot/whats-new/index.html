@@ -1,1 +1,392 @@
-PCFET0NUWVBFIGh0bWw+CjxodG1sPgo8dGl0bGU+V2hhdCdzIE5ldyBpbiBDbGV2ZXJCb3QgdjEuNDwvdGl0bGU+CjxtZXRhIGNoYXJzZXQ9IlVURi04Ij4KPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9Im1pbmltYWwtdWksIHdpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLCBtYXhpbXVtLXNjYWxlPTEsIHVzZXItc2NhbGFibGU9bm8iPgo8bGluayByZWw9InN0eWxlc2hlZXQiIGhyZWY9Ii4uLy4uL2Nzcy93My5taW4uY3NzIj4gCjxsaW5rIHJlbD0ic3R5bGVzaGVldCIgaHJlZj0iaHR0cHM6Ly9mb250cy5nb29nbGVhcGlzLmNvbS9jc3M/ZmFtaWx5PUxhdG8iPgo8bGluayByZWw9InN0eWxlc2hlZXQiIGhyZWY9Imh0dHBzOi8vbWF4Y2RuLmJvb3RzdHJhcGNkbi5jb20vYm9vdHN0cmFwLzQuMC4wL2Nzcy9ib290c3RyYXAubWluLmNzcyIgaW50ZWdyaXR5PSJzaGEzODQtR241Mzg0eHFRMWFvV1hBKzA1OFJYUHhQZzZmeTRJV3ZUTmgwRTI2M1htRmNKbFNBd2lHZ0ZBVy9kQWlTNkpYbSIgY3Jvc3NvcmlnaW49ImFub255bW91cyI+CjxzY3JpcHQgc3JjPSJodHRwczovL3N0YWNrcGF0aC5ib290c3RyYXBjZG4uY29tL2Jvb3RzdHJhcC80LjEuMS9qcy9ib290c3RyYXAuYnVuZGxlLm1pbi5qcyIgaW50ZWdyaXR5PSJzaGEzODQtdS9iUXZSQS8xYm9iY1hsY0VZcHNFZEZWSy92SnMzK1QrblhMc0JZSnRobWRCdWF2SHZBVzZVc21xTzJHZC9GOSIgY3Jvc3NvcmlnaW49ImFub255bW91cyI+PC9zY3JpcHQ+CjxsaW5rIHJlbD0ic3R5bGVzaGVldCIgaHJlZj0iaHR0cHM6Ly91c2UuZm9udGF3ZXNvbWUuY29tL3JlbGVhc2VzL3Y1LjIuMC9jc3MvYWxsLmNzcyIgaW50ZWdyaXR5PSJzaGEzODQtaFdWamZsd0Z4TDZzTnpudGloMjdiZnhrcjI3UG1iYksvaVN2SithNCswb3dYcTc5ditsc0ZrVzU0Yk9HYmlEUSIgY3Jvc3NvcmlnaW49ImFub255bW91cyI+Cgo8bGluayBocmVmPSJodHRwczovL2ZvbnRzLmdvb2dsZWFwaXMuY29tL2ljb24/ZmFtaWx5PU1hdGVyaWFsK0ljb25zIiByZWw9InN0eWxlc2hlZXQiPgo8bGluayBocmVmPSIuLi8uLi9qcy9zcG9wLmNzcyIgcmVsPSJzdHlsZXNoZWV0Ij4KPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiBocmVmPSIuLi8uLi9jc3MvZm9udC5jc3MiPgo8bGluayByZWw9InN0eWxlc2hlZXQiIGhyZWY9Ii4uLy4uL2Nzcy9mb290ZXItZGlzdHJpYnV0ZWQtd2l0aC1hZGRyZXNzLWFuZC1waG9uZXMuY3NzIj4KCjxzY3JpcHQgc3JjPSIuLi8uLi9qcy9zcG9wLmpzIj48L3NjcmlwdD4KPHNjcmlwdCBzcmM9Imh0dHBzOi8vYWpheC5nb29nbGVhcGlzLmNvbS9hamF4L2xpYnMvanF1ZXJ5LzMuMy4xL2pxdWVyeS5taW4uanMiPjwvc2NyaXB0PgoKCjxsaW5rIGhyZWY9Ii4uLy4uL2Nzcy9pbmZvLmNzcyIgcmVsPSJzdHlsZXNoZWV0Ij4KPGxpbmsgaHJlZj0iY3NzL21haW4uY3NzIiByZWw9InN0eWxlc2hlZXQiPgo8bGluayByZWw9InN0eWxlc2hlZXQiIGhyZWY9Ii4uLy4uL2Nzcy9nb2JhY2suY3NzIj4KPHNjcmlwdCBzcmM9Ii4uLy4uL2pzL2RldmljZURldGVjdC5qcyI+PC9zY3JpcHQ+CgoKICAgIDwhLS0gR2xvYmFsIHNpdGUgdGFnIChndGFnLmpzKSAtIEdvb2dsZSBBbmFseXRpY3MgLS0+CjxzY3JpcHQgYXN5bmMgc3JjPSJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbS9ndGFnL2pzP2lkPVVBLTExNzA4MTgxNy0xIj48L3NjcmlwdD4KPHNjcmlwdD4KICB3aW5kb3cuZGF0YUxheWVyID0gd2luZG93LmRhdGFMYXllciB8fCBbXTsKICBmdW5jdGlvbiBndGFnKCl7ZGF0YUxheWVyLnB1c2goYXJndW1lbnRzKTt9CiAgZ3RhZygnanMnLCBuZXcgRGF0ZSgpKTsKCiAgZ3RhZygnY29uZmlnJywgJ1VBLTExNzA4MTgxNy0xJyk7Cjwvc2NyaXB0PgoKPHNjcmlwdCBzcmM9Ii4uL2lvcy9hcHAvZml4LmpzIj48L3NjcmlwdD4KPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPgogIChmdW5jdGlvbihkb2N1bWVudCxuYXZpZ2F0b3Isc3RhbmRhbG9uZSkgewogICAgICAvLyBwcmV2ZW50cyBsaW5rcyBmcm9tIGFwcHMgZnJvbSBvcHBlbmluZyBpbiBtb2JpbGUgc2FmYXJpCiAgICAgIC8vIHRoaXMgamF2YXNjcmlwdCBtdXN0IGJlIHRoZSBmaXJzdCBzY3JpcHQgaW4geW91ciA8aGVhZD4KICAgICAgaWYgKChzdGFuZGFsb25lIGluIG5hdmlnYXRvcikgJiYgbmF2aWdhdG9yW3N0YW5kYWxvbmVdKSB7CiAgICAgICAgICB2YXIgY3Vybm9kZSwgbG9jYXRpb249ZG9jdW1lbnQubG9jYXRpb24sIHN0b3A9L14oYXxodG1sKSQvaTsKICAgICAgICAgIGRvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJywgZnVuY3Rpb24oZSkgewogICAgICAgICAgICAgIGN1cm5vZGU9ZS50YXJnZXQ7CiAgICAgICAgICAgICAgd2hpbGUgKCEoc3RvcCkudGVzdChjdXJub2RlLm5vZGVOYW1lKSkgewogICAgICAgICAgICAgICAgICBjdXJub2RlPWN1cm5vZGUucGFyZW50Tm9kZTsKICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgLy8gQ29uZGlkaW9ucyB0byBkbyB0aGlzIG9ubHkgb24gbGlua3MgdG8geW91ciBvd24gYXBwCiAgICAgICAgICAgICAgLy8gaWYgeW91IHdhbnQgYWxsIGxpbmtzLCB1c2UgaWYoJ2hyZWYnIGluIGN1cm5vZGUpIGluc3RlYWQuCiAgICAgICAgICAgICAgaWYoCiAgICAgICAgICAgICAgICAgICdocmVmJyBpbiBjdXJub2RlICYmIC8vIGlzIGEgbGluawogICAgICAgICAgICAgICAgICAoY2hyZWY9Y3Vybm9kZS5ocmVmKS5yZXBsYWNlKGxvY2F0aW9uLmhyZWYsJycpLmluZGV4T2YoJyMnKSAmJiAvLyBpcyBub3QgYW4gYW5jaG9yCiAgICAgICAgICAgICAgICAgICgJISgvXlthLXpcK1wuXC1dKzovaSkudGVzdChjaHJlZikgfHwgICAgICAgICAgICAgICAgICAgICAgIC8vIGVpdGhlciBkb2VzIG5vdCBoYXZlIGEgcHJvcGVyIHNjaGVtZSAocmVsYXRpdmUgbGlua3MpCiAgICAgICAgICAgICAgICAgICAgICBjaHJlZi5pbmRleE9mKGxvY2F0aW9uLnByb3RvY29sKycvLycrbG9jYXRpb24uaG9zdCk9PT0wICkgLy8gb3IgaXMgaW4gdGhlIHNhbWUgcHJvdG9jb2wgYW5kIGRvbWFpbgogICAgICAgICAgICAgICkgewogICAgICAgICAgICAgICAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICAgICAgICAgICAgICAgIGxvY2F0aW9uLmhyZWYgPSBjdXJub2RlLmhyZWY7CiAgICAgICAgICAgICAgfQogICAgICAgICAgfSxmYWxzZSk7CiAgICAgIH0KICB9KShkb2N1bWVudCx3aW5kb3cubmF2aWdhdG9yLCdzdGFuZGFsb25lJyk7Cjwvc2NyaXB0PgoKCgoKPGhlYWQ+CiAgICA8bWV0YSBjaGFyc2V0PSJVVEYtOCI+CiAgICAgICAgPG1ldGEgbmFtZT0iYXBwbGljYXRpb24tbmFtZSIgY29udGVudD0iQ2xldmVyQm90Ij4KICA8bWV0YSBuYW1lPSJzaXRlLW5hbWUiIGNvbnRlbnQ9IkhhY2tlckh1YiI+CiAgPHNjcmlwdCBhc3luYyBzcmM9Ii8vcGFnZWFkMi5nb29nbGVzeW5kaWNhdGlvbi5jb20vcGFnZWFkL2pzL2Fkc2J5Z29vZ2xlLmpzIj48L3NjcmlwdD4KICA8c2NyaXB0PgogICAgKGFkc2J5Z29vZ2xlID0gd2luZG93LmFkc2J5Z29vZ2xlIHx8IFtdKS5wdXNoKHsKICAgICAgZ29vZ2xlX2FkX2NsaWVudDogImNhLXB1Yi05OTg2MDQ4NzUyMjkxNTg4IiwKICAgICAgZW5hYmxlX3BhZ2VfbGV2ZWxfYWRzOiB0cnVlCiAgICB9KTsKICA8L3NjcmlwdD4KICAgIDxtZXRhIG5hbWU9ImRlc2NyaXB0aW9uIiBjb250ZW50PSJDaGVjayBvdXQgd2hhdCdzIG5ldyBpbiB0aGUgQ2xldmVyQm90IDEuNCB1cGRhdGUhIj4KICAgIDxtZXRhIG5hbWU9ImtleXdvcmRzIiBjb250ZW50PSJXaGF0J3MgbmV3LCBDbGV2ZXJCb3QgV2hhdCdzIE5ldywgQ2xldmVyQm90IDEuNCwgQ2xldmVyQm90IHYxLjQsIENsZXZlckJvdCBXaGF0J3MgbmV3IHYxLjQsIENsZXZlckJvdCwgQ2xldmVyQm90LmlvLCBDbGV2ZXJCb3QgRGlzY29yZCBCb3QsIENsZXZlckJvdC5pbyBEaXNjb3JkIEJvdCwgQUkgQ2hhdCBCb3QsIEFJIERpc2NvcmQgQm90LCBDbGV2ZXJCb3QuaW8gQ2hhdCBCb3QsIEFJIERpc2NvcmQsSmF2YVNjcmlwdCxOb2RlSlMsU3Vuc2V0LFN1bnNldCBEaXNjb3JkQm90LCBTdW5zZXQgSlMsIE5vZGVKUyBEaXNjb3JkIEJvdCwgU3Vuc2V0IERpc2NvcmQgQm90LCBTdW5zZXQgQm90LCBTdW5zZXQgRGlzY29yZEpTLCBzdW5zZXQtYm90LCBTdW5zZXQtQm90LCBTdW5zZXQgTGl0ZSBCb3QsIFN1bnNldCBMaXRlIERpc2NvcmQgQm90LCBTdW5zZXQtTGl0ZSBCb3QsIEhhY2tlckh1YiwgSGFja2VySHViU2l0ZSwgVGhlSGFja2VyODk0LCBUaGVIYWNrZXIiPgogICAgPG1ldGEgbmFtZT0iYXV0aG9yIiBjb250ZW50PSJTa3lsYXIgTWNDYXVsZXkiPgogICAgPGxpbmsgcmVsPSJpY29uIiBocmVmPSIuLi8uLi9pbWFnZXMvY2xldmVyYm90LmpwZyI+CiAgICA8bGluayByZWw9ImFwcGxlLXRvdWNoLWljb24iIGhyZWY9Ii4uLy4uL2ltYWdlcy9jbGV2ZXJib3QuanBnIi8+CgogICAgPCEtLSBPRyBNZXRhIFRhZ3MtLT4KICAgIDxtZXRhIHByb3BlcnR5PSJvZzp0aXRsZSIgY29udGVudD0iSGFja2VySHViIC0gV2hhdCdzIE5ldyAtLSBDbGV2ZXJCb3QgdjEuNCAiPgogICAgPG1ldGEgcHJvcGVydHk9Im9nOmltYWdlIiBjb250ZW50PSJodHRwczovL3d3dy5oYWNrZXItaHViLmNvbS9pbWFnZXMvY2xldmVyYm90LmpwZyI+CiAgICA8bWV0YSBwcm9wZXJ0eT0ib2c6ZGVzY3JpcHRpb24iIGNvbnRlbnQ9IkNoZWNrIG91dCB3aGF0J3MgbmV3IGluIHRoZSBDbGV2ZXJCb3QgMS40IHVwZGF0ZSEiPgoKCiAgICA8c2NyaXB0IHNyYz0iaHR0cHM6Ly9hamF4Lmdvb2dsZWFwaXMuY29tL2FqYXgvbGlicy9qcXVlcnkvMy4zLjEvanF1ZXJ5Lm1pbi5qcyI+PC9zY3JpcHQ+CiAgICA8c2NyaXB0IHNyYz0iLi4vLi4vanMvc2Nyb2xsaW5nLmpzIj4KICAgICAgPC9zY3JpcHQ+CgogIDwvaGVhZD4KICA8L2hlYWQ+CgoKCjxzdHlsZT4KICBAbWVkaWEgb25seSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDc2OHB4KSB7CiAgcCB7CiAgICBmb250LXNpemU6MTVweDsKICAgIGZvbnQtZmFtaWx5OidQcm9kdWN0IFNhbnMnOwogICAgYWxpZ24tc2VsZjogY2VudGVyOwogICAgdGV4dC1hbGlnbjogY2VudGVyOwogIH0KfQoKQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiAzMjBweCkgewogIHAgewogICAgZm9udC1zaXplOjEycHg7CiAgICBmb250LWZhbWlseTonUHJvZHVjdCBTYW5zJzsKICAgIGFsaWduLXNlbGY6IGNlbnRlcjsKICAgIHRleHQtYWxpZ246IGNlbnRlcjsKICB9Cn0KICAgIC5tYXRlcmlhbC1pY29ucy5tZC0xNiB7IGZvbnQtc2l6ZTogMTZweDsgfQogICAgLm1hdGVyaWFsLWljb25zLm1kLTE1IHsgZm9udC1zaXplOiAxNXB4OyB9CmJvZHksaDEsaDIsaDMsaDQsaDUsaDYge2ZvbnQtZmFtaWx5OiAnUHJvZHVjdCBTYW5zJzt9CmJvZHksIGh0bWwgewogICAgaGVpZ2h0OiAxMDAlOwogICAgbGluZS1oZWlnaHQ6IDEuODsKfQpoMSB7CiAgICBmb250LXNpemU6IDI1cHgKfQoKLyogQ3JlYXRlIGEgUGFyYWxsYXggRWZmZWN0ICovCi5iZ2ltZy0xLCAuYmdpbWctMiwgLmJnaW1nLTMgewogICAgYmFja2dyb3VuZC1hdHRhY2htZW50OiBmaXhlZDsKICAgIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlcjsKICAgIGJhY2tncm91bmQtcmVwZWF0OiBuby1yZXBlYXQ7CiAgICBiYWNrZ3JvdW5kLXNpemU6IGNvdmVyOwogICAgbWF4LXdpZHRoOiAxMDAlOwogICAgd2lkdGg6IDEwMCUKfQoKLyogRmlyc3QgaW1hZ2UgKExvZ28uIEZ1bGwgaGVpZ2h0KSAqLwouYmdpbWctMSB7CiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoJy4uLy4uL2ltYWdlcy9jbGV2ZXJib3RfYmFja2dyb3VuZC5wbmcnKTsKICAgIG1pbi1oZWlnaHQ6IDEwMCU7CiAgICAKfQoKLyogU2Vjb25kIGltYWdlIChQb3J0Zm9saW8pICovCi5iZ2ltZy0yIHsKICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnLi4vLi4vaW1hZ2VzL2NsZXZlcmJvdF9iYWNrZ3JvdW5kLnBuZycpOwogICAgbWluLWhlaWdodDogNDAwcHg7Cn0KCi8qIFRoaXJkIGltYWdlIChDb250YWN0KSAqLwouYmdpbWctMyB7CiAgICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoJy4uLy4uL2ltYWdlcy9jbGV2ZXJib3RfYmFja2dyb3VuZC5wbmcnKTsKICAgIG1pbi1oZWlnaHQ6IDQwMHB4Owp9Ci5iZ2ltZy00IHsKICAgIGJhY2tncm91bmQtaW1hZ2U6IHVybCgnLi4vLi4vaW1hZ2VzL2NsZXZlcmJvdF9iYWNrZ3JvdW5kLnBuZycpOwogICAgbWluLWhlaWdodDogNDAwcHg7Cn0KCi53My13aWRlIHtsZXR0ZXItc3BhY2luZzogMTBweDt9Ci53My1ob3Zlci1vcGFjaXR5IHtjdXJzb3I6IHBvaW50ZXI7fQoKLyogVHVybiBvZmYgcGFyYWxsYXggc2Nyb2xsaW5nIGZvciB0YWJsZXRzIGFuZCBwaG9uZXMgKi8KQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LWRldmljZS13aWR0aDogMTAyNHB4KSB7CiAgICAuYmdpbWctMSwgLmJnaW1nLTIsIC5iZ2ltZy0zIHsKICAgICAgICBiYWNrZ3JvdW5kLWF0dGFjaG1lbnQ6IHNjcm9sbDsKICAgIH0KfQoKZGl2IHsKICAgIHRleHQtYWxpZ246IGNlbnRlcjsKfQpzcGFuIHsKICBjb250ZW50OiAiXDI3MTMiOwp9CmNvZGUgewogICAgY29sb3I6ICM4Nzg3ODc7Cn0KPC9zdHlsZT4KPGJvZHk+Cgo8IS0tIE5hdmJhciAoc2l0IG9uIHRvcCkgLS0+CjxkaXYgY2xhc3M9InczLXRvcCI+CiAgPGRpdiBjbGFzcz0idzMtYmFyIiBpZD0ibXlOYXZiYXIiPgogICAgPGEgY2xhc3M9InczLWJhci1pdGVtIHczLWJ1dHRvbiB3My1ob3Zlci1ibGFjayB3My1oaWRlLW1lZGl1bSB3My1oaWRlLWxhcmdlIHczLXJpZ2h0IiBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCk7IiBvbmNsaWNrPSJ0b2dnbGVGdW5jdGlvbigpIiB0aXRsZT0iVG9nZ2xlIE5hdmlnYXRpb24gTWVudSI+CiAgICAgIDxpIGNsYXNzPSJmYSBmYS1iYXJzIj48L2k+CiAgICA8L2E+CiAgICA8YSBocmVmPSIjaG9tZSIgY2xhc3M9InczLWJhci1pdGVtIHczLWJ1dHRvbiI+Q2xldmVyQm90PC9hPgogICAgPGEgaHJlZj0iLi4vIiBjbGFzcz0idzMtYmFyLWl0ZW0gdzMtYnV0dG9uIHczLWhpZGUtc21hbGwiPjxpIGNsYXNzPSJmYXMgZmEtYnJhaW4iPjwvaT4gQ2xldmVyQm90IEhvbWVQYWdlPC9hPgogICAgPGEgaHJlZj0iLi4vLi4vIiBjbGFzcz0idzMtYmFyLWl0ZW0gdzMtYnV0dG9uIHczLWhpZGUtc21hbGwiPjxpIGNsYXNzPSJmYXMgZmEtaG9tZSI+PC9pPkhvbWVQYWdlPC9hPgogICAgICAKICAgIDwvYT4KICA8L2Rpdj4KCiAgPCEtLSBOYXZiYXIgb24gc21hbGwgc2NyZWVucyAtLT4KICA8ZGl2IGlkPSJuYXZEZW1vIiBjbGFzcz0idzMtYmFyLWJsb2NrIHczLXdoaXRlIHczLWhpZGUgdzMtaGlkZS1sYXJnZSB3My1oaWRlLW1lZGl1bSI+CiAgICA8YSBocmVmPSIuLi8iIGNsYXNzPSJ3My1iYXItaXRlbSB3My1idXR0b24iIG9uY2xpY2s9InRvZ2dsZUZ1bmN0aW9uKCkiPkNsZXZlckJvdCBIb21lUGFnZTwvYT4KICAgIDxhIGhyZWY9Ii4uLy4uLyIgY2xhc3M9InczLWJhci1pdGVtIHczLWJ1dHRvbiIgb25jbGljaz0idG9nZ2xlRnVuY3Rpb24oKSI+SG9tZVBhZ2U8L2E+CiAgICAKICA8L2Rpdj4KPC9kaXY+Cgo8IS0tIEZpcnN0IFBhcmFsbGF4IEltYWdlIHdpdGggTG9nbyBUZXh0IC0tPgo8ZGl2IGNsYXNzPSJiZ2ltZy0xIHczLWRpc3BsYXktY29udGFpbmVyIHczLW9wYWNpdHktbWluIiBpZD0iaG9tZSI+CiAgPGRpdiBjbGFzcz0idzMtZGlzcGxheS1taWRkbGUiIHN0eWxlPSJ3aGl0ZS1zcGFjZTpub3dyYXA7Ij4KICAgIDxzcGFuIGNsYXNzPSJ3My1jZW50ZXIgdzMtcGFkZGluZy1sYXJnZSB3My1ibGFjayB3My14bGFyZ2UgdzMtd2lkZSB3My1hbmltYXRlLW9wYWNpdHkiPjxzcGFuIGNsYXNzPSJ3My1oaWRlLXNtYWxsIj5XaGF0J3MgTmV3ITwvc3Bhbj48L3NwYW4+CiAgPC9kaXY+CjwvZGl2PgoKPCEtLSBDb250YWluZXIgKEFib3V0IFNlY3Rpb24pIC0tPgo8ZGl2IGNsYXNzPSJ3My1jb250ZW50IHczLWNvbnRhaW5lciB3My1wYWRkaW5nLTY0IiBpZD0idjEuNCI+CgogICAgPGgyPkNsZXZlckJvdCB2MS40PC9oMj4KICA8IS0tIFRPRE86IFB1dCBEaXNjb3JkIEJvdCBMaXN0IHdpZGdldHMgaGVyZS0tPgogIDxhIGhyZWY9Imh0dHBzOi8vZGlzY29yZGJvdHMub3JnL2JvdC80NTg2NjQyOTc3MzI2MzY2NzIiID4KICAgIDxpbWcgc3JjPSJodHRwczovL2Rpc2NvcmRib3RzLm9yZy9hcGkvd2lkZ2V0L3N0YXR1cy80NTg2NjQyOTc3MzI2MzY2NzIuc3ZnP25vYXZhdGFyPXRydWUiIGFsdD0iQ2xldmVyQm90IiAvPgogIDwvYT4KICA8ZGl2IGNsYXNzPSJibGFuayI+PC9kaXY+CiAgPGRpdiBjbGFzcz0ibmV3LWZlYXR1cmVzIiA+CiAgICAgIDxoMz5OZXcgRmVhdHVyZXM8L2gzPgogICAgICA8cCBjbGFzcz0iY2hhbmdlcyI+CiAgICAgICAgICAtQWRkZWQgdGhlIGFiaWxpdHkgZm9yIENsZXZlckJvdCB0byBpZ25vcmUgbWVzc2FnZXMgdGhhdCBzdGFydCB3aXRoIDxjb2RlPiZsdDtpZ25vcmUmZ3Q7PC9jb2RlPgogICAgICAgICAgPGJyPgogICAgICAgICAgLUFkZGVkIGFuIG9wdGlvbiB0byBzZW5kIHN1cHBvcnQgdG8gdGhlIGRldmVsb3BlciAoaW50ZW5kZWQgdXNlIGZvciBjb21wbGFpbnRzLCBzdWdnZXN0aW9ucywgb3IganVzdCBhIPCfkY0pLiA8c3Ryb25nPlVzZXIgJmFtcDsgR3VpbGQgSURzIGFyZSBsb2dnZWQgdG8gbW9uaXRvciBzcGFtIDxzPmJlY2F1c2UgeW91J3JlIGFsbCBhIGJ1bmNoIG9mIHNraWRzLjwvcz4gPC9zdHJvbmc+CiAgICAgICAgICA8YnI+CiAgICAgICAgICAtQ2xldmVyQm90IG5vdyBzZW5kcyBhIGNvbmZpcm1hdGlvbiBtZXNzYWdlIGluIHRoZSBuZXdseSBib3VuZCBjaGFubmVsIChqdXN0IGluLWNhc2UgeW91IHdlcmUgY29uZnVzZWQpCiAgICAgICAgICA8YnI+CiAgICAgICAgICAtTm93IHJ1bnMgb24gRGlzY29yZEpTIHYxMS40CiAgICAgIDwvcD4KICAgICAgPGgzPlJlbW92ZWQgRmVhdHVyZXM8L2gzPgogICAgICA8cCBjbGFzcz0iY2hhbmdlcyI+CiAgICAgICAgLVJlbW92ZWQgSW50ZXJhY3Rpb24gQ291bnQgZHVlIHRvIGZsb2F0aW5nIHBvaW50cyBnZXR0aW5nIHRvbyBiaWcgYW5kIHJlc2V0dGluZy4gPGk+TWlnaHQ8L2k+IG1ha2UgYSByZXR1cm4gaW4gdGhlIGZ1dHVyZS4KICAgICAgPC9wPgogICAgICA8aDM+QnVnIEZpeGVzPC9oMz4KICAgICAgPHAgY2xhc3M9ImNoYW5nZXMiPgogICAgICAgIC1GaXhlZCBhbiBlcnJvciBpbiB0aGUgPGNvZGU+ZGlzY2xhaW1lcjwvY29kZT4gY29tbWFuZCB3aGVyZSB0aGUgVXNlciBJRCBsb2dnaW5nIHN0cmluZyB3b3VsZCBiZSBzaG93biB0d2ljZS4KICAgICAgPC9wPgogICAgICA8ZGl2IGNsYXNzPSJkaXZpZGVyLWxpbmUiPjwvZGl2PgogICAgICA8YnI+CiAgICAgIDxoNj5JZiB5b3UgbGlrZSB3aGF0IHlvdSBzZWUgd2h5IG5vdCBpbnZpdGUgQ2xldmVyQm90IHRvIHlvdXIgRGlzY29yZCBTZXJ2ZXIsIGlmIHlvdSBoYXZlbid0IGFscmVhZHkuPC9oNj4KICAgICAgPGJ1dHRvbiBvbmNsaWNrPSJ3aW5kb3cubG9jYXRpb24uaHJlZj0nLi4vaW52aXRlJyIgaHJlZj0iamF2YXNjcmlwdDp2b2lkKDApIiBjbGFzcz0iY3VzdG9tLWJ1dHRvbiBvcmFuZ2UiIHR5cGU9ImJ1dHRvbiI+PHNwYW4+Q2xldmVyQm90IEludml0ZTwvc3Bhbj48L2J1dHRvbj4gIAogICAgICA8YnI+CiAgICAgIDxoNj5JZiB5b3UgbmVlZCBzb21lIGhlbHAgb3IganVzdCB3YW50IGEgcGxhY2UgdG8gaGFuZyBvdXQsIGNvbWUgb24gZG93biB0byB0aGUgU3Vuc2V0IERpc2NvcmQgU2VydmVyPC9oNj4KICAgICAgPGJ1dHRvbiBvbmNsaWNrPSJ3aW5kb3cubG9jYXRpb24uaHJlZj0nLi4vLi4vc3Vuc2V0L3NlcnZlcmludml0ZSciIGhyZWY9ImphdmFzY3JpcHQ6dm9pZCgwKSIgY2xhc3M9ImN1c3RvbS1idXR0b24gb3JhbmdlIiB0eXBlPSJidXR0b24iPjxzcGFuPlN1bnNldCBEaXNjb3JkIFNlcnZlciBJbnZpdGU8L3NwYW4+PC9idXR0b24+ICAKICAgICAgPGJyPgogICAgICA8aDY+SWYgeW91J3JlIGluIG5lZWQgb2YgYSBsaXR0bGUgYml0IG9mIGhlbHAgeW91IGNhbiBjaGVjayBvdXQgdGhlIDxzdHJvbmc+R2V0dGluZyBTdGFydGVkPC9zdHJvbmc+IHNlY3Rpb24gb2YgdGhlIHdlYnNpdGUuPC9oNj4gCiAgICAgIDxidXR0b24gb25jbGljaz0id2luZG93LmxvY2F0aW9uLmhyZWY9Jy4uLyNnZXR0aW5nLXN0YXJ0ZWQnIiBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiIGNsYXNzPSJjdXN0b20tYnV0dG9uIG9yYW5nZSIgdHlwZT0iYnV0dG9uIj48c3Bhbj5DbGV2ZXJCb3QgLSBHZXR0aW5nIFN0YXJ0ZWQ8L3NwYW4+PC9idXR0b24+ICAgICAgICAgIAogIDwvZGl2PgoKPCEtLSBGb290ZXIgLS0+CjwvZGl2Pgo8Zm9vdGVyIGNsYXNzPSJmb290ZXItZGlzdHJpYnV0ZWQiPgoKICAgIDxkaXYgY2xhc3M9ImZvb3Rlci1sZWZ0Ij4KCiAgICAgIDxoMz5IYWNrZXJIdWI8L2gzPgo8ZGl2IGlkPSJnb29nbGVfdHJhbnNsYXRlX2VsZW1lbnQiPjwvZGl2PjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4KZnVuY3Rpb24gZ29vZ2xlVHJhbnNsYXRlRWxlbWVudEluaXQoKSB7CiAgbmV3IGdvb2dsZS50cmFuc2xhdGUuVHJhbnNsYXRlRWxlbWVudCh7cGFnZUxhbmd1YWdlOiAnZW4nLCBnYVRyYWNrOiB0cnVlLCBnYUlkOiAnVUEtMTE3MDgxODE3LTEnfSwgJ2dvb2dsZV90cmFuc2xhdGVfZWxlbWVudCcpOwp9Cjwvc2NyaXB0PjxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0IiBzcmM9Ii8vdHJhbnNsYXRlLmdvb2dsZS5jb20vdHJhbnNsYXRlX2EvZWxlbWVudC5qcz9jYj1nb29nbGVUcmFuc2xhdGVFbGVtZW50SW5pdCI+PC9zY3JpcHQ+Cgo8cCBjbGFzcz0iZm9vdGVyLWxpbmtzIj4KICA8YSBocmVmPSIuLi90b3MiPlRPUzwvYT4KICDCtwogIDxhIGhyZWY9Ii4uL3ByaXZhY3lfcG9saWN5Ij5Qcml2YWN5IFBvbGljeTwvYT4KICDCtwogIDxhIGhyZWY9Ii4uL3BhcnRuZXJzaGlwIj5QYXJ0bmVyc2hpcDwvYT4KICDCtwogIDxhIGhyZWY9Ii8vc2t5bGFybWNjYXVsZXkuaGFja2VyLWh1Yi5jb20iPkFib3V0IE1lPC9hPgogIDwhLS0gwrcKICA8YSBocmVmPSIjIj5GYXE8L2E+CiAgwrcKICA8YSBocmVmPSIjIj5Db250YWN0PC9hPiAtLT4KPC9wPgoKICAgICAgPHAgY2xhc3M9ImZvb3Rlci1jb21wYW55LW5hbWUiPlNreWxhciBNY0NhdWxleSAmY29weTsgMjAxODwvcD4KICAgICAgPGJyPgogICAgICA8cDQ+CiAgICAgICAgICA8c2NyaXB0PgppZighaXNNb2JpbGUuYW55KSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkb2N1bWVudC53cml0ZSh3aW5kb3cubmF2aWdhdG9yLnVzZXJBZ2VudCkKICAgICAgICAgICAgICAgICAgICAgICAgICB9ICAgICAgICAgICAgPC9zY3JpcHQ+CiAgICAgICAgPC9wND4KICAgICAgICA8YnI+CiAgICAgICAgCiAgICAgICAgPHA0IGlkPSJ1cmxTdHJpbmciPgogICAgICAgICAgCiAgICAgICAgPC9wND4KICAgICAgICA8c2NyaXB0PgogICAgICAgICBpZighaXNNb2JpbGUuYW55KSB7Cgp2YXIgc3RyID0gd2luZG93LmxvY2F0aW9uLmhyZWYKZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoInVybFN0cmluZyIpLmlubmVySFRNTCA9IHN0cgogICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgIDwvc2NyaXB0PgogICAgPC9kaXY+CgogICAgPGRpdiBjbGFzcz0iZm9vdGVyLWNlbnRlciI+CgogICAgICA8ZGl2PgogICAgICAgIDxpIGNsYXNzPSJmYWIgZmEtZ2l0aHViIj48L2k+CiAgICAgICAgPHA+PGEgb25jbGljaz0id2luZG93LmxvY2F0aW9uLmhyZWY9J2h0dHBzOi8vZ2l0aHViLmNvbS9UaGUtSGFja2VyODk0JyIgaHJlZj0iamF2YXNjcmlwdDp2b2lkKDApIj48c3Bhbj5UaGUtSGFja2VyODk0PC9zcGFuPjwvYT4gR2l0SHViPC9wPgogICAgICA8L2Rpdj4KCgoKICAgICAgPGRpdj4KICAgICAgICA8aSBjbGFzcz0iZmFyIGZhLXVzZXIiPjwvaT4KICAgICAgICA8cD48c3Bhbj48YSBvbmNsaWNrPSJ3aW5kb3cubG9jYXRpb24uaHJlZj0naHR0cHM6Ly9za3lsYXJtY2NhdWxleS5oYWNrZXItaHViLmNvbS8nIiBocmVmPSJqYXZhc2NyaXB0OnZvaWQoMCkiPkNvbnRhY3QgSW5mbzwvYT48L3NwYW4+PC9wPgogICAgICA8L2Rpdj4KCiAgICA8L2Rpdj4KCiAgICA8ZGl2IGNsYXNzPSJmb290ZXItcmlnaHQiPgoKICAgICAgPHAgY2xhc3M9ImZvb3Rlci1jb21wYW55LWFib3V0Ij4KICAgICAgICA8c3Bhbj5IYWNrZXJIdWI8L3NwYW4+CiAgICAgICAgVGhlIGRldnBhZ2UgZm9yIFRoZUhhY2tlciAoYmFzaWNhbGx5IHdoZXJlIGhlIHB1dHMgYWxsIG9mIGhpcyBjcmFwcHkgc29mdHdhcmUgc28geW91IGNhbiBkb3dubG9hZCBpdC4pCiAgICAgIDwvcD4KCiAgICAgIDxkaXYgY2xhc3M9ImZvb3Rlci1pY29ucyI+CgogICAgICAgIDxhIGhyZWY9Imh0dHBzOi8vd3d3LmhhY2tlci1odWIuY29tL3NvY2lhbC8jZGlzY29yZCI+PGkgY2xhc3M9ImZhYiBmYS1kaXNjb3JkIj48L2k+PC9hPgogICAgICAgIDxhIGhyZWY9Imh0dHBzOi8vcGxheS5nb29nbGUuY29tL3N0b3JlL2FwcHMvZGV2ZWxvcGVyP2lkPVNreWxhcitNY0NhdWxleSI+PGkgY2xhc3M9ImZhYiBmYS1nb29nbGUtcGxheSI+PC9pPjwvYT4KICAgICAgIDwhLS0gPGEgaHJlZj0iIyI+PGkgY2xhc3M9ImZhIGZhLWxpbmtlZGluIj48L2k+PC9hPgogICAgICAgIDxhIGhyZWY9IiMiPjxpIGNsYXNzPSJmYSBmYS1naXRodWIiPjwvaT48L2E+IC0tPgoKICAgICAgPC9kaXY+CgogICAgPC9kaXY+CgogIDwvZm9vdGVyPgoKCjwhLS0gQWRkIEdvb2dsZSBNYXBzIC0tPgo8c2NyaXB0PgpmdW5jdGlvbiBteU1hcCgpCnsKICBteUNlbnRlcj1uZXcgZ29vZ2xlLm1hcHMuTGF0TG5nKDQxLjg3ODExNCwgLTg3LjYyOTc5OCk7CiAgdmFyIG1hcE9wdGlvbnM9IHsKICAgIGNlbnRlcjpteUNlbnRlciwKICAgIHpvb206MTIsIHNjcm9sbHdoZWVsOiBmYWxzZSwgZHJhZ2dhYmxlOiBmYWxzZSwKICAgIG1hcFR5cGVJZDpnb29nbGUubWFwcy5NYXBUeXBlSWQuUk9BRE1BUAogIH07CiAgdmFyIG1hcD1uZXcgZ29vZ2xlLm1hcHMuTWFwKGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJnb29nbGVNYXAiKSxtYXBPcHRpb25zKTsKCiAgdmFyIG1hcmtlciA9IG5ldyBnb29nbGUubWFwcy5NYXJrZXIoewogICAgcG9zaXRpb246IG15Q2VudGVyLAogIH0pOwogIG1hcmtlci5zZXRNYXAobWFwKTsKfQoKLy8gTW9kYWwgSW1hZ2UgR2FsbGVyeQpmdW5jdGlvbiBvbkNsaWNrKGVsZW1lbnQpIHsKICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgiaW1nMDEiKS5zcmMgPSBlbGVtZW50LnNyYzsKICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgibW9kYWwwMSIpLnN0eWxlLmRpc3BsYXkgPSAiYmxvY2siOwogIHZhciBjYXB0aW9uVGV4dCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJjYXB0aW9uIik7CiAgY2FwdGlvblRleHQuaW5uZXJIVE1MID0gZWxlbWVudC5hbHQ7Cn0KCi8vIENoYW5nZSBzdHlsZSBvZiBuYXZiYXIgb24gc2Nyb2xsCndpbmRvdy5vbnNjcm9sbCA9IGZ1bmN0aW9uKCkge215RnVuY3Rpb24oKX07CmZ1bmN0aW9uIG15RnVuY3Rpb24oKSB7CiAgICB2YXIgbmF2YmFyID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoIm15TmF2YmFyIik7CiAgICBpZiAoZG9jdW1lbnQuYm9keS5zY3JvbGxUb3AgPiAxMDAgfHwgZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LnNjcm9sbFRvcCA+IDEwMCkgewogICAgICAgIG5hdmJhci5jbGFzc05hbWUgPSAidzMtYmFyIiArICIgdzMtY2FyZCIgKyAiIHczLWFuaW1hdGUtdG9wIiArICIgdzMtd2hpdGUiOwogICAgfSBlbHNlIHsKICAgICAgICBuYXZiYXIuY2xhc3NOYW1lID0gbmF2YmFyLmNsYXNzTmFtZS5yZXBsYWNlKCIgdzMtY2FyZCB3My1hbmltYXRlLXRvcCB3My13aGl0ZSIsICIiKTsKICAgIH0KfQoKLy8gVXNlZCB0byB0b2dnbGUgdGhlIG1lbnUgb24gc21hbGwgc2NyZWVucyB3aGVuIGNsaWNraW5nIG9uIHRoZSBtZW51IGJ1dHRvbgpmdW5jdGlvbiB0b2dnbGVGdW5jdGlvbigpIHsKICAgIHZhciB4ID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoIm5hdkRlbW8iKTsKICAgIGlmICh4LmNsYXNzTmFtZS5pbmRleE9mKCJ3My1zaG93IikgPT0gLTEpIHsKICAgICAgICB4LmNsYXNzTmFtZSArPSAiIHczLXNob3ciOwogICAgfSBlbHNlIHsKICAgICAgICB4LmNsYXNzTmFtZSA9IHguY2xhc3NOYW1lLnJlcGxhY2UoIiB3My1zaG93IiwgIiIpOwogICAgfQp9Cjwvc2NyaXB0PgoKPC9ib2R5Pgo8L2h0bWw+Cgo=
+<!DOCTYPE html>
+<html>
+<title>What's New in CleverBot v1.4</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="../../css/w3.min.css"> 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js" integrity="sha384-u/bQvRA/1bobcXlcEYpsEdFVK/vJs3+T+nXLsBYJthmdBuavHvAW6UsmqO2Gd/F9" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="../../js/spop.css" rel="stylesheet">
+<link rel="stylesheet" href="../../css/font.css">
+<link rel="stylesheet" href="../../css/footer-distributed-with-address-and-phones.css">
+
+<script src="../../js/spop.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<link href="../../css/info.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link rel="stylesheet" href="../../css/goback.css">
+<script src="../../js/deviceDetect.js"></script>
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117081817-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117081817-1');
+</script>
+
+<script src="../ios/app/fix.js"></script>
+<script type="text/javascript">
+  (function(document,navigator,standalone) {
+      // prevents links from apps from oppening in mobile safari
+      // this javascript must be the first script in your <head>
+      if ((standalone in navigator) && navigator[standalone]) {
+          var curnode, location=document.location, stop=/^(a|html)$/i;
+          document.addEventListener('click', function(e) {
+              curnode=e.target;
+              while (!(stop).test(curnode.nodeName)) {
+                  curnode=curnode.parentNode;
+              }
+              // Condidions to do this only on links to your own app
+              // if you want all links, use if('href' in curnode) instead.
+              if(
+                  'href' in curnode && // is a link
+                  (chref=curnode.href).replace(location.href,'').indexOf('#') && // is not an anchor
+                  (	!(/^[a-z\+\.\-]+:/i).test(chref) ||                       // either does not have a proper scheme (relative links)
+                      chref.indexOf(location.protocol+'//'+location.host)===0 ) // or is in the same protocol and domain
+              ) {
+                  e.preventDefault();
+                  location.href = curnode.href;
+              }
+          },false);
+      }
+  })(document,window.navigator,'standalone');
+</script>
+
+
+
+
+<head>
+    <meta charset="UTF-8">
+        <meta name="application-name" content="CleverBot">
+  <meta name="site-name" content="HackerHub">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-9986048752291588",
+      enable_page_level_ads: true
+    });
+  </script>
+    <meta name="description" content="Check out what's new in the CleverBot 1.4 update!">
+    <meta name="keywords" content="What's new, CleverBot What's New, CleverBot 1.4, CleverBot v1.4, CleverBot What's new v1.4, CleverBot, CleverBot.io, CleverBot Discord Bot, CleverBot.io Discord Bot, AI Chat Bot, AI Discord Bot, CleverBot.io Chat Bot, AI Discord,JavaScript,NodeJS,Sunset,Sunset DiscordBot, Sunset JS, NodeJS Discord Bot, Sunset Discord Bot, Sunset Bot, Sunset DiscordJS, sunset-bot, Sunset-Bot, Sunset Lite Bot, Sunset Lite Discord Bot, Sunset-Lite Bot, HackerHub, HackerHubSite, TheHacker894, TheHacker">
+    <meta name="author" content="Skylar McCauley">
+    <link rel="icon" href="../../images/cleverbot.jpg">
+    <link rel="apple-touch-icon" href="../../images/cleverbot.jpg"/>
+
+    <!-- OG Meta Tags-->
+    <meta property="og:title" content="HackerHub - What's New -- CleverBot v1.4 ">
+    <meta property="og:image" content="https://www.hacker-hub.com/images/cleverbot.jpg">
+    <meta property="og:description" content="Check out what's new in the CleverBot 1.4 update!">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../../js/scrolling.js">
+      </script>
+
+  </head>
+  </head>
+
+
+
+<style>
+  @media only screen and (max-width: 768px) {
+  p {
+    font-size:15px;
+    font-family:'Product Sans';
+    align-self: center;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  p {
+    font-size:12px;
+    font-family:'Product Sans';
+    align-self: center;
+    text-align: center;
+  }
+}
+    .material-icons.md-16 { font-size: 16px; }
+    .material-icons.md-15 { font-size: 15px; }
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Product Sans';}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+h1 {
+    font-size: 25px
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    width: 100%
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('../../images/cleverbot_background.png');
+    min-height: 100%;
+    
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url('../../images/cleverbot_background.png');
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url('../../images/cleverbot_background.png');
+    min-height: 400px;
+}
+.bgimg-4 {
+    background-image: url('../../images/cleverbot_background.png');
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+div {
+    text-align: center;
+}
+span {
+  content: "\2713";
+}
+code {
+    color: #878787;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">CleverBot</a>
+    <a href="../" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-brain"></i> CleverBot HomePage</a>
+    <a href="../../" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-home"></i>HomePage</a>
+      
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="../" class="w3-bar-item w3-button" onclick="toggleFunction()">CleverBot HomePage</a>
+    <a href="../../" class="w3-bar-item w3-button" onclick="toggleFunction()">HomePage</a>
+    
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span class="w3-hide-small">What's New!</span></span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="v1.4">
+
+    <h2>CleverBot v1.4</h2>
+  <!-- TODO: Put Discord Bot List widgets here-->
+  <a href="https://discordbots.org/bot/458664297732636672" >
+    <img src="https://discordbots.org/api/widget/status/458664297732636672.svg?noavatar=true" alt="CleverBot" />
+  </a>
+  <div class="blank"></div>
+  <div class="new-features" >
+      <h3>New Features</h3>
+      <p class="changes">
+          -Added the ability for CleverBot to ignore messages that start with <code>&lt;ignore&gt;</code>
+          <br>
+          -Added an option to send support to the developer (intended use for complaints, suggestions, or just a pat on the back). <strong>User &amp; Guild IDs are logged to monitor spam <s>because you're all a bunch of skids.</s> </strong>
+          <br>
+          -CleverBot now sends a confirmation message in the newly bound channel (just in-case you were confused)
+          <br>
+          -New database system! Existing users will need to rebind channels before <strong>September 22nd</strong>
+          <br>
+          -Now runs on DiscordJS v11.4
+      </p>
+      <h3>Removed Features</h3>
+      <p class="changes">
+        -Removed Interaction Count due to floating points getting too big and resetting. <i>Might</i> make a return in the future.
+      </p>
+      <h3>Bug Fixes</h3>
+      <p class="changes">
+        -Fixed a bug that caused CleverBot to not respond to mentions when giving a nickname 
+        <br>
+        -Fixed an error in the <code>disclaimer</code> command where the User ID logging string would be shown twice.
+      </p>
+      <div class="divider-line"></div>
+      <br>
+      <h6>If you like what you see why not invite CleverBot to your Discord Server, if you haven't already.</h6>
+      <button onclick="window.location.href='../invite'" href="javascript:void(0)" class="custom-button orange" type="button"><span>CleverBot Invite</span></button>  
+      <br>
+      <h6>If you need some help or just want a place to hang out, come on down to the Sunset Discord Server</h6>
+      <button onclick="window.location.href='../../sunset/serverinvite'" href="javascript:void(0)" class="custom-button orange" type="button"><span>Sunset Discord Server Invite</span></button>  
+      <br>
+      <h6>If you're in need of a little bit of help you can check out the <strong>Getting Started</strong> section of the website.</h6> 
+      <button onclick="window.location.href='../#getting-started'" href="javascript:void(0)" class="custom-button orange" type="button"><span>CleverBot - Getting Started</span></button>          
+  </div>
+
+<!-- Footer -->
+</div>
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <h3>HackerHub</h3>
+<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', gaTrack: true, gaId: 'UA-117081817-1'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<p class="footer-links">
+  <a href="../tos">TOS</a>
+  B7
+  <a href="../privacy_policy">Privacy Policy</a>
+  B7
+  <a href="../partnership">Partnership</a>
+  B7
+  <a href="//skylarmccauley.hacker-hub.com">About Me</a>
+  <!-- B7
+  <a href="#">Faq</a>
+  B7
+  <a href="#">Contact</a> -->
+</p>
+
+      <p class="footer-company-name">Skylar McCauley &copy; 2018</p>
+      <br>
+      <p4>
+          <script>
+if(!isMobile.any) {
+                            document.write(window.navigator.userAgent)
+                          }            </script>
+        </p4>
+        <br>
+        
+        <p4 id="urlString">
+          
+        </p4>
+        <script>
+         if(!isMobile.any) {
+
+var str = window.location.href
+document.getElementById("urlString").innerHTML = str
+                          }
+          </script>
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fab fa-github"></i>
+        <p><a onclick="window.location.href='https://github.com/The-Hacker894'" href="javascript:void(0)"><span>The-Hacker894</span></a> GitHub</p>
+      </div>
+
+
+
+      <div>
+        <i class="far fa-user"></i>
+        <p><span><a onclick="window.location.href='https://skylarmccauley.hacker-hub.com/'" href="javascript:void(0)">Contact Info</a></span></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>HackerHub</span>
+        The devpage for TheHacker (basically where he puts all of his crappy software so you can download it.)
+      </p>
+
+      <div class="footer-icons">
+
+        <a href="https://www.hacker-hub.com/social/#discord"><i class="fab fa-discord"></i></a>
+        <a href="https://play.google.com/store/apps/developer?id=Skylar+McCauley"><i class="fab fa-google-play"></i></a>
+       <!-- <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a> -->
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
+

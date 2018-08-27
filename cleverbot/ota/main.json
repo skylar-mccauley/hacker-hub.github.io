@@ -1,0 +1,27 @@
+{
+    "meta": {
+        "name": "CleverBot",
+        "version": "1.4"
+    },
+    "filePath": {
+        "tmp": "./tmp",
+        "serverBlacklist":"./data/blacklist/support/server.json",
+        "userBlacklist":"./data/blacklist/support/user.json"
+    },
+    "commands": [
+        "vote",
+        "disclaimer",
+        "support",
+        "bind",
+        "vote",
+        "credits"
+    ],
+    "links": {
+        "invite":"https://www.hacker-hub.com/cleverbot/invite/",
+        "website":"https://www.hacker-hub.com/cleverbot/",
+        "homeWebsite": "https://www.hacker-hub.com/",
+        "discordbotlist":"https://discordbots.org/bot/458664297732636672"
+    },
+    "ignore":"<ignore>",
+    "encoding":"utf8"
+}
