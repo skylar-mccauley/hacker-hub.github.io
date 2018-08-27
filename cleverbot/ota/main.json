@@ -5,6 +5,7 @@
     },
     "filePath": {
         "tmp": "./tmp",
+        "announcement": "./data/src/announcement.txt",
         "serverBlacklist":"./data/blacklist/support/server.json",
         "userBlacklist":"./data/blacklist/support/user.json"
     },
