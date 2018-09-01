@@ -184,7 +184,10 @@ Main components
     position: relative;
   }
 }
-
+a.cd-faq-trigger {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
 .cd-faq-items {
   position: fixed;
   height: 100%;
@@ -423,12 +426,15 @@ Main components
   line-height: 1.4;
   color: #6c7d8e;
   text-align: left;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 @media only screen and (min-width: 768px) {
   .cd-faq-content {
     display: none;
     padding: 0 24px 30px;
   }
+  
   .cd-faq-content p {
     line-height: 1.6;
   }
