@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>What's New in CleverBot v1.4</title>
+<title>What's New in CleverBot v1.5</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link rel="stylesheet" href="../../css/w3.min.css"> 
@@ -76,16 +76,16 @@
       enable_page_level_ads: true
     });
   </script>
-    <meta name="description" content="Check out what's new in the CleverBot 1.4 update!">
-    <meta name="keywords" content="What's new, CleverBot What's New, CleverBot 1.4, CleverBot v1.4, CleverBot What's new v1.4, CleverBot, CleverBot.io, CleverBot Discord Bot, CleverBot.io Discord Bot, AI Chat Bot, AI Discord Bot, CleverBot.io Chat Bot, AI Discord,JavaScript,NodeJS,Sunset,Sunset DiscordBot, Sunset JS, NodeJS Discord Bot, Sunset Discord Bot, Sunset Bot, Sunset DiscordJS, sunset-bot, Sunset-Bot, Sunset Lite Bot, Sunset Lite Discord Bot, Sunset-Lite Bot, HackerHub, HackerHubSite, TheHacker894, TheHacker">
+    <meta name="description" content="Check out what's new in the CleverBot 1.5 update!">
+    <meta name="keywords" content="CleverBot v1.4, CleverBot 1.4, CleverBot, What's new, CleverBot What's New, CleverBot 1.5, CleverBot v1.5, CleverBot What's new v1.5, CleverBot, CleverBot.io, CleverBot Discord Bot, CleverBot.io Discord Bot, AI Chat Bot, AI Discord Bot, CleverBot.io Chat Bot, AI Discord,JavaScript,NodeJS,Sunset,Sunset DiscordBot, Sunset JS, NodeJS Discord Bot, Sunset Discord Bot, Sunset Bot, Sunset DiscordJS, sunset-bot, Sunset-Bot, Sunset Lite Bot, Sunset Lite Discord Bot, Sunset-Lite Bot, HackerHub, HackerHubSite, TheHacker894, TheHacker">
     <meta name="author" content="Skylar McCauley">
-    <link rel="icon" href="../../images/cleverbot.jpg">
-    <link rel="apple-touch-icon" href="../../images/cleverbot.jpg"/>
+    <link rel="icon" href="../../images/cleverBotIconNew.png">
+    <link rel="apple-touch-icon" href="../../images/cleverBotIconNew.png"/>
 
     <!-- OG Meta Tags-->
-    <meta property="og:title" content="HackerHub - What's New -- CleverBot v1.4 ">
-    <meta property="og:image" content="https://www.hacker-hub.com/images/cleverbot.jpg">
-    <meta property="og:description" content="Check out what's new in the CleverBot 1.4 update!">
+    <meta property="og:title" content="HackerHub - What's New -- CleverBot v1.5 ">
+    <meta property="og:image" content="https://www.hacker-hub.com/images/cleverBotIconNew.png">
+    <meta property="og:description" content="Check out what's new in the CleverBot 1.5 update!">
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -178,6 +178,12 @@ span {
 code {
     color: #878787;
 }
+.v1-4-update {
+  display: none;
+}
+.hide1-4Notes {
+  display: none;
+}
 </style>
 <body>
 
@@ -209,87 +215,145 @@ code {
   </div>
 </div>
 
+<script>
+  function showNotes(e) {
+    if(!e) return console.log("No element provided")
+    if(e.length < 1) return console.log("No element provided")
+    $(e).fadeIn()
+    $(".show1-4Notes").fadeOut()
+    $(".hide1-4Notes").fadeIn()
 
-<div class="w3-content w3-container w3-padding-64" id="v1.4.5">
-  <h2>CleverBot v1.4.5</h2>
-  <a href="https://discordbots.org/bot/458664297732636672" >
-    <img src="https://discordbots.org/api/widget/status/458664297732636672.svg?noavatar=true" alt="CleverBot" />
-  </a>
-  <div class="blank"></div>
-  <div class="new-features">
-    <h3>New Features</h3>
-    <p class="changes">
-      -Added announcement urgency
-      <br>
-      -Added basis for Leveling System Coming Soon™ to CleverBot in the v1.5 update
-    </p>
+  }
+  function hideNotes(e) {
+    if(!e) return console.log("No element provided")
+    if(e.length < 1) return console.log("No element provided")
+    $(e).fadeOut()
+    $(".show1-4Notes").fadeIn()
+    $(".hide1-4Notes").fadeOut()
 
-    <h3>Bug Fixes</h3>
-    <p class="changes">
-      -Fixed an issue where in some cases CleverBot would act as if your server were using the old database when it wasn't
-      <br>
-      -Made some under the hood improvements
-      <br>
-      -Removed Herobrine
-    </p>
-  </div>
+  }
+</script>
+    <div class="w3-content w3-container w3-padding-64" id="v1.5">
 
-  </div>
-<!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="v1.4.1">
+        <h2>CleverBot v1.5</h2>
+        <a href="https://discordbots.org/bot/458664297732636672" >
+          <img src="https://discordbots.org/api/widget/status/458664297732636672.svg?noavatar=true" alt="CleverBot" />
+        </a>
+        <div class="blank"></div>
+        <div class="new-features">
+          <h3>New Features</h3>
+          <p class="changes">
+            -Fully implemented Leveling System for CleverBot, learn more about it <a href="../#leveling-system">here</a>
+            <br>
+            -Added Prestige System as a part of the <a href="../#leveling-system">Leveling System</a>
+            <br>
+            -Made some changes to the database. <i>(Shouldn't effect anything)</i>
+            <br>
+            -New icon!
+            <br>
+            -Fully migrated to new database
+          </p>
+      
+          <h3>Bug Fixes</h3>
+          <p class="changes">
+            -Fixed an issue where CleverBot wouldn't post its guild count to <a href="https://discordbots.org">Discord Bot List</a>
+            <br>
+            -Made some under the hood improvements to the basis of the Leveling System that was implemented in CleverBot v1.4.5
+          </p>
+        </div>
 
-  <h2>CleverBot v1.4.1</h2>
-  <a href="https://discordbots.org/bot/458664297732636672" >
-    <img src="https://discordbots.org/api/widget/status/458664297732636672.svg?noavatar=true" alt="CleverBot" />
-  </a>
-  <div class="blank"></div>
-  <div class="new-features">
-    <h3>Removed Features</h3>
-    <p class="changes">
-      -Removed fallback prefix as to not conflict with other bots. <i>Default prefix is still a mention</i>
-    </p>
-  </div>
-  <br>
+<div class="divider-line"></div>
 
-    <h2>CleverBot v1.4</h2>  
-  <div class="blank"></div>
-  <div class="new-features" >
-      <h3>New Features</h3>
-      <p class="changes">
-          -Added the ability for CleverBot to ignore messages that start with <code>&lt;ignore&gt;</code>
-          <br>
-          -Added an option to send support to the developer (intended use for complaints, suggestions, or just a pat on the back). <strong>User &amp; Guild IDs are logged to monitor spam <s>because you're all a bunch of skids.</s> </strong>
-          <br>
-          -CleverBot now sends a confirmation message in the newly bound channel (just in-case you were confused)
-          <br>
-          -New database system! Existing users will need to rebind channels before <strong>September 22nd</strong>
-          <br>
-          -Now runs on DiscordJS v11.4
-      </p>
-      <h3>Removed Features</h3>
-      <p class="changes">
-        -Removed Interaction Count due to floating points getting too big and resetting. <i>Might</i> make a return in the future.
-      </p>
-      <h3>Bug Fixes</h3>
-      <p class="changes">
-        -Fixed a bug that caused CleverBot to not respond to mentions when giving a nickname 
-        <br>
-        -Fixed an error in the <code>disclaimer</code> command where the User ID logging string would be shown twice.
-      </p>
-      <div class="divider-line"></div>
-      <br>
-      <h6>If you like what you see why not invite CleverBot to your Discord Server, if you haven't already.</h6>
-      <button onclick="window.location.href='../invite'" href="javascript:void(0)" class="custom-button orange" type="button"><span>CleverBot Invite</span></button>  
-      <br>
-      <h6>If you need some help or just want a place to hang out, come on down to the Sunset Discord Server</h6>
-      <button onclick="window.location.href='../../sunset/serverinvite'" href="javascript:void(0)" class="custom-button orange" type="button"><span>Sunset Discord Server Invite</span></button>  
-      <br>
-      <h6>If you're in need of a little bit of help you can check out the <strong>Getting Started</strong> section of the website.</h6> 
-      <button onclick="window.location.href='../#getting-started'" href="javascript:void(0)" class="custom-button orange" type="button"><span>CleverBot - Getting Started</span></button>          
-  </div>
+            <br>
+            <h6>If you like what you see why not invite CleverBot to your Discord Server, if you haven't already.</h6>
+            <button onclick="window.location.href='../invite'" href="javascript:void(0)" class="custom-button orange" type="button"><span>CleverBot Invite</span></button>  
+            <br>
+            <h6>If you need some help or just want a place to hang out, come on down to the Sunset Discord Server</h6>
+            <button onclick="window.location.href='../../sunset/serverinvite'" href="javascript:void(0)" class="custom-button orange" type="button"><span>Sunset Discord Server Invite</span></button>  
+            <br>
+            <h6>If you're in need of a little bit of help you can check out the <strong>Getting Started</strong> section of the website.</h6> 
+            <button onclick="window.location.href='../#getting-started'" href="javascript:void(0)" class="custom-button orange" type="button"><span>CleverBot - Getting Started</span></button>        
+            <br>
+            <button onclick="showNotes('.v1-4-update')" href="javascript:void(0)" class="custom-button orange show1-4Notes" type="button"><span>Show v1.4 Changelog</span></button>        
+            <br>
+            <button onclick="hideNotes('.v1-4-update')" href="javascript:void(0)" class="custom-button orange hide1-4Notes" type="button"><span>Hide v1.4 Changelog</span></button>        
 
-<!-- Footer -->
 </div>
+<div class="v1-4-update">
+    <div class="w3-content w3-container w3-padding-64" id="v1.4.5">
+
+        <h2>CleverBot v1.4.5</h2>
+        <a href="https://discordbots.org/bot/458664297732636672" >
+          <img src="https://discordbots.org/api/widget/status/458664297732636672.svg?noavatar=true" alt="CleverBot" />
+        </a>
+        <div class="blank"></div>
+        <div class="new-features">
+          <h3>New Features</h3>
+          <p class="changes">
+            -Added announcement urgency
+            <br>
+            -Added basis for Leveling System Coming Soon™ to CleverBot in the v1.5 update
+          </p>
+      
+          <h3>Bug Fixes</h3>
+          <p class="changes">
+            -Fixed an issue where in some cases CleverBot would act as if your server were using the old database when it wasn't
+            <br>
+            -Made some under the hood improvements
+            <br>
+            -Removed Herobrine
+          </p>
+        </div>
+      
+        </div>
+      <!-- Container (About Section) -->
+      <div class="w3-content w3-container w3-padding-64" id="v1.4.1">
+      
+        <h2>CleverBot v1.4.1</h2>
+        <a href="https://discordbots.org/bot/458664297732636672" >
+          <img src="https://discordbots.org/api/widget/status/458664297732636672.svg?noavatar=true" alt="CleverBot" />
+        </a>
+        <div class="blank"></div>
+        <div class="new-features">
+          <h3>Removed Features</h3>
+          <p class="changes">
+            -Removed fallback prefix as to not conflict with other bots. <i>Default prefix is still a mention</i>
+          </p>
+        </div>
+        <br>
+      
+          <h2>CleverBot v1.4</h2>  
+        <div class="blank"></div>
+        <div class="new-features" >
+            <h3>New Features</h3>
+            <p class="changes">
+                -Added the ability for CleverBot to ignore messages that start with <code>&lt;ignore&gt;</code>
+                <br>
+                -Added an option to send support to the developer (intended use for complaints, suggestions, or just a pat on the back). <strong>User &amp; Guild IDs are logged to monitor spam <s>because you're all a bunch of skids.</s> </strong>
+                <br>
+                -CleverBot now sends a confirmation message in the newly bound channel (just in-case you were confused)
+                <br>
+                -New database system! Existing users will need to rebind channels before <strong>September 22nd</strong>
+                <br>
+                -Now runs on DiscordJS v11.4
+            </p>
+            <h3>Removed Features</h3>
+            <p class="changes">
+              -Removed Interaction Count due to floating points getting too big and resetting. <i>Might</i> make a return in the future.
+            </p>
+            <h3>Bug Fixes</h3>
+            <p class="changes">
+              -Fixed a bug that caused CleverBot to not respond to mentions when giving a nickname 
+              <br>
+              -Fixed an error in the <code>disclaimer</code> command where the User ID logging string would be shown twice.
+            </p>
+              
+        </div>
+      
+      <!-- Footer -->
+      </div>
+</div>
+
 <footer class="footer-distributed">
 
     <div class="footer-left">
