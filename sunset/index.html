@@ -199,7 +199,6 @@ code {
     <a href="#commands" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-couch"></i> Commands</a>
 
     <a href="#invite" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-envelope"></i> Invite</a>
-    <a href="#server" class="w3-bar-item w3-button w3-hide-small"><i class="fab fa-discord"></i> Server</a>
     <a href="#github" class="w3-bar-item w3-button w3-hide-small"><i class="fab fa-github"></i> GitHub</a>
     <a href="wiki" class="w3-bar-item w3-button w3-hide-small"><i class="fab fa-wikipedia-w"></i> Wiki</a>
     <a href="../" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-home"></i>HomePage</a>
@@ -213,7 +212,6 @@ code {
     <a href="#commands" class="w3-bar-item w3-button" onclick="toggleFunction()">COMMANDS</a>
 
     <a href="#invite" class="w3-bar-item w3-button" onclick="toggleFunction()">INVITE</a>
-    <a href="#server" class="w3-bar-item w3-button" onclick="toggleFunction()">SERVER</a>
 
     <a href="#github" class="w3-bar-item w3-button" onclick="toggleFunction()">GITHUB</a>
     <a href="../" class="w3-bar-item w3-button" onclick="toggleFunction()">HomePage</a>
@@ -276,6 +274,10 @@ code {
       <p>Sunset is programmed using NodeJS with the powerful DiscordJS library. Sunset's source code is also available on GitHub for anyone to view and contribute code.</p>
       
           <br>
+
+          <button onclick="window.location.href='../social/#discord'" href="javascript:void(0)" class="custom-button orange" type="button"><span>HackerWorld Discord Server</span></button>            
+
+          <p>The HackerWorld Discord Server is the main hub for Sunset and CleverBot.</p>
 
     </div>
   </div>
@@ -576,136 +578,7 @@ code {
             
 
   <!--                                              -->
-
-  <div class="bgimg-3 w3-display-container w3-opacity-min"id="server">
-      <div class="w3-display-middle">
-         <span class="w3-xxlarge w3-text-white w3-wide">Server</span>
-      </div>
-    </div>
-
-    <div class="w3-content w3-container w3-padding-64" >
-          <h3 class="w3-center">Sunset Discord Server</h3>
-          <p class="w3-center"><em>The home of the Sunset Discord Bot.<br></em></p><br>
-          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-          <!-- HackerHub 2.0 -->
-          <ins class="adsbygoogle"
-               style="display:block"
-               data-ad-client="ca-pub-9986048752291588"
-               data-ad-slot="3102384645"
-               data-ad-format="auto"
-               data-full-width-responsive="true"></ins>
-          <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-          </script>
-          <div>
-              <p>Sunset, the home of the Sunset Discord Bot, is the place for all types of Discord Users. Whether you just . want to talk to others, play games, design content, or program. This is the place for you.</p>
-          </div>
-          <br>
-
                       <!-- The Modal -->
-<div id="serverInviteModal" class="modal">
-
-    <!-- Modal content -->
-    <div class="modal-content">
-      <span class="serverClose">&times;</span>
-      <div class="modal-title">
-        <h3 class="modal-title">Sunset Server Invite</h3>
-      </div>
-      <p class="modal-subtitle">Before getting an invite to the Sunset Discord Server you will need to complete this captcha.</p>
-      <div class="modal-body">        
-  
-        <div class="inviteCaptcha">     
-          <form action="?" method="POST">
-              <script>
-                function toggleDisplay(id)
-          {
-              var el = document.getElementById(id);
-              if(el.style.display == "none") el.style.display = "block";
-              else el.style.display = "none";
-          }
-  
-                 function serverCaptcha() {
-                   toggleDisplay('sSuccessCaptchaDiv')
-                     setTimeout(function () {
-                 window.location.href="https://discordapp.com/invite/skRyTVw"
-         }, 3000);
-                 }
-                  function sErrorCaptcha() {
-                         toggleDisplay('sErrorCaptchaDiv')
-                 }
-                 function sExpiredCaptcha() {
-                  toggleDisplay('sExpiredCaptchaDiv')
-     
-                 }
-             </script>
-           <div data-expired-callback="sExpiredCaptcha" data-error-callback="sErrorCaptcha" style="display:flex;justify-content:center;align-items:center;" class="g-recaptcha" data-sitekey="6Lcmk1gUAAAAAHCHhRGnkfo23NnVs_bE7_dZ1fBT" data-callback="serverCaptcha" data-theme="dark"></div>
-           <br/>
-           <!--<input type="submit" value="Submit">-->
-         </form>
-     
-         </div>
-         
-         <div>
-           <p class="black" >If this invite does not work please contact me at <a href="mailto:skylarmccauley864@gmail.com">skylarmccauley864@gmail.com</a> or through <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=skylarmccauley864@gmail.com&su=CleverBot%20Discord%20Bot%20Invite%20does%20not%20work">GMail</a></p>
-  
-  
-           <!--Error Messages (These will only appear when needed)-->
-            <div style="display: none;" id="sExpiredCaptchaDiv" class="alert alert-danger">
-              <strong>ERROR!</strong> Your reCaptcha response has expired. please re-verify!.
-            </div>
-  
-            <div style="display: none;" id="sErrorCaptchaDiv" class="alert alert-danger">
-                <strong>ERROR!</strong> reCaptcha has encounted an error. Please check your internet connection and hard refresh the page.
-              </div>
-  
-              <div style="display: none;" id="sSuccessCaptchaDiv" class="alert alert-success">
-                  <strong>Success!</strong> You've passed the reCaptcha test, redirecting in 3 seconds...
-                </div>
-          </div>
-          
-      </div>
-      <strong><p style="display:flex;justify-content:center;align-items:flex-end;" class="modal-footer-text">You'll need JavaScript enabled for this to work</p></strong>
-      <div style="display:flex;justify-content:center;align-items:flex-end;" class="modal-footer"> </div>
-    </div>
-  
-  </div>
-  
-  <script>
-  // Get the modal
-  var sModal = document.getElementById('serverInviteModal');
-  
-  // Get the button that opens the modal
-  var sbtn = document.getElementById("serverInviteModalInvoke");
-  
-  // Get the <span> element that closes the modal
-  var sSpan = document.getElementsByClassName("serverClose")[0];
-  
-  // When the user clicks the button, open the modal 
-  
-  function showServerInvite() {
-    sModal.style.display = "block";
-  }
-  
-  // When the user clicks on <span> (x), close the modal
-  sSpan.onclick = function() {
-      sModal.style.display = "none";
-  }
-  
-  // When the user clicks anywhere outside of the modal, close it
-  window.onclick = function(event) {
-      if (event.target == sModal) {
-          sModal.style.display = "none";
-      }
-  }
-  </script>
-
-          <button onclick="showServerInvite()" href="javascript:void(0)" class="custom-button orange" type="button"><span>Sunset Discord Server Invite</span></button>            
-          <br>
-
-          </div>
-      
-            
-
 <div class="bgimg-3 w3-display-container w3-opacity-min"id="github">
         <div class="w3-display-middle">
            <span class="w3-xxlarge w3-text-white w3-wide">GITHUB</span>

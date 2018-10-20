@@ -49,6 +49,11 @@
     <script src="../js/scrolling.js"></script>
       <script src="../js/nanobar.min.js"></script>
       <script src="../js/deviceDetect.js"></script>
+      <script src='https://www.google.com/recaptcha/api.js'></script>
+      <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js" integrity="sha384-u/bQvRA/1bobcXlcEYpsEdFVK/vJs3+T+nXLsBYJthmdBuavHvAW6UsmqO2Gd/F9" crossorigin="anonymous"></script>
+
+
 
       <script src="../app/ios/fix.js"></script>
 <script type="text/javascript">
@@ -244,8 +249,109 @@
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
-        Sunset is for publicizing my projects like <a href="../sunset/">Sunset</a> and <a href="../cleverbot/">CleverBot</a>. <br> <br>
-        <button onclick="window.location.href='../sunset/serverinvite'" href="javascript:void(0)" class="custom-button orange" type="button"><span>Sunset Discord Server</span></button>            
+        HackerWorld is for publicizing my projects like <a href="../sunset/">Sunset</a> and <a href="../cleverbot/">CleverBot</a>. <br> <br>
+
+
+        <div id="inviteModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="modal-title">
+                <h3 class="modal-title">HackerWorld Discord Server Invite</h3>
+              </div>
+              <p class="modal-subtitle">Before getting an invite to the HackerWorld Discord Server, you'll need to complete this captcha.</p>
+              <div class="modal-body">        
+          
+                <div class="inviteCaptcha">     
+                  <form action="?" method="POST">
+                      <script>
+                        function toggleDisplay(id)
+                  {
+                      var el = document.getElementById(id);
+                      if(el.style.display == "none") el.style.display = "block";
+                      else el.style.display = "none";
+                  }
+          
+                         function captcha() {
+                           toggleDisplay('successCaptchaDiv')
+                             setTimeout(function () {
+                         window.location.href="https://discord.gg/wgmZ8En"
+                 }, 3000);
+                         }
+                          function errorCaptcha() {
+                                 toggleDisplay('errorCaptchaDiv')
+                         }
+                         function expiredCaptcha() {
+                          toggleDisplay('expiredCaptchaDiv')
+             
+                         }
+                     </script>
+                   <div data-expired-callback="expiredCaptcha" data-error-callback="errorCaptcha" style="display:flex;justify-content:center;align-items:center;" class="g-recaptcha" data-sitekey="6Lcmk1gUAAAAAHCHhRGnkfo23NnVs_bE7_dZ1fBT" data-callback="captcha" data-theme="dark"></div>
+                   <br/>
+                   <!--<input type="submit" value="Submit">-->
+                 </form>
+             
+                 </div>
+                 
+                 <div>
+                   <p class="black" >If this invite does not work please contact me at <a href="mailto:skylarmccauley864@gmail.com">skylarmccauley864@gmail.com</a> or through <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=skylarmccauley864@gmail.com&su=CleverBot%20Discord%20Bot%20Invite%20does%20not%20work">GMail</a></p>
+          
+          
+                   <!--Error Messages (These will only appear when needed)-->
+                    <div style="display: none;" id="expiredCaptchaDiv" class="alert alert-danger">
+                      <strong>ERROR!</strong> Your reCaptcha response has expired. please re-verify!.
+                    </div>
+          
+                    <div style="display: none;" id="errorCaptchaDiv" class="alert alert-danger">
+                        <strong>ERROR!</strong> reCaptcha has encounted an error. Please check your internet connection and hard refresh the page.
+                      </div>
+          
+                      <div style="display: none;" id="successCaptchaDiv" class="alert alert-success">
+                          <strong>Success!</strong> You've passed the reCaptcha test, redirecting in 3 seconds...
+                        </div>
+                  </div>
+                  
+              </div>
+              <strong><p style="display:flex;justify-content:center;align-items:flex-end;" class="modal-footer-text">You'll need JavaScript enabled for this to work</p></strong>
+              <div style="display:flex;justify-content:center;align-items:flex-end;" class="modal-footer"> </div>
+            </div>
+          
+          </div>
+          
+          <script>
+          // Get the modal
+          var modal = document.getElementById('inviteModal');
+          
+          // Get the button that opens the modal
+          var btn = document.getElementById("inviteModalInvoke");
+          
+          // Get the <span> element that closes the modal
+          var span = document.getElementsByClassName("close")[0];
+          
+          // When the user clicks the button, open the modal 
+          
+          function showInvite() {
+            modal.style.display = "block";
+          }
+          
+          // When the user clicks on <span> (x), close the modal
+          span.onclick = function() {
+              modal.style.display = "none";
+          }
+          
+          // When the user clicks anywhere outside of the modal, close it
+          window.onclick = function(event) {
+              if (event.target == modal) {
+                  modal.style.display = "none";
+              }
+          }
+          </script>
+        
+                    <button onclick="showInvite()" href="javascript:void(0)" class="custom-button orange" type="button"><span>HackerWorld Server Invite</span></button>            
+                   
+
+
     </div>
     <div class="bgimg-3 w3-display-container w3-opacity-min" id="reddit">
         <div class="w3-display-middle">
