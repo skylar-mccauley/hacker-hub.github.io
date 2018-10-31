@@ -314,7 +314,7 @@ body::after {
     border-radius: 1px;
   }
   .column {
-    width: 70%;
+    width: 64%;
   }
   .lts-2px {
     letter-spacing: 0.5px;
