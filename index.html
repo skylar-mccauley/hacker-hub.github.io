@@ -22,9 +22,11 @@
 
 
 <link href="css/info.css" rel="stylesheet">
+<link href="css/cards.css" rel="stylesheet">
 
 <script src="js/spop.js"></script>
 <script src="js/copy.js"></script>
+
 
 
 
@@ -52,9 +54,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
     <script src="js/scrolling.js"></script>
-      <script src="js/nanobar.min.js"></script>
- 
-
+      <script src="js/nanobar.min.js"></script> 
 
 <script src="app/ios/fix.js"></script>
 <script type="text/javascript">
@@ -193,22 +193,22 @@ div {
     </a>
     <a id='class' href="#home" class="w3-bar-item w3-button">HackerHub</a>
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-info-circle"></i> About</a>
-    <a href="#github" class="w3-bar-item w3-button w3-hide-small"><i class="fab fa-github-square"></i> GitHub</a>
     <a href="social" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-share-square"></i> Social</a>
     <a href="webapp" class="w3-bar-item w3-button w3-hide-small"><i class="fab fas fa-download"></i> WebApp</a>
     <a href="sunset" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-sun"></i> Sunset</a>
-    <a href="cleverbot" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-lightbulb"></i> CleverBot</a>      
+    <a href="cleverbot" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-lightbulb"></i> CleverBot</a>     
+    <a href="partner" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-handshake"></i> Partner</a>     
     </a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#github" class="w3-bar-item w3-button" onclick="toggleFunction()">GITHUB</a>
     <a href="social" class="w3-bar-item w3-button" onclick="toggleFunction()">SOCIAL</a>
     <a href="webapp" class="w3-bar-item w3-button" onclick="toggleFunction()">WEBAPP</a>
     <a href="sunset" class="w3-bar-item w3-button" onclick="toggleFunction()">SUNSET</a>
     <a href="cleverbot" class="w3-bar-item w3-button" onclick="toggleFunction()">CLEVERBOT</a>
+    <a href="partner" class="w3-bar-item w3-button" onclick="toggleFunction()">PARTNER</a>
     <a href="./" class="w3-bar-item w3-button" onclick="toggleFunction()">Homepage</a>
   </div>
 </div>
@@ -265,6 +265,11 @@ div {
         <br>
         <button onclick="window.location.href='sunset/serverinvite'" href="javascript:void(0)" class="custom-button orange" type="button"><span>Sunset Discord Server Invite</span></button>
         <br>
+        <p>You can also find my open source projects on GitHub</p>
+        <div class="github-card" >
+          <blockquote class="embedly-card"data-card-controls="0"><h4><a href="https://github.com/The-Hacker894/">The-Hacker894 (TheHacker894)</a></h4><p>The-Hacker894 has 9 repositories available. Follow their code on GitHub.</p></blockquote>
+        <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+        </div>
         
        
 
@@ -301,34 +306,81 @@ div {
 </div> 
             
         
-<div class="bgimg-3 w3-display-container w3-opacity-min"id="github">
+<div class="bgimg-3 w3-display-container w3-opacity-min"id="projects">
         <div class="w3-display-middle">
-           <span class="w3-xxlarge w3-text-white w3-wide ">GITHUB</span>
+           <span class="w3-xxlarge w3-text-white w3-wide ">PROJECTS</span>
         </div>
       </div>
       <div class="darkmode_container">
 <div class="w3-content w3-container w3-padding-64" >
-        <h3 class="w3-center darkmode_text">GitHub</h3>
-        <p class="w3-center darkmode_text"><em>I also have a GitHub Account<br></em></p><br>
+        <h3 class="w3-center darkmode_text">Projects</h3>
 
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- HackerHub 2.0 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-9986048752291588"
-     data-ad-slot="3102384645"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+        <div class="row center text-center">
+            <div class="column">
 
-        <div>
-            <p class="darkmode_text">I update the source code for my projects every once in a while.</p>
-        </div>
-      
-        <blockquote class="embedly-card"data-card-controls="0"><h4><a href="https://github.com/The-Hacker894/">The-Hacker894 (TheHacker894)</a></h4><p>The-Hacker894 has 9 repositories available. Follow their code on GitHub.</p></blockquote>
-        <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+                <div class="my-2 mx-1 mobile-cards p-relative bg-white shadow-1 blue-hover">
+                    <img src="images/Sunset_pfp.png" alt="Sunset"
+                        class="d-block w-full">
+            
+              <div class="px-2 py-2">
+                <p class="mb-0 medium bigger-mobile font-weight-medium text-uppercase mb-1 text-muted lts-2px">
+                  NodeJS
+                </p>
+            
+                <h1 class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1" style="line-height: 1.25;">
+                  Sunset
+                </h1>
+            
+                <p class="mb-1 no-mobile">
+                  The swiss-army knife of Discord Bots. Programmed in NodeJS
+                </p>
+            
+              </div>
+            
+              <a target="_blank" href="https://hacker-hub.com/sunset/" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">
+                Read More
+              </a>
+
+              <a target="_blank" href="https://hacker-hub.com/sunset/invite" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">
+                INVITE
+                </a>
+        
+            </div>
+            </div>
+            <div class="column">
+                <div class="my-2 mx-1 mobile-cards p-relative bg-white shadow-1 blue-hover">
+                    <img src="images/cleverBotIconNew.png" alt="CleverBot"
+                        class="d-block w-full">
+            
+              <div class="px-2 py-2">
+                <p class="mb-0 medium bigger-mobile font-weight-medium text-uppercase mb-1 text-muted lts-2px">
+                  NodeJS
+                </p>
+            
+                <h1 class="ff-serif font-weight-normal text-black card-heading mt-0 mb-1" style="line-height: 1.25;">
+                  CleverBot
+                </h1>
+            
+                <p class="mb-1 no-mobile">
+                  Cloud-based AI Chat Bot for Discord
+                </p>
+            
+              </div>
+            
+              <a target="_blank" href="https://hacker-hub.com/cleverbot/" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">
+                Read More
+              </a>
+
+              <a target="_blank" href="https://hacker-hub.com/cleverbot/invite" class="text-uppercase d-inline-block font-weight-medium lts-2px ml-2 mb-2 text-center styled-link">
+                INVITE
+                </a>
+        
+            </div>
+            </div>
+
+          </div>
+          <button onclick="window.location.href='https://skylarmccauley.hacker-hub.com'" href="javascript:void(0)" class="custom-button orange" type="button"><span>View More</span></button>
+
 </div>
     
 
@@ -352,7 +404,7 @@ function googleTranslateElementInit() {
                       ·
                       <a href="privacy_policy">Privacy Policy</a>
                       ·
-                      <a href="partnership">Partnership</a>
+                      <a href="partner">Partnership</a>
                       ·
                       <a href="//skylarmccauley.hacker-hub.com">About Me</a>
                       ·
