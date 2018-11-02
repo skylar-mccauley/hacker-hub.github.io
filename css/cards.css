@@ -313,6 +313,9 @@ body::after {
     overflow: hidden; 
     border-radius: 1px;
   }
+  .column {
+    width: 64%;
+  }
   .lts-2px {
     letter-spacing: 0.5px;
   }
@@ -321,9 +324,6 @@ body::after {
   }
   .mb-2 {
     margin-bottom: 0px;
-  }
-  .column {
-    width: 50%;
   }
   .px-2 {
     padding-left: 0.2rem;
