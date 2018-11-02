@@ -24,6 +24,41 @@ p {
 div {
     text-align: left;
 }
+.back {
+    margin-left: 2.2%;     
+    margin-right: 2.2%;
+}
+.back:visited {
+    color: black;
+}
+.back {
+    display: none;
+}
+.back:hover, .fas:hover, .fa-chevron-left:hover {
+    background-color: gray;
+}
+.app-content {
+    display: block;
+}
+.website {
+    height: 93%;
+}
+.website-hackerhub {
+    display: none;
+}
+.website-about-me {
+    display: none;
+}
+.website-projects {
+    display: none;
+}
+.website-debug {
+    display: none;
+}
+
+.social-buttons{
+    display: inline-block;
+}
 /* iPhone 5/iPhone 5S/ iPhone SE */
 @media only screen and (max-device-width: 320px) and (min-device-width: 320px){
     .titleBar-title {
@@ -32,6 +67,10 @@ div {
     margin-left: 1%;
     font-size: 95%;
 }
+.fa-chevron-left {
+    margin-top: 25%;     
+    font-size:  190%;
+}
 .titleBar {
     height:7%;
     width: 100%;
@@ -52,8 +91,31 @@ p{
     font-size: 15px;
     margin-top: 10px;
 }
+.button-3 {
+    margin-left: 0.98% !important;
+    margin-right: 0.98% !important;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 10px;
 }
-
+.social-buttons {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.credit-text {
+    font-size: 13px
+}
+.version-text {
+    font-size: 10px
+}
+}
 /* iPhone X  */
 @media only screen and (max-device-width: 375px) and (min-device-width: 375px) {
     .titleBar-title {
@@ -62,6 +124,10 @@ p{
     margin-left: 1%;
     font-size: 175%;
 }
+.fa-chevron-left {
+    margin-top: 25%;     
+    font-size:  350%;
+}
 .titleBar {
     height:7%;
     width: 100%;
@@ -82,7 +148,30 @@ p{
     font-size: 15px;
     margin-top: 10px;
 }
-
+.button-3 {
+    margin-left: 0.98% !important;
+    margin-right: 0.98% !important;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.social-buttons {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.credit-text {
+    font-size: 10px
+}
+.version-text {
+    font-size: 8px
+}
 }
 /*iPhone 6/6S/7/8 */
 @media only screen and (max-device-width: 375px) and (min-device-width: 375px) and (max-device-height: 667) and (min-device-height: 667){
@@ -92,6 +181,10 @@ p{
     margin-left: 1%;
     font-size: 175%;
 }
+.fa-chevron-left {
+    margin-top: 25%;     
+    font-size:  350%;
+}
 .titleBar {
     height:7%;
     width: 100%;
@@ -112,14 +205,42 @@ p{
     font-size: 15px;
     margin-top: 10px;
 }
+.button-3 {
+    margin-left: 0.98% !important;
+    margin-right: 0.98% !important;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 10px;
 }
-/* iPhone 6 Plus/6S Plus/7 Plus/8 Plus */
+.social-buttons {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.credit-text {
+    font-size: 10px
+}
+.version-text {
+    font-size: 8px
+}
+}
+/* iPhone 6 Plus/6S Plus/7 Plus/8 Plus iPhone Xr/Xs Max*/
 @media only screen and (max-device-width: 414px) and (min-device-width: 414px){
     .titleBar-title {
     height: 4%;
     text-align: left;
     margin-left: 1%;
     font-size: 130%;
+}
+.fa-chevron-left {
+    margin-top: 25%;     
+    font-size:  260%;
 }
 .titleBar {
     height:6%;
@@ -141,6 +262,30 @@ p{
     font-size: 15px;
     margin-top: 10px;
 }
+.button-3 {
+    margin-left: 0.98% !important;
+    margin-right: 0.98% !important;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.social-buttons {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.credit-text {
+    font-size: 13px
+}
+.version-text {
+    font-size: 10px
+}
 }
 /* iPhone 5/iPhone 5S/ iPhone SE Landscape */
 @media only screen and (max-device-width: 568px) and (min-device-width: 568px) and (max-device-height: 320px) and (min-device-height: 320px){
@@ -149,6 +294,10 @@ p{
     text-align: left;
     margin-left: 1%;
     font-size: 95%;
+}
+.fa-chevron-left {
+    margin-top: 25%;     
+    font-size:  190%;
 }
 .titleBar {
     height:7%;
@@ -170,6 +319,30 @@ p{
     font-size: 15px;
     margin-top: 10px;
 }
+.button-3 {
+    margin-left: 0.98% !important;
+    margin-right: 0.98% !important;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.social-buttons {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.credit-text {
+    font-size: 13px
+}
+.version-text {
+    font-size: 10px
+}
 }
 /* iPod Touch 5G & iPod Touch 6G */
 @media only screen and (max-device-width: 640px) and (min-device-width: 640px){
@@ -178,6 +351,10 @@ p{
     text-align: left;
     margin-left: 1%;
     font-size: 135%;
+}
+.fa-chevron-left {
+    margin-top: 25%;     
+    font-size:  270%;
 }
 .titleBar {
     height:7%;
@@ -199,6 +376,30 @@ p{
     font-size: 20px;
     margin-top: 10px;
 }
+.button-3 {
+    margin-left: 0.98% !important;
+    margin-right: 0.98% !important;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.social-buttons {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.credit-text {
+    font-size: 12px
+}
+.version-text {
+    font-size: 11px
+}
 }
 /* iPhone Regular Models Landscape */
 @media only screen and (max-device-width: 667px) and (min-device-width: 667px){
@@ -207,6 +408,10 @@ p{
     text-align: left;
     margin-left: 1%;
     font-size: 135%;
+}
+.fa-chevron-left {
+    margin-top: 25%;     
+    font-size:  270%;
 }
 .titleBar {
     height:7%;
@@ -228,6 +433,30 @@ p{
     font-size: 20px;
     margin-top: 10px;
 }
+.button-3 {
+    margin-left: 0.98% !important;
+    margin-right: 0.98% !important;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.social-buttons {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.credit-text {
+    font-size: 13px
+}
+.version-text {
+    font-size: 11px
+}
 }
 /* iPhone Plus Model Landscape*/
 @media only screen and (max-device-width: 736px) and (min-device-width: 736px){
@@ -236,6 +465,10 @@ p{
     text-align: left;
     margin-left: 1%;
     font-size: 190%;
+}
+.fa-chevron-left {
+    margin-top: 25%;     
+    font-size:  380%;
 }
 .titleBar {
     height:3%;
@@ -257,6 +490,30 @@ p{
     border-radius: 5px;
     font-size: 25px;
     margin-top: 10px;
+}
+.button-3 {
+    margin-left: 0.98% !important;
+    margin-right: 0.98% !important;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.social-buttons {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.credit-text {
+    font-size: 15px
+}
+.version-text {
+    font-size: 12.5px
 }
 }
 /* 9.7-inch iPad Portrait*/
@@ -267,6 +524,10 @@ p{
     margin-left: 1%;
     font-size: 200%;
 }
+.fa-chevron-left {
+    margin-top: 25%;     
+    font-size: 400%;
+}
 .titleBar {
     height:5%;
     width: 100%;
@@ -288,6 +549,30 @@ p{
     font-size: 25px;
     margin-top: 10px;
 }
+.button-3 {
+    margin-left: 0.98% !important;
+    margin-right: 0.98% !important;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.social-buttons {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.credit-text {
+    font-size: 23px
+}
+.version-text {
+    font-size: 16px
+}
 }
 /* 9.7-inch iPad Portrait*/
 @media only screen and (max-device-width: 812px) and (min-device-width: 812px){
@@ -296,6 +581,10 @@ p{
     text-align: left;
     margin-left: 1%;
     font-size: 190%;
+}
+.fa-chevron-left {
+    margin-top: 25%;     
+    font-size:  380%;
 }
 .titleBar {
     height:3%;
@@ -318,6 +607,30 @@ p{
     font-size: 25px;
     margin-top: 10px;
 }
+.button-3 {
+    margin-left: 0.98% !important;
+    margin-right: 0.98% !important;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.social-buttons {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.credit-text {
+    font-size: 23px
+}
+.version-text {
+    font-size: 16px
+}
 }
 /* 12.9-inch iPad Pro Portrait*/
 @media only screen and (max-device-width: 1024px) and (min-device-width: 1024px){
@@ -327,6 +640,10 @@ p{
     margin-left: 1%;
     font-size: 270%;
 }
+.fa-chevron-left {
+    margin-top: 25%;     
+    font-size:  540%;
+}
 .titleBar {
     height:5%;
     width: 100%;
@@ -334,7 +651,6 @@ p{
     z-index: 100;
     box-shadow: 5px;
     display: inline-flex;
-    
 }
 p{
     font-size: 27px;
@@ -348,8 +664,29 @@ p{
     font-size: 30px;
     margin-top: 10px;
 }
-.credits {
-    font-size: 23px;
+.button-3 {
+    margin-left: 0.98% !important;
+    margin-right: 0.98% !important;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.social-buttons {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.credit-text {
+    font-size: 23px
+}
+.version-text {
+    font-size: 16px
 }
 }
 /* 12.9-inch iPad Pro Landscape*/
@@ -359,6 +696,10 @@ p{
     text-align: left;
     margin-left: 1%;
     font-size: 270%;
+}
+.fa-chevron-left {
+    margin-top: 25%;     
+    font-size:  540%;
 }
 .titleBar {
     height:5%;
@@ -381,9 +722,33 @@ p{
     font-size: 33px;
     margin-top: 10px;
 }
+.button-3 {
+    margin-left: 0.98% !important;
+    margin-right: 0.98% !important;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 33px;
+    margin-top: 10px;
+}
+.credit-text {
+    font-size: 23px
+}
+.version-text {
+    font-size: 16px
+}
+}
+.social-buttons {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 33px;
+    margin-top: 10px;
+}
 .credits {
     font-size: 23px;
-}
 }
 .warning {
     display: none;
@@ -411,7 +776,7 @@ img {
 }
 .wrapper {
     background-color: black;
-    height: fit-content;
+    height: fit-content; 
 }
 
 .credits {
@@ -434,8 +799,3 @@ img {
 .hackerhub-website {
     margin-top: 15px;
 }
-.wrapper {
-    background-color: black;
-    height: fit-content;
-}
-

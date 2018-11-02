@@ -5,7 +5,7 @@
 	<key>ConsentText</key>
 	<dict>
 		<key>default</key>
-		<string>I am not responsible if your iPhone, iPad, or iPod Touch catches fire or forces you to listen to Eminem.</string>
+		<string>By installing the HackerHub WebApp, you agree to let us run scripts and gather analytical data while using the app.</string>
 	</dict>
 	<key>PayloadContent</key>
 	<array>
@@ -2480,7 +2480,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>This profile installs the HackerHub WebApp to your iPhone, iPad, or iPod touch.</string>
+	<string>This profile installs the HackerHub WebApp to your iOS Device</string>
 	<key>PayloadDisplayName</key>
 	<string>HackerHub</string>
 	<key>PayloadIdentifier</key>
@@ -2492,7 +2492,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>E646555E-46FC-4F86-82D0-A36224F62001</string>
+	<string>568666B6-A649-4498-B47D-EB98E42CC44F</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
