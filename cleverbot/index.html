@@ -286,7 +286,7 @@ code {
     Uptime
   </div>
   <div  class="w3-quarter w3-section">
-    <span id="text-fix" class="w3-xlarge">1.5.2</span><br>
+    <span id="text-fix" class="w3-xlarge">1.5.3</span><br>
     Current Version
   </div>
   <div  class="w3-quarter w3-section">
@@ -294,7 +294,7 @@ code {
     InDev Version
   </div>
   <div  class="w3-quarter w3-section">
-        <span id="text-fix" class="w3-xlarge">1.5.3</span><br>
+        <span id="text-fix" class="w3-xlarge">TBD</span><br>
         BETA Version
       </div>
 
@@ -434,10 +434,10 @@ code {
 
 <script>
 // Get the modal
-var modal = document.getElementById('supportServerModal');
+var ssmodal = document.getElementById('supportServerModal');
 
 // Get the button that opens the modal
-var btn = document.getElementById("supportServerModalInvoke");
+var ssbtn = document.getElementById("supportServerModalInvoke");
 
 // Get the <span> element that closes the modal
 var supportServerSpan = document.getElementsByClassName("supportServerClose")[0];
@@ -445,18 +445,18 @@ var supportServerSpan = document.getElementsByClassName("supportServerClose")[0]
 // When the user clicks the button, open the modal 
 
 function showSSInvite() {
-modal.style.display = "block";
+ssmodal.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
   supportServerSpan.onclick = function() {
-modal.style.display = "none";
+ssmodal.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-if (event.target == modal) {
-modal.style.display = "none";
+if (event.target == ssmodal) {
+ssmodal.style.display = "none";
 }
 }
 </script>
