@@ -1,5 +1,3 @@
 #navDemo,.w3-top, .w3-card, .w3-bar, .w3-animate, .w3-white, .w3-card, .w3-animate, .w3-animate-top, .w3-white {
   opacity: .9 !important;
-  background: inherit; 
-  content: ‘’;
 }
