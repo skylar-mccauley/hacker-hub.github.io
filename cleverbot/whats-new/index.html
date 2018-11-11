@@ -216,9 +216,6 @@ code {
   </div>
 </div>
 
-<div class="alert alert-danger">
-  <strong>ATTENTION!</strong>  The CleverBot Leveling System (Levels/XP/Stars) has been removed due to a bug not allowing you to advance a level.
-</div>
 <script>
   function showNotes(e) {
     if(!e) return console.log("No element provided")
@@ -236,7 +233,17 @@ code {
     $(".hide1-4Notes").fadeOut()
 
   }
+  function loadRevisionInfo(revVer) {
+    spop({
+	      template: "This feature was added in " + revVer + ".",
+	      position  : 'bottom-right',
+	      style: 'warning',
+        autoclose: 3000
+        });
+  }
 </script>
+
+
 <div class="w3-content w3-container w3-padding-64" id="v1.5.3">
   <a href="https://discordbots.org/bot/458664297732636672" >
     <img src="https://discordbots.org/api/widget/status/458664297732636672.svg?noavatar=true" alt="CleverBot" />
@@ -244,20 +251,24 @@ code {
   <h2>CleverBot v1.5.3</h2>
 
   <div class="blank"></div>
-  <div class="alert alert-info">
-      <strong>INFO!</strong>  CleverBot Leveling System will be back in v1.6 in a new form.
-    </div>
-
   <div class="new-features">
 
     <h3>Removed Features</h3>
     <p class="changes">
-      -Leveling System removed due to a bug discovered making Leveling Up past Level 0 was not possible
+      -Leveling System removed due to a bug discovered making Leveling Up past Level 0 was not possible <button onclick="loadRevisionInfo('Revision A')" href="javascript:void(0);" type="button" class="btn btn-info">
+        Revision <span class="badge badge-light">A</span>
+      </button><br><br>
     </p>
 
     <h3>Bug Fixes</h3>
     <p class="changes">
-      -Fixed an issue where CleverBot would not respond to DMs
+      -Fixed an issue where CleverBot would not respond to DMs <button onclick="loadRevisionInfo('Revision A')" href="javascript:void(0);" type="button" class="btn btn-info">
+        Revision <span class="badge badge-light">A</span>
+      </button><br><br>
+      -CleverBot now reconnects to the DiscordAPI after a disconnect (Revision B) 
+      <button onclick="loadRevisionInfo('Revision B')" href="javascript:void(0);" type="button" class="btn btn-info">
+        Revision <span class="badge badge-light">B</span>
+      </button>
     </p>
   </div>
   <div class="divider-line"></div>
