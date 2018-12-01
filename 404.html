@@ -1,27 +1,224 @@
 <html id="frown">
 <head>
 <title>Error 404</title>
-<link rel="stylesheet" href="https://skylarmccauley.hacker-hub.com/404/404.css" type="text/css" media="all" />
 <link rel="icon" href="https://skylarmccauley.hacker-hub.com/404/frown.png">
 <link rel="apple-touch-icon" href="https://skylarmccauley.hacker-hub.com/404/frown.png"/>
+
+<script>
+
+        // Error 404 Script
+    function errorText() {
+        var errors = Array("PAGE_NOT_FOUND", "PAGE_DOES_NOT_EXIST", "CANNOT_FIND_PAGE");
+
+        var item = errors[Math.floor(Math.random()*errors.length)];
         
-        <meta charset="UTF-8">
-        <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        document.write(`${item}`);
+    }
+    function errorHexStop() {
+        var stopErrors = Array("000000ED", "000000AD", "000000ID", "000000OD", "000000UD", "000001AD", "000001BD", "000000BD", "0000002CD", "000014CC")
+        
+        var sE = stopErrors[Math.floor(Math.random()*stopErrors.length)];
+
+        return document.write(sE)
+    }
+    function errorHexExtra() {
+        var extraErrors = Array("80F128D0", "000009C", '00000000', "80D247F0", "71D042E2")
+
+        var eE = extraErrors[Math.floor(Math.random()*extraErrors.length)];
+        
+        return document.write(eE)
+    }    
+
+</script>
+<style>
+body {
+    background:#0000aa;
+    color:#ffffff;
+    font-family:courier;
+    font-size:12pt;
+    text-align:center;
+    margin:100px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+html {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+}
+
+blink {
+    color:white;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.neg {
+    background:#fff;
+    color:#0000aa;
+    padding:2px 8px;
+    font-weight:bold;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+@media only screen and (min-width: 2101px) {
+    div.error {
+        margin-left: 28%;
+        margin-right: 28%;
+    }
+}
+@media only screen and (min-width: 1990px) and (max-width: 2100px) {
+    div.error {
+        margin-left: 26%;
+        margin-right: 26%;
+    }
+}
+@media only screen and (min-width: 1880px) and (max-width: 1990px) {
+    div.error {
+        margin-left: 24.3%;
+        margin-right: 24.3%;
+    }
+}
+@media only screen and (min-width: 1760px) and (max-width: 1880px) {
+    div.error {
+        margin-left: 23%;
+        margin-right: 23%;
+    }
+}
+@media only screen and (min-width: 1550px) and (max-width: 1760px) {
+    div.error {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+@media only screen and (min-width: 1449px) and (max-width: 1550px) {
+    div.error {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+@media only screen and (min-width: 1277px) and (max-width: 1448px) {
+    div.error {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1276px) {
+    div.error {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+}
+@media only screen and (min-width: 1149px) and (max-width: 1199px) {
+    div.error {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+@media only screen and (min-width: 1121px) and (max-width: 1149px) {
+    div.error {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+}
+@media only screen and (min-width: 1045px) and (max-width: 1065px) {
+    div.error {
+        margin-left: .1pt;
+        margin-right: .1pt;
+    }
+}
+@media only screen and (min-width: 1px) and (max-width: 1045px) {
+    div.error {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+p {
+    margin:30px 100px;
+    text-align: left;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+a,a:hover {
+    color:inherit;
+    font:inherit;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.menu {
+    text-align:center;
+    margin-top:50px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    text-align: center;
+}
+</style>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <body>
         <span class="neg">ERROR 404 - PAGE NOT FOUND</span>
-        <p>
-        Sorry but the page <script>document.write(window.location.href)</script> does not exist.
-        </p>
+        <div class="error">
+                <p>
+                        A problem has been detected and this website has stopped loading to prevent confusion. 
+                        <br>
+                        <br>
+                        <script>errorText()</script>
+                        <br>
+                        <br>
+                        If this is the first time you've seen this error screen, try checking for the correct link.
+                        <br>
+                        <br>
+                        If the problems continue, the page may have been moved or does not exist anymore. Clearing your cookies and caches may also fix the problem.
+                        <br>
+                        <br>
+                        Technical Information:
+                        <br>
+                        <br>
+                        *** STOP: 0x<script>errorHexStop()</script> (0x<script>errorHexExtra();</script>, 0x<script>errorHexExtra();</script>, 0x<script>errorHexExtra();</script>, 0x<script>errorHexExtra();</script>)
+                </p>
+        </div>
+        
     Try again with a different link <blink>_</blink>
 <div class="menu">
         | 
-<a href="https://www.hacker-hub.com">Home</a> | 
-<a href="https://skylarmccauley.hacker-hub.com">About Me</a> |
-<a href="https://www.hacker-hub.com/partner/">Partners</a>
-        
-        <!-- TODO: Add code to detect mobile devices -->
+<a href="https://skylarmccauley.hacker-hub.com">Home</a> | 
+<a href="https://www.hacker-hub.com">HackerHub</a>
+
 </div>
 
 
