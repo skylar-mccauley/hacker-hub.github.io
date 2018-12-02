@@ -143,10 +143,107 @@ blink {
         margin-right: .1pt;
     }
 }
-@media only screen and (min-width: 1px) and (max-width: 1045px) {
+@media only screen and (min-width: 466px) and (max-width: 1045px) {
     div.error {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    p {
+        margin:30px 1px !important;
+    }
+    body {
+        margin: 75px !important;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 465px) {
+    div.error {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    p {
+        margin:30px 0 !important;
+        font-size: 10pt;
+    }
+    .neg {
+        font-size: 10pt;
+    }
+    body {
+        margin: 50px !important;
+    }
+}
+@media only screen and (min-width: 294px) and (max-width: 299px) {
+    div.error {
+        display: none !important;
+    }
+    div.errorForSmallScreen {
+        display: block !important;
+    }
+    p {
+        margin:30px 0 !important;
+        font-size: 10pt;
+    }
+    .neg {
+        font-size: 10pt;
+    }
+    body {
+        margin: 35px !important;
+    }
+}
+@media only screen and (min-width: 270px) and (max-width: 293px) {
+    div.error {
+        display: none !important;
+    }
+    div.errorForSmallScreen {
+        display: block !important;
+    }
+    p {
+        margin:30px 0 !important;
+        font-size: 9.5pt;
+    }
+    .neg {
+        font-size: 9pt;
+    }
+    body {
+        margin: 33px !important;
+    }
+}
+@media only screen and (min-width: 244px) and (max-width: 269px) {
+    div.error {
+        display: none !important;
+    }
+    div.errorForSmallScreen {
+        display: block !important;
+    }
+    p {
+        margin:30px 0 !important;
+        font-size: 9pt;
+    }
+    .neg {
+        font-size: 8pt;
+    }
+    body {
+        margin: 30px !important;
+    }
+}
+@media only screen and (min-width: 1px) and (max-width: 243px) {
+    div.error {
+        display: none !important;
+    }
+    div.errorForSmallScreen {
+        display: none !important;
+    }
+    div.errorForTinyScreen {
+        display: block !important;
+    }
+    p {
+        margin:30px 0 !important;
+        font-size: 8.9pt;
+    }
+    .neg {
+        font-size: 7.9pt;
+    }
+    body {
+        margin: 29px !important;
     }
 }
 p {
@@ -185,25 +282,31 @@ a,a:hover {
 body {
     text-align: center;
 }
+div.errorForSmallScreen {
+    display: none;
+}
+div.errorForTinyScreen {
+    display: none;
+}
 </style>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <body>
-        <span class="neg">ERROR 404 - PAGE NOT FOUND</span>
+        <span class="neg">ERROR 404</span>
         <div class="error">
                 <p>
                         A problem has been detected and this website has stopped loading to prevent confusion. 
                         <br>
                         <br>
                         <script>errorText()</script>
-                        <br>
-                        <br>
-                        If this is the first time you've seen this error screen, try checking for the correct link.
-                        <br>
-                        <br>
-                        If the problems continue, the page may have been moved or does not exist anymore. Clearing your cookies and caches may also fix the problem.
+                            <br>
+                            <br>
+                            If this is the first time you've seen this error screen, try checking for the correct link.
+                                <br>
+                                <br>
+                            If the problems continue, the page may have been moved or does not exist anymore. Clearing your cookies and caches may also fix the problem.
                         <br>
                         <br>
                         Technical Information:
@@ -212,8 +315,31 @@ body {
                         *** STOP: 0x<script>errorHexStop()</script> (0x<script>errorHexExtra();</script>, 0x<script>errorHexExtra();</script>, 0x<script>errorHexExtra();</script>, 0x<script>errorHexExtra();</script>)
                 </p>
         </div>
-        
-    Try again with a different link <blink>_</blink>
+        <div class="errorForSmallScreen">
+                <p>
+                        A problem has been detected and this website has stopped loading to prevent confusion. 
+                        <br>
+                        <br>
+                        <script>errorText()</script>
+                            <br>
+                            <br>
+                        Technical Information:
+                        <br>
+                        <br>
+                        *** STOP: 0x<script>errorHexStop()</script> (0x<script>errorHexExtra();</script>, 0x<script>errorHexExtra();</script>, 0x<script>errorHexExtra();</script>, 0x<script>errorHexExtra();</script>)
+                </p>
+        </div>
+        <div class="errorForTinyScreen">
+                <p>
+                        <script>errorText()</script>
+                            <br>
+                            <br>
+                        Technical Information:
+                        <br>
+                        <br>
+                        *** STOP: 0x<script>errorHexStop()</script> (0x<script>errorHexExtra();</script>, 0x<script>errorHexExtra();</script>, 0x<script>errorHexExtra();</script>, 0x<script>errorHexExtra();</script>)
+                </p>
+        </div>
 <div class="menu">
         | 
 <a href="https://skylarmccauley.hacker-hub.com">Home</a> | 
