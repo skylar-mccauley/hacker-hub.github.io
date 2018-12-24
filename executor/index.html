@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+<title>Executor</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="../css/w3.min.css"> 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js" integrity="sha384-u/bQvRA/1bobcXlcEYpsEdFVK/vJs3+T+nXLsBYJthmdBuavHvAW6UsmqO2Gd/F9" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="../js/spop.css" rel="stylesheet">
+<link rel="stylesheet" href="../css/font.css">
+<link rel="stylesheet" href="../css/footer-distributed-with-address-and-phones.css">
+
+<script src="../js/spop.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<link href="../css/info.css" rel="stylesheet">
+<link rel="stylesheet" href="../css/goback.css">
+<script src="../js/deviceDetect.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-117081817-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-117081817-1');
+</script>
+
+<head>
+    <meta charset="UTF-8">
+        <meta name="application-name" content="Ex3cut0r">
+  <meta name="site-name" content="HackerHub">
+
+    <meta name="description" content="Executor is your go-to Discord Bot for conversions, encoding, decoding, and translating. Executor can encode and decode strings in Base64, Binary, Morse Code, and much more!">
+    <meta name="keywords" content="Executor, Executor Discord Bot, Discord Bot Executor, Ex3cut0r, Ex3cut0r Discord Bot, JavaScript,NodeJS,Sunset,Sunset DiscordBot, Sunset JS, NodeJS Discord Bot, Sunset Discord Bot, Sunset Bot, Sunset DiscordJS, sunset-bot, Sunset-Bot, Sunset Lite Bot, Sunset Lite Discord Bot, Sunset-Lite Bot, HackerHub, HackerHubSite, TheHacker894, TheHacker">
+    <meta name="author" content="Skylar McCauley">
+    <link rel="icon" href="../images/ex3cut0r.png">
+    <link rel="apple-touch-icon" href="../images/ex3cut0r.png"/>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-9986048752291588",
+        enable_page_level_ads: true
+      });
+    </script>
+                <!-- OG Meta Tags-->
+                <meta property="og:title" content="HackerHub - Executor Discord Bot">
+                <meta property="og:image" content="https://www.hacker-hub.com/images/ex3cut0r.png">
+                <meta property="og:description" content="Executor is your go-to Discord Bot for conversions, encoding, decoding, and translating. Executor can encode and decode strings in Base64, Binary, Morse Code, and much more!">
+                <link rel="stylesheet" href="../css/style.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <script src="../js/scrolling.js">
+      </script>
+
+  </head>
+  </head>
+
+
+
+<style>
+  @media only screen and (max-width: 768px) {
+  p {
+    font-size:15px;
+    font-family:'Product Sans';
+    align-self: center;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  p {
+    font-size:5px;
+    font-family:'Product Sans';
+    align-self: center;
+    text-align: center;
+  }
+}
+    .material-icons.md-16 { font-size: 16px; }
+    .material-icons.md-15 { font-size: 15px; }
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Product Sans';}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+h1 {
+    font-size: 25px
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    width: 100%
+}
+.bgimg-1 {
+    background-image: url('../images/ex3cut0rBG1-2560x1440.png');
+    min-height: 100%;
+    
+}
+
+.bgimg-2, .bgimg-3, .bgimg-4 {
+    background-image: url('../images/ex3cut0rBG1-2560x1440.png');
+    min-height: 400px;
+}
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+div {
+    text-align: center;
+}
+span {
+  content: "\2713";
+}
+code {
+  color: darkgrey;
+}
+#warning {
+  color: red;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">Exectutor</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-info-circle"></i> About</a>
+    <a href="#commands" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-couch"></i> Commands</a>
+
+    <a href="#invite" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-envelope"></i> Invite</a>
+    <a href="#github" class="w3-bar-item w3-button w3-hide-small"><i class="fab fa-github"></i> GitHub</a>
+    <a href="../" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-home"></i>HomePage</a>
+      
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#commands" class="w3-bar-item w3-button" onclick="toggleFunction()">COMMANDS</a>
+
+    <a href="#invite" class="w3-bar-item w3-button" onclick="toggleFunction()">INVITE</a>
+
+    <a href="#github" class="w3-bar-item w3-button" onclick="toggleFunction()">GITHUB</a>
+    <a href="../" class="w3-bar-item w3-button" onclick="toggleFunction()">HomePage</a>
+    
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"><span class="w3-hide-small">EX3CUT0R</span></span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">About Executor</h3>
+  <p class="w3-center"><em>Executor can encode and decode data in many types of encodings</em></p>
+
+  <a href="https://discordbots.org/bot/498497197344817152" >
+    <img src="https://discordbots.org/api/widget/status/498497197344817152.svg?noavatar=true"/>
+  </a>
+  <a href="https://discordbots.org/bot/498497197344817152" >
+    <img src="https://discordbots.org/api/widget/servers/498497197344817152.svg?noavatar=true"/>
+  </a>
+  <a href="https://discordbots.org/bot/498497197344817152" >
+    <img src="https://discordbots.org/api/widget/upvotes/498497197344817152.svg?noavatar=true"/>
+  </a>
+  <a href="https://discordbots.org/bot/498497197344817152" >
+    <img src="https://discordbots.org/api/widget/lib/498497197344817152.svg?noavatar=true"/>
+  </a>
+  <a href="https://discordbots.org/bot/498497197344817152" >
+    <img src="https://discordbots.org/api/widget/owner/498497197344817152.svg?noavatar=true"/>
+  </a>
+  
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>Ex3cut0r</b></p><br>
+      <img href="invite" src="../images/ex3cut0r.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Executor" width="256" height="256">
+    </div>
+ 
+              
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- HackerHub 2.0 -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-9986048752291588"
+         data-ad-slot="3102384645"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+
+        <button href="#invite" class="custom-button orange" type="button"><span>Invite Ex3cut0r</span></button>            
+                  
+      <p>Executor is programmed in NodeJS using the powerful Discord API library, DiscordJS. Executor's source code is even on GitHub for your viewing pleasure.</p>
+      
+          <br>
+
+    </div>
+  </div>
+  <p class="w3-large w3-center w3-padding-16">Executor's Stats</p>
+  <p class="w3-wide">Uptime</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:96.6%">99%</div>
+  </div>
+  <p class="w3-wide">Downtime</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:3.4%">1%</div>
+  </div>
+  
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div  class="w3-quarter w3-section">
+    <span id="text-fix" class="w3-xlarge">15</span><br>
+    Commands
+  </div>
+  <div  class="w3-quarter w3-section">
+    <span id="text-fix" class="w3-xlarge">0.1.0</span><br>
+    Current Version
+  </div>
+  <div  class="w3-quarter w3-section">
+    <span id="text-fix"  class="w3-xlarge">TBD</span><br>
+    InDev Version
+  </div>
+  <div  class="w3-quarter w3-section">
+        <span id="text-fix" class="w3-xlarge">1.0</span><br>
+        BETA Version
+      </div>
+
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min"id="commands">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">Commands</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" >
+  <h3 class="w3-center">Commands</h3>
+  <p class="w3-center"><em>Below are all of the commands Executor has to offer.<br></em></p><br>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- HackerHub 2.0 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-9986048752291588"
+     data-ad-slot="3102384645"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+  <div>
+ <!-- <h1 id="commands-1" >Commands</h1>-->  
+      <p class="w3-center">
+      <div><code>help</code> | Documentation on Ex3cut0r's commands<br></div>
+      <code>info</code> | Information about Ex3cut0r<br>
+        <code>qr</code> | Encode a string in a QR<br>
+        <code>binary</code> | Encode & Decode a string in Binary</br>
+        <code>base64</code> | Encode & Decode a string in Base64<br>
+        <code>leet</code> | Encode data in leet speak (1337)<br>
+        <code>inspect</code> | Inspect many types of URLs<br>
+        <code>math</code> | Calculate a math expression<br>
+        <code>morsecode</code> | Encode & Decode a string in Morse Code<br>
+        <code>randomcolor</code> | Generate a random color<br>
+        <code>url</code> | Shorten a URL using <code>is.gd</code>
+
+  </div>
+
+ 
+</div> 
+
+ 
+</div> 
+
+
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min"id="invite">
+        <div class="w3-display-middle">
+           <span class="w3-xxlarge w3-text-white w3-wide">INVITE</span>
+        </div>
+      </div>
+      
+
+
+      
+
+      <div class="w3-content w3-container w3-padding-64" >
+            <h3 class="w3-center">Invite</h3>
+            <p class="w3-center"><em>Invite Ex3cut0r to your Discord Server to get started.<br></em></p><br>
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- HackerHub 2.0 -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-9986048752291588"
+                 data-ad-slot="3102384645"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+            <div>
+                <p>This invite can grant Ex3ut0r Full Permissions <i>if the user inviting the bot has Full Permissions</i></p>
+            </div>
+            <br>
+            <!-- The Modal -->
+<div id="inviteModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="modal-title">
+        <h3 class="modal-title">Ex3cut0r Invite</h3>
+      </div>
+      <p class="modal-subtitle">Before inviting Ex3cut0r you will need to complete this captcha.</p>
+      <div class="modal-body">        
+  
+        <div class="inviteCaptcha">     
+          <form action="?" method="POST">
+              <script>
+                function toggleDisplay(id)
+          {
+              var el = document.getElementById(id);
+              if(el.style.display == "none") el.style.display = "block";
+              else el.style.display = "none";
+          }
+  
+                 function captcha() {
+                   toggleDisplay('successCaptchaDiv')
+                     setTimeout(function () {
+                 window.location.href="https://discordapp.com/oauth2/authorize?client_id=498497197344817152&scope=bot&permissions=2146958591"
+         }, 3000);
+                 }
+                  function errorCaptcha() {
+                         toggleDisplay('errorCaptchaDiv')
+                 }
+                 function expiredCaptcha() {
+                  toggleDisplay('expiredCaptchaDiv')
+     
+                 }
+             </script>
+           <div data-expired-callback="expiredCaptcha" data-error-callback="errorCaptcha" style="display:flex;justify-content:center;align-items:center;" class="g-recaptcha" data-sitekey="6Lcmk1gUAAAAAHCHhRGnkfo23NnVs_bE7_dZ1fBT" data-callback="captcha" data-theme="dark"></div>
+           <br/>
+           <!--<input type="submit" value="Submit">-->
+         </form>
+     
+         </div>
+         
+         <div>
+           <p class="black" >If this invite does not work please contact me at <a href="mailto:skylarmccauley864@gmail.com">skylarmccauley864@gmail.com</a> or through <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=skylarmccauley864@gmail.com&su=CleverBot%20Discord%20Bot%20Invite%20does%20not%20work">GMail</a></p>
+  
+  
+           <!--Error Messages (These will only appear when needed)-->
+            <div style="display: none;" id="expiredCaptchaDiv" class="alert alert-danger">
+              <strong>ERROR!</strong> Your reCaptcha response has expired. please re-verify!.
+            </div>
+  
+            <div style="display: none;" id="errorCaptchaDiv" class="alert alert-danger">
+                <strong>ERROR!</strong> reCaptcha has encounted an error. Please check your internet connection and hard refresh the page.
+              </div>
+  
+              <div style="display: none;" id="successCaptchaDiv" class="alert alert-success">
+                  <strong>Success!</strong> You've passed the reCaptcha test, redirecting in 3 seconds...
+                </div>
+          </div>
+          
+      </div>
+      <strong><p style="display:flex;justify-content:center;align-items:flex-end;" class="modal-footer-text">You'll need JavaScript enabled for this to work</p></strong>
+      <div style="display:flex;justify-content:center;align-items:flex-end;" class="modal-footer"> </div>
+    </div>
+  
+  </div>
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById('inviteModal');
+  
+  // Get the button that opens the modal
+  var btn = document.getElementById("inviteModalInvoke");
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks the button, open the modal 
+  
+  function showInvite() {
+    modal.style.display = "block";
+  }
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+      modal.style.display = "none";
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+      }
+  }
+  </script>
+
+            <button onclick="showInvite()" href="javascript:void(0)" class="custom-button orange" type="button"><span>Invite Ex3cut0r</span></button>            
+           
+            <div>
+
+            </div>
+
+            <!--                                                              -->    
+            </div>
+            
+
+  <!--                                              -->
+                      <!-- The Modal -->
+<div class="bgimg-3 w3-display-container w3-opacity-min"id="github">
+        <div class="w3-display-middle">
+           <span class="w3-xxlarge w3-text-white w3-wide">GITHUB</span>
+        </div>
+      </div>
+      
+<div class="w3-content w3-container w3-padding-64" >
+        <h3 class="w3-center">GitHub</h3>
+        <p class="w3-center"><em>Ex3cut0r's source code is also available of GitHub!<br></em></p><br>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- HackerHub 2.0 -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-9986048752291588"
+             data-ad-slot="3102384645"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      
+      <blockquote class="embedly-card" data-card-controls="0"><h4><a href="https://github.com/The-Hacker894/Ex3cut0r">The-Hacker894/Ex3cut0r</a></h4><p>Discord Bot for encoding/decode, translating, converting various things - The-Hacker894/Ex3cut0r</p></blockquote>
+      <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+
+
+<!--<div class="bgimg-3 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+           <span class="w3-xxlarge w3-text-white w3-wide">OTHER</span>
+        </div>
+      </div> -->
+
+
+<!-- Footer -->
+</div>
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <h3>HackerHub</h3>
+<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', gaTrack: true, gaId: 'UA-117081817-1'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<p class="footer-links">
+  <a href="../privacy_policy">Privacy Policy</a>
+  ·
+  <a href="../partner">Partnership</a>
+  ·
+  <a href="../social/">Social</a>
+  ·
+  <a href="//skylarmccauley.xyz">About Me</a>
+  ·
+  <a href="../about/">About Us</a>
+  ·
+           <!-- ·
+  <a href="#">Contact</a> -->
+</p>
+
+      <p class="footer-company-name">Skylar McCauley &copy; 2017 - 2018</p>
+      <br>
+      <p4>
+          <script>
+if(!isMobile.any) {
+                            document.write(window.navigator.userAgent)
+                          }            </script>
+        </p4>
+        <br>
+        
+        <p4 id="urlString">
+          
+        </p4>
+        <script>
+         if(!isMobile.any) {
+
+var str = window.location.href
+document.getElementById("urlString").innerHTML = str
+                          }
+          </script>
+    </div>
+
+    <div class="footer-center">
+
+      <div>
+        <i class="fab fa-github"></i>
+        <p><a href="https://github.com/The-Hacker894"><span>The-Hacker894</span></a> GitHub</p>
+      </div>
+
+
+
+      <div>
+        <i class="far fa-user"></i>
+        <p><span><a href="https://skylarmccauley.xyz/">Contact Info</a></span></p>
+      </div>
+
+    </div>
+
+    <div class="footer-right">
+
+      <p class="footer-company-about">
+        <span>HackerHub</span>
+        The devpage for TheHacker (basically where he puts all of his crappy software so you can download it.)
+      </p>
+
+      <div class="footer-icons">
+
+        <a href="https://www.hacker-hub.com/social/#discord"><i class="fab fa-discord"></i></a>
+        <a href="https://play.google.com/store/apps/developer?id=Skylar+McCauley"><i class="fab fa-google-play"></i></a>
+       <!-- <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-github"></i></a> -->
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
+
