@@ -22,11 +22,6 @@
 <link rel="stylesheet" href="../css/goback.css">
 <script src="../js/deviceDetect.js"></script>
 
-  <script>
-    setTimeout(function() {
-      spop('Development returning soon', 'success');
-    }, 1000)
-  </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117081817-1"></script>
 <script>
@@ -37,33 +32,6 @@
   gtag('config', 'UA-117081817-1');
 </script>
 
-<script src="../app/ios/fix.js"></script>
-<script type="text/javascript">
-  (function(document,navigator,standalone) {
-      // prevents links from apps from oppening in mobile safari
-      // this javascript must be the first script in your <head>
-      if ((standalone in navigator) && navigator[standalone]) {
-          var curnode, location=document.location, stop=/^(a|html)$/i;
-          document.addEventListener('click', function(e) {
-              curnode=e.target;
-              while (!(stop).test(curnode.nodeName)) {
-                  curnode=curnode.parentNode;
-              }
-              // Condidions to do this only on links to your own app
-              // if you want all links, use if('href' in curnode) instead.
-              if(
-                  'href' in curnode && // is a link
-                  (chref=curnode.href).replace(location.href,'').indexOf('#') && // is not an anchor
-                  (	!(/^[a-z\+\.\-]+:/i).test(chref) ||                       // either does not have a proper scheme (relative links)
-                      chref.indexOf(location.protocol+'//'+location.host)===0 ) // or is in the same protocol and domain
-              ) {
-                  e.preventDefault();
-                  location.href = curnode.href;
-              }
-          },false);
-      }
-  })(document,window.navigator,'standalone');
-</script>
 
 
 
@@ -197,12 +165,6 @@ code {
       <i class="fa fa-bars"></i>
     </a>
     <a href="#home" class="w3-bar-item w3-button">Sunset</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-info-circle"></i> About</a>
-    <a href="#commands" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-couch"></i> Commands</a>
-
-    <a href="#invite" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-envelope"></i> Invite</a>
-    <a href="#github" class="w3-bar-item w3-button w3-hide-small"><i class="fab fa-github"></i> GitHub</a>
-    <a href="wiki" class="w3-bar-item w3-button w3-hide-small"><i class="fab fa-wikipedia-w"></i> Wiki</a>
     <a href="../" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-home"></i>HomePage</a>
       
     </a>
@@ -210,12 +172,6 @@ code {
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="#commands" class="w3-bar-item w3-button" onclick="toggleFunction()">COMMANDS</a>
-
-    <a href="#invite" class="w3-bar-item w3-button" onclick="toggleFunction()">INVITE</a>
-
-    <a href="#github" class="w3-bar-item w3-button" onclick="toggleFunction()">GITHUB</a>
     <a href="../" class="w3-bar-item w3-button" onclick="toggleFunction()">HomePage</a>
     
   </div>
@@ -230,394 +186,21 @@ code {
 
 <!-- Container (About Section) -->
 <div class="w3-content w3-container w3-padding-64" id="about">
-  <h3 class="w3-center">ABOUT SUNSET</h3>
-  <p class="w3-center"><em>Sunset is the Swiss Army Knife of Discord Bots</em></p>
-  <a href="https://discordbots.org/bot/371097223942897665" >
-    <img src="https://discordbots.org/api/widget/status/371097223942897665.svg?noavatar=true"/>
-  </a>
-  <a href="https://discordbots.org/bot/371097223942897665" >
-    <img src="https://discordbots.org/api/widget/servers/371097223942897665.svg?noavatar=true"/>
-  </a>
-  <a href="https://discordbots.org/bot/371097223942897665" >
-    <img src="https://discordbots.org/api/widget/upvotes/371097223942897665.svg?noavatar=true"/>
-  </a>
-  <a href="https://discordbots.org/bot/371097223942897665" >
-    <img src="https://discordbots.org/api/widget/lib/371097223942897665.svg?noavatar=true"/>
-  </a>
-  <a href="https://discordbots.org/bot/371097223942897665" >
-    <img src="https://discordbots.org/api/widget/owner/371097223942897665.svg?noavatar=true"/>
-  </a>
-  <p>Sunset has a ton of features ranging <code>warn</code>  <code>ban</code>  <code>kick</code> and much more. Sunset is also being hosted 24/7 with very little downtime for updates.</p>
+  <h3 class="w3-center">THE END OF SUNSET</h3>
   
-  <div class="w3-row">
-    <div class="w3-col m6 w3-center w3-padding-large">
-      <p><b><i class="fa fa-user w3-margin-right"></i>Sunset</b></p><br>
-      <img href="invite" src="../images/Sunset_pfp.png" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="SunsetPFP" width="256" height="256">
+<p>It is I, Skylar, the developer of Sunset. It has been has been about a year and a half since I started working on this bot. With tons of updates, Sunset was loved by the few that used it. Now, I have to manage a website and a new popular bot, CleverBot. With so much of my time being devoted to CleverBot, I don't have nearly as much time to work on Sunset. So today, I have decided to discontinue the Swiss-Army Knife of Discord Bots, Sunset. Moving forward, I'm going to focus on single-purpose bots; Bots that focus on a single idea. I hope you all can accept this decision and will continue to support my future Discord Bots. Signing off - Skylar McCauley</p>
+
+<a href="../cleverbot/">CleverBot</a> <br>
+    <a href="../executor/">Ex3cut0r</a> <br>
+    <a href="https://github.com/The-Hacker894/Sunset">Sunset Source Code</a>
     </div>
- 
-              
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- HackerHub 2.0 -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-9986048752291588"
-         data-ad-slot="3102384645"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
 
-    <!-- Hide this text on small devices -->
-    <div class="w3-col m6 w3-hide-small w3-padding-large">
-
-        <button href="#invite" class="custom-button orange" type="button"><span>Invite Sunset</span></button>            
-                  
-      <p>Sunset is programmed using NodeJS with the powerful DiscordJS library. Sunset's source code is also available on GitHub for anyone to view and contribute code.</p>
-      
-          <br>
-
-          <button href="../social/#discord" class="custom-button orange" type="button"><span>HackerWorld Discord Server</span></button>            
-
-          <p>The HackerWorld Discord Server is the main hub for Sunset and CleverBot.</p>
-
-    </div>
+    
   </div>
-  <p class="w3-large w3-center w3-padding-16">Sunset Stats</p>
-  <p class="w3-wide">Uptime</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:96.6%">96.6%</div>
-  </div>
-  <p class="w3-wide">Downtime</p>
-  <div class="w3-light-grey">
-    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:3.4%">3.4%</div>
-  </div>
+
   
 </div>
 
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
-  <div  class="w3-quarter w3-section">
-    <span id="text-fix" class="w3-xlarge">60+</span><br>
-    Commands
-  </div>
-  <div  class="w3-quarter w3-section">
-    <span id="text-fix" class="w3-xlarge">6.2.1</span><br>
-    Current Version
-  </div>
-  <div  class="w3-quarter w3-section">
-    <span id="text-fix"  class="w3-xlarge">TBD</span><br>
-    InDev Version
-  </div>
-  <div  class="w3-quarter w3-section">
-        <span id="text-fix" class="w3-xlarge">7.0</span><br>
-        BETA Version
-      </div>
-
-</div>
-
-<!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min"id="commands">
-  <div class="w3-display-middle">
-    <span class="w3-xxlarge w3-text-white w3-wide">Commands</span>
-  </div>
-</div>
-
-<!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" >
-  <h3 class="w3-center">Commands</h3>
-  <p class="w3-center"><em>Below are all of the commands Sunset has to offer.<br></em></p><br>
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- HackerHub 2.0 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-9986048752291588"
-     data-ad-slot="3102384645"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<center>
-<a id="warning" href="#invite" >Commands documented here are for the latest version of Sunset <strong>not the latest source code</strong>.</a>
-    </center>
-  <div>
-    <h1 id="commands-1" >Commands Page 1</h1>
-      <p class="w3-center">
-      <div><code>2ball</code> | Have your questions answered by the mystical 2ball<span class="badge badge-dark">LiteMode Compatible</span><br></div>
-      <code>8ball</code> | Have your questions answered by the mystical 8ball<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>announce</code> | Make announcements in a seperate channel <span class="badge badge-dark">LiteMode Compatible</span> <br>
-        <code>atm</code> | Interact with the Per-Server ATM</br>
-        <code>bal</code> | Check the balance of yourself and other members<br>
-        <code>ban</code> | Ban the mentioned member<span class="badge badge-dark">LiteMode Compatible</span> <br>
-        <code>base64</code> | Encode and Decode the provided message in Base64<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>binary</code> | Encode and Decode the provided message in Binary<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>changelog</code> | View the changes in this new version of Sunset<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>channelsettings</code> | Modify the metadata of the current channel<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>clearmoney</code> | Go off the grid and clear your entire balance and ATM<br>
-        <code>cleverbot</code> | Chat with CleverBot through the cleverbot.io library<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>coinflip</code> | Flip a coin<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>console</code> | Interact with the Sunset CLI. For more info please see the <a href="wiki/#console">Sunset Wiki</a> <span class="badge badge-dark">LiteMode Compatible</span></p>
-
-
-      <h1 id="commands-2" >Commands Page 2</h1>
-      <p class="w3-center"><code>copycat</code> | Make a copycat of yourself<br>
-        <code>dbl</code> | Interact with the Discord Bot List API<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>delchannel</code> | Delete the current text channel<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>economysettings</code> | Change how the Sunset Economy works.<br>
-        <code>emojify</code> | Emojify the provided message if possible <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>fliptext</code> | Flips the provided message <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>freemoney</code> | Earn freemoney, the payout is randomized between $1 and $50; this can be changed with the <strong><code>economysettings</code></strong> command <br>
-        <code>google</code> | Search Google with the provided search term <strong><i>Note:</i></strong> some search terms may only work in a channel marked as NSFW <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>help</code> | Get documentation on Sunset Commands<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>info</code> | Get info on Sunset<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>inspect</code> | Inspect many types of URLs <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>invite</code> | Get an invite to the server for the provided channel <span class="badge badge-dark">LiteMode Compatible</span><br></p>
-        <!--
-          <code>serversettings</code> | Change how Sunset functions for your server <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>serverinfo</code> | View the current server/guild's info <span class="badge badge-dark">LiteMode Compatible</span> <br>
-        <code>profile</code> | View the profile of yourself or of the mentioned member <span class="badge badge-dark">LiteMode Compatible</span></p>
-        -->
-      <h1 id="commands-3" >Commands Page 3</h1>
-      <p class="w3-center"><code>kick</code> | Kick the mentioned member <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>litemode</code> | Toggle Sunset LiteMode<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>lottery</code> | Buy a lottery ticket <i>Ticket Prices and Payouts are randomized. This can be changed with the</i> <strong><code>economysettings</code></strong> <i>command</i><br>
-        <code>mkchannel</code> | Make a <strong><code>text</code></strong>, <strong><code>voice</code></strong>, or <strong><code>category</code></strong> channel <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>morsecode</code> | Encode and Decode the provided message in Morse Code <span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>mute</code> | Mute the mentioned member<br>
-        <code>pay</code> | Pay the provided member; <i>You will need to have sufficient funds to complete the payment</i><br>
-        <code>ping</code> | Ping Sunset<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>profile</code> | View the profile of yourself or of the mentioned member<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>purge</code> | Bulk Delete up to 200 messages in the current channel<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>qrcode</code> | Encode and Recover QR Codes<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>randomcolor</code> | Get a random color in Hex, RGB, LAB, and CMYK<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>reverse</code> | Reverse Text<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>rob</code> | Rob members of their money<span class="badge badge-dark">LiteMode Compatible</span><br>
-        <code>roll</code> | Roll a die<span class="badge badge-dark">LiteMode Compatible</span></p>
-<!--
-        <code>urban</code> | Search the Urban Dictionary for the provided word <span class="badge badge-dark">LiteMode Compatible</span><br>
-        
--->
-        <h1 id="commands-4" >Commands Page 4</h1>
-        <p class="w3-center"><code>rps</code> | Play Rock, Paper, Scissors with Sunset<span class="badge badge-dark">LiteMode Compatible</span><br>
-          <code>rules</code> | View the rules of the server; These rules can be set using <strong><code>rules set</code></strong> <span class="badge badge-dark">LiteMode Compatible</span><br>
-          <code>say</code> | Send a message through Sunset<span class="badge badge-dark">LiteMode Compatible</span><br>
-          <code>serverinfo</code> | View the current server/guild's info<span class="badge badge-dark">LiteMode Compatible</span><br>
-          <code>serversettings</code> | Change how Sunset functions for your server<span class="badge badge-dark">LiteMode Compatible</span><br>
-          <code>setnick</code> | Set the nickname of the mentioned member <span class="badge badge-dark">LiteMode Compatible</span><br>
-          <code>softban</code> | SoftBan the mentioned member <i>Just bans then unbans the mentioned member</i> <span class="badge badge-dark">LiteMode Compatible</span><br>
-          <code>support</code> | Give some support to the creator of Sunset <span class="badge badge-dark">LiteMode Compatible</span><br>
-          <code>timer</code> | Set a timer for a maximum of 12 hours <span class="badge badge-dark">LiteMode Compatible</span><br>
-          <code>translate</code> | Translate the provided messages from English to the provided Language <span class="badge badge-dark">LiteMode Compatible</span><br>
-          <code>txt</code> | Write and Recover text files<span class="badge badge-dark">LiteMode Compatible</span><br>
-          <code>unban</code> | Unban the mentioned member <span class="badge badge-dark">LiteMode Compatible</span><br>
-          <code>unmute</code> | Unmute the mentioned member <i>if they are muted</i><br>
-          <code>url</code> | Shorten <del>or Expand</del> the provided URL using the <strong><code>tinyurl</code></strong> URL Shortener <span class="badge badge-dark">LiteMode Compatible</span><br>
-          <code>warn</code> | Warn the mentioned member<br>
-          <code>warnings</code> | Check the warnings of the mentioned user <i>if there are any</i></p>
-        
-        <h1 id="commands-5">Commands Page 5</h1>
-              <p class="w3-center"><code>jsexec</code> | Execute NodeJS through eval <i>Locked to Owner for obvious reasons</i><br>
-            <code>flush</code> | Flush parts of Sunset <span class="badge badge-dark">LiteMode Compatible</span><br>
-            <code>settings</code> | Change the settings of Sunset <span class="badge badge-dark">LiteMode Compatible</span><br>
-            <code>setmoney</code> | Set the balance of the mentioned member<br>
-
-    </p>
-      <h5>For a more detailed documentation visit <a href="wiki">the Sunset Wiki</a>.</h5>
-  </div>
-
- 
-</div> 
-
- 
-</div> 
-
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
-  </div>
-</div>
-
-
-
-<!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min"id="invite">
-        <div class="w3-display-middle">
-           <span class="w3-xxlarge w3-text-white w3-wide">INVITE</span>
-        </div>
-      </div>
-      
-
-
-      
-
-      <div class="w3-content w3-container w3-padding-64" >
-            <h3 class="w3-center">Invite</h3>
-            <p class="w3-center"><em>Invite Sunset to your Discord Server to get started.<br></em></p><br>
-            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- HackerHub 2.0 -->
-            <ins class="adsbygoogle"
-                 style="display:block"
-                 data-ad-client="ca-pub-9986048752291588"
-                 data-ad-slot="3102384645"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
-            <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-            <div>
-                <p>This invite can grant Sunset Full Permissions <i>if the user inviting the bot has Full Permissions</i></p>
-            </div>
-            <br>
-            <!-- The Modal -->
-<div id="inviteModal" class="modal">
-
-    <!-- Modal content -->
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <div class="modal-title">
-        <h3 class="modal-title">Sunset Invite</h3>
-      </div>
-      <p class="modal-subtitle">Before inviting Sunset you will need to complete this captcha.</p>
-      <div class="modal-body">        
-  
-        <div class="inviteCaptcha">     
-          <form action="?" method="POST">
-              <script>
-                function toggleDisplay(id)
-          {
-              var el = document.getElementById(id);
-              if(el.style.display == "none") el.style.display = "block";
-              else el.style.display = "none";
-          }
-  
-                 function captcha() {
-                   toggleDisplay('successCaptchaDiv')
-                     setTimeout(function () {
-                 window.location.href="https://discordapp.com/oauth2/authorize?client_id=371097223942897665&scope=bot&permissions=2146958591"
-         }, 3000);
-                 }
-                  function errorCaptcha() {
-                         toggleDisplay('errorCaptchaDiv')
-                 }
-                 function expiredCaptcha() {
-                  toggleDisplay('expiredCaptchaDiv')
-     
-                 }
-             </script>
-           <div data-expired-callback="expiredCaptcha" data-error-callback="errorCaptcha" style="display:flex;justify-content:center;align-items:center;" class="g-recaptcha" data-sitekey="6Lcmk1gUAAAAAHCHhRGnkfo23NnVs_bE7_dZ1fBT" data-callback="captcha" data-theme="dark"></div>
-           <br/>
-           <!--<input type="submit" value="Submit">-->
-         </form>
-     
-         </div>
-         
-         <div>
-           <p class="black" >If this invite does not work please contact me at <a href="mailto:skylarmccauley864@gmail.com">skylarmccauley864@gmail.com</a> or through <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=skylarmccauley864@gmail.com&su=CleverBot%20Discord%20Bot%20Invite%20does%20not%20work">GMail</a></p>
-  
-  
-           <!--Error Messages (These will only appear when needed)-->
-            <div style="display: none;" id="expiredCaptchaDiv" class="alert alert-danger">
-              <strong>ERROR!</strong> Your reCaptcha response has expired. please re-verify!.
-            </div>
-  
-            <div style="display: none;" id="errorCaptchaDiv" class="alert alert-danger">
-                <strong>ERROR!</strong> reCaptcha has encounted an error. Please check your internet connection and hard refresh the page.
-              </div>
-  
-              <div style="display: none;" id="successCaptchaDiv" class="alert alert-success">
-                  <strong>Success!</strong> You've passed the reCaptcha test, redirecting in 3 seconds...
-                </div>
-          </div>
-          
-      </div>
-      <strong><p style="display:flex;justify-content:center;align-items:flex-end;" class="modal-footer-text">You'll need JavaScript enabled for this to work</p></strong>
-      <div style="display:flex;justify-content:center;align-items:flex-end;" class="modal-footer"> </div>
-    </div>
-  
-  </div>
-  
-  <script>
-  // Get the modal
-  var modal = document.getElementById('inviteModal');
-  
-  // Get the button that opens the modal
-  var btn = document.getElementById("inviteModalInvoke");
-  
-  // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("close")[0];
-  
-  // When the user clicks the button, open the modal 
-  
-  function showInvite() {
-    modal.style.display = "block";
-  }
-  
-  // When the user clicks on <span> (x), close the modal
-  span.onclick = function() {
-      modal.style.display = "none";
-  }
-  
-  // When the user clicks anywhere outside of the modal, close it
-  window.onclick = function(event) {
-      if (event.target == modal) {
-          modal.style.display = "none";
-      }
-  }
-  </script>
-
-            <button onclick="showInvite()" href="javascript:void(0)" class="custom-button orange" type="button"><span>Invite Sunset</span></button>            
-           
-            <div>
-                <br>
-              <p>To activate Sunset LiteMode use the <code>litemode</code> command.</p>
-            </div>
-
-            <!--                                                              -->    
-            </div>
-            
-
-  <!--                                              -->
-                      <!-- The Modal -->
-<div class="bgimg-3 w3-display-container w3-opacity-min"id="github">
-        <div class="w3-display-middle">
-           <span class="w3-xxlarge w3-text-white w3-wide">GITHUB</span>
-        </div>
-      </div>
-      
-<div class="w3-content w3-container w3-padding-64" >
-        <h3 class="w3-center">GitHub</h3>
-        <p class="w3-center"><em>Sunset's source code is also available of GitHub!<br></em></p><br>
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- HackerHub 2.0 -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-9986048752291588"
-             data-ad-slot="3102384645"
-             data-ad-format="auto"
-             data-full-width-responsive="true"></ins>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-        <div>
-            <p>The source code gets updated every 2 - 3 weeks.</p>
-        </div>
-      
-        <blockquote class="embedly-card"data-card-controls="0"><h4><a href="https://github.com/The-Hacker894/Sunset">The-Hacker894/Sunset</a></h4><p>Sunset is the best Discord Bot you'll ever have</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-
-
-<!--<div class="bgimg-3 w3-display-container w3-opacity-min">
-        <div class="w3-display-middle">
-           <span class="w3-xxlarge w3-text-white w3-wide">OTHER</span>
-        </div>
-      </div> -->
-
-
-<!-- Footer -->
-</div>
 <footer class="footer-distributed">
 
     <div class="footer-left">
