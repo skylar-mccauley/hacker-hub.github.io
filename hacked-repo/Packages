@@ -13,3 +13,5 @@ Description: Change the aspects of your display like Temperature, Brightness, an
 Author: TheHacker
 Dev: developer
 Name: Goodnight
+Depends: firmware (>= 9.0)
+Icon: https://www.hacker-hub.com/hacked-repo/icons/xyz.skylarmccauley.goodnight.png
