@@ -16,3 +16,4 @@ Name: Goodnight
 Depends: firmware (>= 9.0)
 Icon: file:///Applications/GoodNight.app/AppIcon76x76@2x~-ipad.png
 Tag: purpose::app, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Depiction: https://www.hacker-hub.com/hacked-repo/depictions/xyz.skylarmccauley.goodnight/
