@@ -9,9 +9,10 @@ MD5sum: c9719506e00ece502e51a0b3af295706
 SHA1: a36b621b1dabfb8882861192c87354316e26d8b4
 SHA256: 17366417188e48488ba76d0367a8f5bdf9e24ae5fa749e47b414220edb05f334
 Section: Apps
-Description: Change the aspects of your display like Temperature, Brightness, and Color.
+Description: Change the aspects of your display like Temperature, Brightness, and Color. Only compatible with iOS 9 - 12.1.2
 Author: TheHacker
 Dev: developer
 Name: Goodnight
 Depends: firmware (>= 9.0)
 Icon: file:///Applications/GoodNight.app/AppIcon76x76@2x~-ipad.png
+Tag: purpose::app, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
