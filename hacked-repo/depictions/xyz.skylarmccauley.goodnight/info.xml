@@ -1,0 +1,23 @@
+<package>
+	<id>xyz.skylarmccauley.goodnight</id>
+	<name>GoodNighjt</name>
+	<version>1.0.0</version>
+	<compatibility>
+		<firmware>
+			<maxiOS>12.1.2</maxiOS>
+			<otherVersions>unconfirmed</otherVersions>
+			<!--
+			for otherVersions, you can put either unsupported or unconfirmed
+			-->
+		</firmware>
+	</compatibility>
+	<dependencies></dependencies>
+	<descriptionlist>
+		<description>Supports iOS 9 - 12.1.2. Change aspects of your display such as temperature, brightness and display.</description>
+	</descriptionlist>
+	<screenshots></screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links></links>
+</package>
