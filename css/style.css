@@ -1,3 +1,48 @@
 #navDemo,.w3-top, .w3-card, .w3-bar, .w3-animate, .w3-white, .w3-card, .w3-animate, .w3-animate-top, .w3-white {
   opacity: .9 !important;
 }
+/*
+.w3-button:focus {
+  -webkit-animation: selected 1.3s;
+  -moz-animation: selected 1.3s;
+  -ms-animation: selected 1.3s;
+  -o-animation: selected 1.3s;
+  animation: selected 1.3s;
+}
+.w3-button:active {
+  -webkit-animation: selected 1.3s;
+  -moz-animation: selected 1.3s;
+  -ms-animation: selected 1.3s;
+  -o-animation: selected 1.3s;
+  animation: selected 1.3s;
+}
+.w3-button:pressed {
+  -webkit-animation: selected 1.3s;
+  -moz-animation: selected 1.3s;
+  -ms-animation: selected 1.3s;
+  -o-animation: selected 1.3s;
+  animation: selected 1.3s;
+}
+@-webkit-keyframes selected /* Safari and Chrome  {
+	20% {
+	  background-color: white;
+	}
+	60% {
+	  background-color: #ccc;
+	}
+	100% {
+	  background-color: white;
+	}
+  }
+  @keyframes selected {
+	20% {
+	  background-color: white;
+	}
+	60% {
+	  background-color: #ccc;
+	}
+	100% {
+	  background-color: white;
+	}
+  }
+*/
