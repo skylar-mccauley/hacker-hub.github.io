@@ -1,0 +1,16 @@
+Package: xyz.skylarmccauley.goodnight
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Skylar McCauley
+Installed-Size: 2800000
+Filename: ./debs/xyz.skylarmccauley.goodnight.deb
+Size: 1981234
+MD5sum: c9719506e00ece502e51a0b3af295706
+SHA1: a36b621b1dabfb8882861192c87354316e26d8b4
+SHA256: 17366417188e48488ba76d0367a8f5bdf9e24ae5fa749e47b414220edb05f334
+Section: Apps
+Description: Change the aspects of your display like Temperature, Brightness, and Color.
+Author: TheHacker
+Dev: developer
+Name: Goodnight
+
