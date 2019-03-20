@@ -1,6 +1,20 @@
 #navDemo,.w3-top, .w3-card, .w3-bar, .w3-animate, .w3-white, .w3-card, .w3-animate, .w3-animate-top, .w3-white {
   opacity: .9 !important;
 }
+
+.btn {
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: #e67e22;
+	color: black;
+	outline: none;
+	border: none;
+	border-radius: 7.5px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .6) !important;
+}
+
 /*
 .w3-button:focus {
   -webkit-animation: selected 1.3s;
