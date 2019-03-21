@@ -14,12 +14,27 @@
 	border-radius: 7.5px;
 	box-shadow: 0 1px 4px rgba(0, 0, 0, .6) !important;
 }
+.btn:hover, .btn:focus {
+	background-color: #d88c00;	
+}
 .cleverbot {
 	background-color: #6ABAFF !important;
 }
+.cleverbot:hover {
+	background-color: #006ecc !important;
+}
+.executor:hover {
+	background-color: #0a0a0a !important;
+}
 .executor {
 	color: white;
-	background-color: black !important;
+	background-color: #292929 !important;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
 /*
 .w3-button:focus {
