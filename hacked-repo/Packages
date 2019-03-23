@@ -1,3 +1,279 @@
+Package: com.brokenphysics.issb
+Version: 2.21-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 56819
+Depends: firmware (>= 3.0)
+Filename: ./finisheddebs/com.brokenphysics.issb_2.21-2.deb
+Size: 27847860
+MD5sum: 99941d064b551f7aed4abfea93c4fc95
+SHA1: fe83b7156939b425154eacdf61684695c68dc0e7
+SHA256: 572fac50d6e04e86c10d70c6508212e72e0fef161447d6d4ebff4876c0aaf244
+Section: Games
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ssbmobileDp
+Description: Super Smash Bros. Mobile!
+Author: Luis Finke <luisfinke@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ssbmobileDp
+Dev: luisfinke
+Icon: file:///Applications/SmashBros.app/Icon.png
+Name: iSSB
+
+Package: com.brokenphysics.issb
+Version: 2.21-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 56819
+Depends: firmware (>= 3.0)
+Filename: ./debs/com.brokenphysics.issb_2.21-2.deb
+Size: 27847860
+MD5sum: 99941d064b551f7aed4abfea93c4fc95
+SHA1: fe83b7156939b425154eacdf61684695c68dc0e7
+SHA256: 572fac50d6e04e86c10d70c6508212e72e0fef161447d6d4ebff4876c0aaf244
+Section: Games
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ssbmobileDp
+Description: Super Smash Bros. Mobile!
+Author: Luis Finke <luisfinke@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ssbmobileDp
+Dev: luisfinke
+Icon: file:///Applications/SmashBros.app/Icon.png
+Name: iSSB
+
+Package: com.cpdigitaldarkroom.cuttlefish
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./finisheddebs/com.cpdigitaldarkroom.cuttlefish_1.1.deb
+Size: 5434
+MD5sum: 1c2fd1939adca9148e36b44bbee285f0
+SHA1: a83d5778f87f366f5de2da3e979d2d51a6434342
+SHA256: 038d5458245d3a58a6e0c7c1034e5b0b0aa58dae930b9c6b6ffd47813ab1aee9
+Section: Tweaks
+Description: Color Shortcut menu background blur to icon
+Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Name: Cuttlefish
+
+Package: com.cpdigitaldarkroom.cuttlefish
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./debs/com.cpdigitaldarkroom.cuttlefish_1.1.deb
+Size: 5434
+MD5sum: 1c2fd1939adca9148e36b44bbee285f0
+SHA1: a83d5778f87f366f5de2da3e979d2d51a6434342
+SHA256: 038d5458245d3a58a6e0c7c1034e5b0b0aa58dae930b9c6b6ffd47813ab1aee9
+Section: Tweaks
+Description: Color Shortcut menu background blur to icon
+Author: CP Digital Darkroom <tweaks@cpdigitaldarkroom.support>
+Name: Cuttlefish
+
+Package: com.mehulrao.fasterhomebutton
+Version: 1.6
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 116
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./finisheddebs/com.mehulrao.fasterhomebutton_1.6.deb
+Size: 3126
+MD5sum: 7f4e1e30c90e9dc532a78929973c6f5d
+SHA1: 5d031cfc9e4763209b8aa23f5118c94288248737
+SHA256: 393ef2a6fc421f35843268ee3fac15cf8ab5bc79c13dc0f73b97571420def78d
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=acceleratedhomebuttonDp
+Description: Speeds up home button presses
+Tag: purpose::extension, compatible::ios10, compatible::ios11
+Author: Mehul Rao <mehulrao@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=acceleratedhomebuttonDp
+Dev: mehulrao
+Name: Accelerated Home Button
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.mehulrao.fasterhomebutton
+Version: 1.6
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 116
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debs/com.mehulrao.fasterhomebutton_1.6.deb
+Size: 3126
+MD5sum: 7f4e1e30c90e9dc532a78929973c6f5d
+SHA1: 5d031cfc9e4763209b8aa23f5118c94288248737
+SHA256: 393ef2a6fc421f35843268ee3fac15cf8ab5bc79c13dc0f73b97571420def78d
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=acceleratedhomebuttonDp
+Description: Speeds up home button presses
+Tag: purpose::extension, compatible::ios10, compatible::ios11
+Author: Mehul Rao <mehulrao@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=acceleratedhomebuttonDp
+Dev: mehulrao
+Name: Accelerated Home Button
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.nj0rr.unc0ver
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: nj0rr <mail@nj0rr.com>
+Depends: com.alexzielenski.zeppelin
+Filename: ./finisheddebs/com.nj0rr.unc0ver_1.0.deb
+Size: 6400
+MD5sum: 172fa7a0706517e13b67db814252c0c8
+SHA1: 2a372cd92caf04363c19ca3a9e189a335a3eeec2
+SHA256: 8df96a2cf9ab72f694ce82bcdd6aad87d69db3fbb6a963af3898155b6deec927
+Section: Themes (Zeppelin/Xeon)
+Description: unc0ver logo
+Author: nj0rr <mail@nj0rr.com>
+Name: unc0ver logo - Zeppelin/Xeon
+
+Package: com.nj0rr.unc0ver
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: nj0rr <mail@nj0rr.com>
+Depends: com.alexzielenski.zeppelin
+Filename: ./debs/com.nj0rr.unc0ver_1.0.deb
+Size: 6400
+MD5sum: 172fa7a0706517e13b67db814252c0c8
+SHA1: 2a372cd92caf04363c19ca3a9e189a335a3eeec2
+SHA256: 8df96a2cf9ab72f694ce82bcdd6aad87d69db3fbb6a963af3898155b6deec927
+Section: Themes (Zeppelin/Xeon)
+Description: unc0ver logo
+Author: nj0rr <mail@nj0rr.com>
+Name: unc0ver logo - Zeppelin/Xeon
+
+Package: com.provenance-emu.provenance
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: TheHacker
+Depends: firmware (>= 9.0)
+Filename: ./finisheddebs/com.provenance-emu.provenance.deb
+Size: 42560872
+MD5sum: 13bbd650be8cf433585e5d011a25ed41
+SHA1: 6dcaee2f6c632774e8669df5ff4a363c05fba24b
+SHA256: 259592a51bd40d88c4e1263c61f56e1b75c048ac99d6ee060b359c5bec169984
+Section: Emulator
+Description: iOS Multplatform emulator for iOS. Emulate NES, SNES, Sega Genenis, GameBoy (Color/Advance), and much more.
+Author: TheHacker
+Name: Provenance
+
+Package: com.provenance-emu.provenance
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: TheHacker
+Depends: firmware (>= 9.0)
+Filename: ./debs/com.provenance-emu.provenance.deb
+Size: 42560872
+MD5sum: 13bbd650be8cf433585e5d011a25ed41
+SHA1: 6dcaee2f6c632774e8669df5ff4a363c05fba24b
+SHA256: 259592a51bd40d88c4e1263c61f56e1b75c048ac99d6ee060b359c5bec169984
+Section: Emulator
+Description: iOS Multplatform emulator for iOS. Emulate NES, SNES, Sega Genenis, GameBoy (Color/Advance), and much more.
+Author: TheHacker
+Name: Provenance
+
+Package: com.rpetrich.cacheclearer
+Version: 0.1a
+Architecture: iphoneos-arm
+Maintainer: thebigboss.org <http://thebigboss.org>
+Installed-Size: 72
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5001)
+Filename: ./finisheddebs/com.rpetrich.cacheclearer_0.1a_iphoneos-arm_julioverne.deb
+Size: 9270
+MD5sum: 2d33c0916b0dfcf703a97f1e23bb6618
+SHA1: 41596ab2f83b5b6db7e969a1e729ea05c0e05a0d
+SHA256: a358b35eb5878c8cb63200e4780b9d36b62a4e31a54e794230fcfe1ed8c3c3aa
+Section: Tweaks
+Description: Clear app caches from the Usage section in Settings
+Tag: purpose::extension
+Author: Ryan Petrich <rpetrich+cacheclearer@gmail.com>
+Dev: rpetrich
+Name: CacheClearer
+
+Package: com.rpetrich.cacheclearer
+Version: 0.1a
+Architecture: iphoneos-arm
+Maintainer: thebigboss.org <http://thebigboss.org>
+Installed-Size: 72
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5001)
+Filename: ./debs/com.rpetrich.cacheclearer_0.1a_iphoneos-arm_julioverne.deb
+Size: 9270
+MD5sum: 2d33c0916b0dfcf703a97f1e23bb6618
+SHA1: 41596ab2f83b5b6db7e969a1e729ea05c0e05a0d
+SHA256: a358b35eb5878c8cb63200e4780b9d36b62a4e31a54e794230fcfe1ed8c3c3aa
+Section: Tweaks
+Description: Clear app caches from the Usage section in Settings
+Tag: purpose::extension
+Author: Ryan Petrich <rpetrich+cacheclearer@gmail.com>
+Dev: rpetrich
+Name: CacheClearer
+
+Package: io.brxxn.no-thx-analytics
+Version: 1.0.0-2
+Architecture: iphoneos-arm
+Maintainer: brxxn
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./finisheddebs/io.brxxn.no-thx-analytics_1.0.0-2_iphoneos-arm.deb
+Size: 2714
+MD5sum: b886294acd7d05e7598ff78220a1deb4
+SHA1: f7cb9ea6f2dcc6d3f0c93b38c9b671812de690b8
+SHA256: da7a21e0bcfe12db1d87668128bce16d65e333b12b1bd0998c509dc9427c93a0
+Section: Tweaks
+Description: disables SpringBoard analytics
+Author: brxxn
+Name: no-thx-analytics
+
+Package: io.brxxn.no-thx-analytics
+Version: 1.0.0-2
+Architecture: iphoneos-arm
+Maintainer: brxxn
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./debs/io.brxxn.no-thx-analytics_1.0.0-2_iphoneos-arm.deb
+Size: 2714
+MD5sum: b886294acd7d05e7598ff78220a1deb4
+SHA1: f7cb9ea6f2dcc6d3f0c93b38c9b671812de690b8
+SHA256: da7a21e0bcfe12db1d87668128bce16d65e333b12b1bd0998c509dc9427c93a0
+Section: Tweaks
+Description: disables SpringBoard analytics
+Author: brxxn
+Name: no-thx-analytics
+
+Package: jp.soh.downlocker
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Soh Satoh
+Installed-Size: 412
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Filename: ./finisheddebs/jp.soh.downlocker_1.1.deb
+Size: 92016
+MD5sum: 5f30e28bc18c7d45a1543e03f5c26872
+SHA1: 65e56f00311b6a54112009c849b5f6c0bcec1b9e
+SHA256: 534a8336dfe58a379b762a53596e43956e3c82141ed43ab83f288b018b43a248
+Section: Tweaks
+Description: Facedown to lock devices
+Author: Soh Satoh
+Name: DownLocker
+
+Package: jp.soh.downlocker
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Soh Satoh
+Installed-Size: 412
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11)
+Filename: ./debs/jp.soh.downlocker_1.1.deb
+Size: 92016
+MD5sum: 5f30e28bc18c7d45a1543e03f5c26872
+SHA1: 65e56f00311b6a54112009c849b5f6c0bcec1b9e
+SHA256: 534a8336dfe58a379b762a53596e43956e3c82141ed43ab83f288b018b43a248
+Section: Tweaks
+Description: Facedown to lock devices
+Author: Soh Satoh
+Name: DownLocker
+
 Package: xyz.skylarmccauley.goodnight
 Version: 1.0
 Architecture: iphoneos-arm
@@ -9,25 +285,52 @@ MD5sum: c9719506e00ece502e51a0b3af295706
 SHA1: a36b621b1dabfb8882861192c87354316e26d8b4
 SHA256: 17366417188e48488ba76d0367a8f5bdf9e24ae5fa749e47b414220edb05f334
 Section: Apps
-Description: Change the aspects of your display like Temperature, Brightness, and Color. Compatible with iOS 9 - 12.1.2
+Description: Change the aspects of your display like Temperature, Brightness, and Color.
 Author: TheHacker
 Dev: developer
 Name: Goodnight
-Depends: firmware (>=9.0)
 
-
-Package: xyz.skylarmccauley.provenance
-Version: 1.0
+Package: xyz.xninja.dopesettings
+Version: 0.0.4
 Architecture: iphoneos-arm
-Maintainer: Skylar McCauley
-Filename: ./debs/xyz.skylarmccauley.provenance.deb
-Size: 14984966
-MD5sum: cf672ce9d057a6348b1edc071122def3
-SHA1: 70a2d13347cbc81c07bced09889e7f743155085f
-SHA256: a00b53db427c9a2f2afb87dda3717db81be54254f7c623ea265d698c27a92788
-Section: Apps
-Description: Emulate NES, SNES, GBA, GBC, Genesis, and much more. Compatible with iOS 8 - 12.1.2
-Author: TheHacker
-Dev: developer
-Name: Provenance
-Depends: firmware (>=8.0)
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 116
+Depends: mobilesubstrate, firmware (>= 7.0)
+Filename: ./finisheddebs/xyz.xninja.dopesettings_0.0.4_iphoneos-arm.deb
+Size: 6828
+MD5sum: e785c8bc2f75448737bfd02bd72aead5
+SHA1: 949a6782a85e75c2d9166ecca1d05c0723a62f54
+SHA256: 7eafcd795c3e630d511856ba32c09db78bf2a2a1f4329fc69700effcb864a7be
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dopesettingsDp
+Description: Spice up the settings view
+Tag: purpose::extension, compatible::ios10
+Author: ARX8x <arx8@icloud.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dopesettingsDp
+Dev: arx8x
+Name: DopeSettings
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: xyz.xninja.dopesettings
+Version: 0.0.4
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 116
+Depends: mobilesubstrate, firmware (>= 7.0)
+Filename: ./debs/xyz.xninja.dopesettings_0.0.4_iphoneos-arm.deb
+Size: 6828
+MD5sum: e785c8bc2f75448737bfd02bd72aead5
+SHA1: 949a6782a85e75c2d9166ecca1d05c0723a62f54
+SHA256: 7eafcd795c3e630d511856ba32c09db78bf2a2a1f4329fc69700effcb864a7be
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dopesettingsDp
+Description: Spice up the settings view
+Tag: purpose::extension, compatible::ios10
+Author: ARX8x <arx8@icloud.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dopesettingsDp
+Dev: arx8x
+Name: DopeSettings
+Sponsor: thebigboss.org <http://thebigboss.org>
+
